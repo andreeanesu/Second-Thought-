@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Second Thought</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <p class="header-series">Cognitive bias · Series I</p>
+        <h1 class="header-title">Second Thought</h1>
+      </header>
+
+      <main class="main" id="main">
+        <img
+          class="character"
+          src="assets/character.svg"
+          alt=""
+          width="88"
+          height="102"
+        />
+
+        <div class="progress-block">
+          <div class="progress-track" aria-hidden="true">
+            <div class="progress-fill" id="progress-fill"></div>
+          </div>
+          <p class="progress-label" id="progress-label">01 of 03</p>
+        </div>
+
+        <div class="divider-label">
+          <span class="divider-line"></span>
+          <span class="divider-text">Select the correct bias</span>
+          <span class="divider-line"></span>
+        </div>
+
+        <blockquote class="scenario" id="scenario"></blockquote>
+
+        <div class="answers" id="answers" role="listbox" aria-label="Answer choices"></div>
+
+        <section class="feedback hidden" id="feedback" aria-live="polite">
+          <p class="feedback-verdict" id="feedback-verdict"></p>
+          <div class="feedback-body">
+            <h2 class="feedback-heading">Why this happens</h2>
+            <p class="feedback-explanation" id="feedback-explanation"></p>
+            <h2 class="feedback-heading">A moment to reflect</h2>
+            <p class="feedback-reflection" id="feedback-reflection"></p>
+          </div>
+        </section>
+
+        <!-- Extra space so feedback can scroll above the fixed footer -->
+        <div class="scroll-spacer" aria-hidden="true"></div>
+      </main>
+
+      <footer class="footer-meta">
+        <span class="footer-copy">Second Thought © 2026</span>
+        <span class="footer-category" id="footer-category"></span>
+      </footer>
+
+      <nav class="footer-nav" aria-label="Quiz navigation">
+        <button
+          type="button"
+          class="btn-next"
+          id="btn-next"
+          disabled
+        >
+          Next →
+        </button>
+      </nav>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
