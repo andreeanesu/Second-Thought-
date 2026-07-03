@@ -67,20 +67,20 @@ export class QuizUI {
 
     this.el.answers.querySelectorAll(".answer").forEach((button) => {
       button.disabled = true;
-      button.classList.remove("selected");
+      button.classList.remove("selected", "correct", "incorrect");
+      button.querySelector(".answer-icon")?.remove();
 
       const letter = button.dataset.letter;
+      const label = button.querySelector(".answer-label")?.textContent ?? "";
+
       if (letter === challenge.correctAnswer) {
-        button.classList.add("correct");
+        this.markAnswer(button, "correct", label);
       } else if (letter === selectedLetter && !isCorrect) {
-        button.classList.add("incorrect");
+        this.markAnswer(button, "incorrect", label);
+      } else {
+        button.setAttribute("aria-label", `${letter}, ${label}`);
       }
     });
-
-    const selectedButton = this.el.answers.querySelector(
-      `[data-letter="${selectedLetter}"]`
-    );
-    if (selectedButton) selectedButton.classList.add("selected");
 
     this.el.feedbackVerdict.textContent = isCorrect
       ? getCorrectFeedback(biasName)
@@ -98,6 +98,21 @@ export class QuizUI {
     requestAnimationFrame(() => {
       this.el.feedback.scrollIntoView({ behavior: "smooth", block: "start" });
     });
+  }
+
+  markAnswer(button, state, label) {
+    const letter = button.dataset.letter;
+    button.classList.add(state);
+    button.setAttribute(
+      "aria-label",
+      `${letter}, ${label}, ${state === "correct" ? "correct answer" : "incorrect"}`
+    );
+
+    const icon = document.createElement("span");
+    icon.className = "answer-icon";
+    icon.setAttribute("aria-hidden", "true");
+    icon.textContent = state === "correct" ? "✓" : "✗";
+    button.querySelector(".answer-text")?.appendChild(icon);
   }
 
   showFinishScreen() {
