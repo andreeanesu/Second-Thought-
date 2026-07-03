@@ -20,43 +20,64 @@
       </header>
 
       <main class="main" id="main">
-        <img
-          class="character"
-          src="assets/character.svg"
-          alt=""
-          width="88"
-          height="102"
-        />
+        <div id="quiz-screen">
+          <img
+            class="character"
+            src="assets/character.svg"
+            alt=""
+            width="88"
+            height="102"
+          />
 
-        <div class="progress-block">
-          <div class="progress-track" aria-hidden="true">
-            <div class="progress-fill" id="progress-fill"></div>
+          <div class="progress-block">
+            <div class="progress-track" aria-hidden="true">
+              <div class="progress-fill" id="progress-fill"></div>
+            </div>
+            <p class="progress-label" id="progress-label">01 of 05</p>
           </div>
-          <p class="progress-label" id="progress-label">01 of 03</p>
+
+          <div class="divider-label">
+            <span class="divider-line"></span>
+            <span class="divider-text">Select the correct bias</span>
+            <span class="divider-line"></span>
+          </div>
+
+          <blockquote class="scenario" id="scenario"></blockquote>
+
+          <div class="answers" id="answers" role="listbox" aria-label="Answer choices"></div>
+
+          <section class="feedback hidden" id="feedback" aria-live="polite">
+            <p class="feedback-verdict" id="feedback-verdict"></p>
+            <div class="feedback-body">
+              <h2 class="feedback-heading">Why this answer</h2>
+              <p class="feedback-explanation" id="feedback-explanation"></p>
+              <h2 class="feedback-heading">Why we do this</h2>
+              <p class="feedback-why-humans" id="feedback-why-humans"></p>
+              <h2 class="feedback-heading">A moment to reflect</h2>
+              <p class="feedback-reflection" id="feedback-reflection"></p>
+            </div>
+          </section>
+
+          <div class="scroll-spacer" aria-hidden="true"></div>
         </div>
 
-        <div class="divider-label">
-          <span class="divider-line"></span>
-          <span class="divider-text">Select the correct bias</span>
-          <span class="divider-line"></span>
-        </div>
-
-        <blockquote class="scenario" id="scenario"></blockquote>
-
-        <div class="answers" id="answers" role="listbox" aria-label="Answer choices"></div>
-
-        <section class="feedback hidden" id="feedback" aria-live="polite">
-          <p class="feedback-verdict" id="feedback-verdict"></p>
-          <div class="feedback-body">
-            <h2 class="feedback-heading">Why this happens</h2>
-            <p class="feedback-explanation" id="feedback-explanation"></p>
-            <h2 class="feedback-heading">A moment to reflect</h2>
-            <p class="feedback-reflection" id="feedback-reflection"></p>
-          </div>
+        <section class="finish-screen hidden" id="finish-screen">
+          <img
+            class="character"
+            src="assets/character.svg"
+            alt=""
+            width="88"
+            height="102"
+          />
+          <h2>You've finished this round</h2>
+          <p>
+            Five questions, a little more clarity. When you're ready,
+            start another round — you'll get a fresh mix each time.
+          </p>
+          <button type="button" class="btn-restart" id="btn-restart">
+            Start another round →
+          </button>
         </section>
-
-        <!-- Extra space so feedback can scroll above the fixed footer -->
-        <div class="scroll-spacer" aria-hidden="true"></div>
       </main>
 
       <footer class="footer-meta">
@@ -76,6 +97,6 @@
       </nav>
     </div>
 
-    <script src="app.js"></script>
+    <script type="module" src="js/app.js"></script>
   </body>
 </html>

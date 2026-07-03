@@ -247,6 +247,7 @@ body {
 }
 
 .feedback-explanation,
+.feedback-why-humans,
 .feedback-reflection {
   margin: 0;
   font-size: 0.98rem;
@@ -258,8 +259,12 @@ body {
   font-style: italic;
 }
 
+.hidden {
+  display: none !important;
+}
+
 .scroll-spacer {
-  height: 2rem;
+  height: 5rem;
 }
 
 .footer-meta {
@@ -323,6 +328,9 @@ body {
 }
 
 .finish-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   padding: 2rem 0 1rem;
 }
@@ -334,8 +342,31 @@ body {
 }
 
 .finish-screen p {
-  margin: 0;
+  margin: 0 auto 1.5rem;
   max-width: 36ch;
   color: #333;
   line-height: 1.65;
+}
+
+.btn-restart {
+  padding: 0.85rem 1.75rem;
+  border: 1.5px solid var(--border);
+  border-radius: 2px;
+  background: #fff;
+  color: var(--text);
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btn-restart:hover {
+  background: var(--surface);
+}
+
+.error-message code {
+  font-size: 0.9em;
 }

@@ -1,0 +1,285 @@
+[
+  {
+    "biasId": "B001",
+    "name": "Confirmation Bias",
+    "definition": "We tend to search for, interpret, and recall information that confirms our existing beliefs.",
+    "category": "Decision Making",
+    "description": "Confirmation bias leads people to favor information that supports what they already think, while ignoring or downplaying evidence that contradicts it.",
+    "everydayTip": "Before forming an opinion, actively seek out one source that disagrees with you.",
+    "commonContexts": [
+      "Politics",
+      "Investing",
+      "Relationships",
+      "News",
+      "Health",
+      "Social Media"
+    ]
+  },
+  {
+    "biasId": "B002",
+    "name": "Anchoring Bias",
+    "definition": "We rely too heavily on the first piece of information offered (the 'anchor') when making decisions.",
+    "category": "Decision Making",
+    "description": "Once an anchor is set, later judgments are made by adjusting away from it, but the adjustment is usually insufficient.",
+    "everydayTip": "When negotiating, try to set your own reference point first instead of reacting to the other side's opening number.",
+    "commonContexts": [
+      "Negotiation",
+      "Shopping",
+      "Salary discussions",
+      "Real estate",
+      "Everyday life"
+    ]
+  },
+  {
+    "biasId": "B003",
+    "name": "Availability Heuristic",
+    "definition": "We judge the likelihood of events based on how easily examples come to mind.",
+    "category": "Decision Making",
+    "description": "Vivid, recent, or emotionally charged events are recalled more easily, so we overestimate how common they are.",
+    "everydayTip": "Check statistics instead of relying on memorable stories when estimating risk.",
+    "commonContexts": [
+      "Media",
+      "Health",
+      "Safety",
+      "Everyday life",
+      "News"
+    ]
+  },
+  {
+    "biasId": "B004",
+    "name": "Fundamental Attribution Error",
+    "definition": "We judge others' behavior as caused by their character, while excusing our own behavior as caused by circumstances.",
+    "category": "Social Judgement",
+    "description": "When explaining someone else's actions we overweight personality traits and underweight situational factors, but we do the opposite for ourselves.",
+    "everydayTip": "Before judging someone's behavior, ask what situational pressures might explain it.",
+    "commonContexts": [
+      "Work",
+      "Relationships",
+      "Driving",
+      "Social situations"
+    ]
+  },
+  {
+    "biasId": "B005",
+    "name": "Self-serving Bias",
+    "definition": "We attribute our successes to our own abilities and our failures to external circumstances.",
+    "category": "Social Judgement",
+    "description": "This bias protects self-esteem by crediting ourselves for good outcomes while blaming outside factors for bad ones.",
+    "everydayTip": "When something goes wrong, ask honestly what part, if any, was within your control.",
+    "commonContexts": [
+      "Work",
+      "Sport",
+      "Academics",
+      "Relationships"
+    ]
+  },
+  {
+    "biasId": "B006",
+    "name": "Sunk Cost Fallacy",
+    "definition": "We continue investing in something because of what we've already invested, rather than evaluating future value.",
+    "category": "Finance",
+    "description": "Past costs (time, money, effort) that cannot be recovered still influence decisions, even though only future costs and benefits should matter.",
+    "everydayTip": "Ask: 'if I hadn't invested anything yet, would I still choose to start this today?'",
+    "commonContexts": [
+      "Finance",
+      "Relationships",
+      "Work",
+      "Everyday life"
+    ]
+  },
+  {
+    "biasId": "B007",
+    "name": "Negativity Bias",
+    "definition": "We give more psychological weight to negative experiences than to positive ones of equal intensity.",
+    "category": "Emotion",
+    "description": "Bad events, criticism, or emotions tend to have a bigger impact on our mood, memory, and decisions than good ones.",
+    "everydayTip": "When reviewing feedback, deliberately count the positive points as well as the negative ones.",
+    "commonContexts": [
+      "Work",
+      "Relationships",
+      "Media",
+      "Self-awareness"
+    ]
+  },
+  {
+    "biasId": "B008",
+    "name": "Halo Effect",
+    "definition": "Our overall impression of a person influences how we judge their specific traits, so one positive trait makes us assume other positive traits.",
+    "category": "Social Judgement",
+    "description": "If someone is attractive, likeable, or competent in one area, we tend to assume they're good in unrelated areas too.",
+    "everydayTip": "Evaluate people's specific skills and claims separately from your overall impression of them.",
+    "commonContexts": [
+      "Work",
+      "Media",
+      "Social situations",
+      "Politics"
+    ]
+  },
+  {
+    "biasId": "B009",
+    "name": "Horn Effect",
+    "definition": "One negative trait about a person leads us to assume other negative traits, the opposite of the halo effect.",
+    "category": "Social Judgement",
+    "description": "A single flaw or bad first impression can unfairly color our judgment of someone's other, unrelated qualities.",
+    "everydayTip": "When you notice a negative first impression, pause and check if you're generalizing unfairly.",
+    "commonContexts": [
+      "Work",
+      "Social situations",
+      "Media"
+    ]
+  },
+  {
+    "biasId": "B010",
+    "name": "Survivorship Bias",
+    "definition": "We focus on the people or things that 'survived' a process, while overlooking those that didn't, skewing our conclusions.",
+    "category": "Decision Making",
+    "description": "Because failures are often invisible or unreported, we draw conclusions from an incomplete, success-only sample.",
+    "everydayTip": "When hearing a success story, actively ask how many people tried the same thing and failed.",
+    "commonContexts": [
+      "Work",
+      "Media",
+      "Finance",
+      "Learning"
+    ]
+  },
+  {
+    "biasId": "B011",
+    "name": "Hindsight Bias",
+    "definition": "After an event happens, we tend to believe we 'knew it all along,' even if we couldn't have predicted it beforehand.",
+    "category": "Decision Making",
+    "description": "Once we know the outcome, our memory of our own earlier predictions shifts to seem more accurate than they really were.",
+    "everydayTip": "Write predictions down beforehand so you can honestly check them against what you actually said.",
+    "commonContexts": [
+      "Finance",
+      "Sport",
+      "Politics",
+      "Work"
+    ]
+  },
+  {
+    "biasId": "B012",
+    "name": "False Consensus Effect",
+    "definition": "We overestimate how much other people share our beliefs, opinions, and behaviors.",
+    "category": "Social Judgement",
+    "description": "This bias makes our own views feel more common or 'normal' than they actually are in the wider population.",
+    "everydayTip": "Before assuming your opinion is the majority view, ask how you would actually know that.",
+    "commonContexts": [
+      "Politics",
+      "Social Media",
+      "Work",
+      "Everyday life"
+    ]
+  },
+  {
+    "biasId": "B013",
+    "name": "In-group Bias",
+    "definition": "We favor members of our own group over members of other groups, often unconsciously.",
+    "category": "Social Judgement",
+    "description": "This bias leads to more trust, generosity, and positive judgment toward people we see as 'us' compared to 'them.'",
+    "everydayTip": "When evaluating people from a different group, ask if you'd judge the same behavior differently coming from your own group.",
+    "commonContexts": [
+      "Work",
+      "Politics",
+      "Sport",
+      "Social situations"
+    ]
+  },
+  {
+    "biasId": "B014",
+    "name": "Out-group Homogeneity Bias",
+    "definition": "We tend to see members of other groups as more similar to each other than they really are, while seeing our own group as diverse.",
+    "category": "Social Judgement",
+    "description": "This bias leads to stereotyping, since we assume 'they're all the same' about outsiders while recognizing individuality within our own group.",
+    "everydayTip": "When you catch yourself thinking 'they're all like that,' pause and ask if you'd say the same about your own group.",
+    "commonContexts": [
+      "Work",
+      "Social situations",
+      "Politics",
+      "Media"
+    ]
+  },
+  {
+    "biasId": "B015",
+    "name": "Framing Effect",
+    "definition": "Our decisions are influenced by how information is presented (framed), even when the underlying facts are the same.",
+    "category": "Decision Making",
+    "description": "The same statistic or choice can lead to different decisions depending on whether it's framed in terms of gains or losses.",
+    "everydayTip": "Try restating a choice in the opposite frame (gain vs. loss) before deciding.",
+    "commonContexts": [
+      "Health",
+      "Finance",
+      "Marketing",
+      "Politics"
+    ]
+  },
+  {
+    "biasId": "B016",
+    "name": "Loss Aversion",
+    "definition": "The pain of losing something feels psychologically stronger than the pleasure of gaining something of equal value.",
+    "category": "Finance",
+    "description": "This asymmetry means people often make decisions to avoid losses rather than to pursue equivalent gains.",
+    "everydayTip": "When facing a risky decision, ask whether you're avoiding a loss out of proportion to what you'd actually miss.",
+    "commonContexts": [
+      "Finance",
+      "Negotiation",
+      "Everyday life",
+      "Work"
+    ]
+  },
+  {
+    "biasId": "B017",
+    "name": "Optimism Bias",
+    "definition": "We tend to overestimate the likelihood of positive events happening to us and underestimate the likelihood of negative ones.",
+    "category": "Self-awareness",
+    "description": "This bias makes people believe they are less likely than others to experience negative outcomes like illness, accidents, or failure.",
+    "everydayTip": "When planning, ask what would happen if things went worse than expected, not just as planned.",
+    "commonContexts": [
+      "Health",
+      "Finance",
+      "Work",
+      "Everyday life"
+    ]
+  },
+  {
+    "biasId": "B018",
+    "name": "Status Quo Bias",
+    "definition": "We prefer things to stay the same, and treat the current state as a reasonable default, even when change might be better.",
+    "category": "Decision Making",
+    "description": "This bias makes people resist switching to new options, defaulting instead to whatever is already in place.",
+    "everydayTip": "When comparing the current option to a new one, imagine you were choosing between them fresh, with no history.",
+    "commonContexts": [
+      "Work",
+      "Finance",
+      "Everyday life",
+      "Politics"
+    ]
+  },
+  {
+    "biasId": "B019",
+    "name": "Dunning-Kruger Effect",
+    "definition": "People with limited knowledge or skill in an area tend to overestimate their own competence.",
+    "category": "Self-awareness",
+    "description": "A little knowledge can create unearned confidence, while true experts are often more aware of what they don't know.",
+    "everydayTip": "Before feeling confident about a new skill, ask an actual expert to check your assumptions.",
+    "commonContexts": [
+      "Work",
+      "Learning",
+      "Everyday life",
+      "Health"
+    ]
+  },
+  {
+    "biasId": "B020",
+    "name": "Authority Bias",
+    "definition": "We tend to attribute greater accuracy and trust to the opinions of an authority figure, regardless of the actual content.",
+    "category": "Social Judgement",
+    "description": "A person's title, uniform, or perceived status can make their claims seem more credible, even without supporting evidence.",
+    "everydayTip": "Evaluate a claim by its evidence, then separately consider whether the source's authority is actually relevant to that claim.",
+    "commonContexts": [
+      "Work",
+      "Health",
+      "Media",
+      "Politics"
+    ]
+  }
+]
