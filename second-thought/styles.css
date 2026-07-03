@@ -11,8 +11,10 @@
   --text-muted: #666666;
   --border: #1a1a1a;
   --border-soft: #c8c8c8;
-  --accent-correct: #2f6b4f;
-  --accent-incorrect: #8a5a2b;
+  --accent-correct: #1a6b4a;
+  --accent-correct-bg: #d9ede3;
+  --accent-incorrect: #9a4d12;
+  --accent-incorrect-bg: #f8e6d2;
   --btn-disabled: #b8b8b8;
   --btn-enabled: #6f6f6f;
   --max-width: 640px;

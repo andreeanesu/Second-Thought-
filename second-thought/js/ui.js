@@ -5,10 +5,6 @@
 
 import { getCorrectFeedback, getIncorrectFeedback } from "./data-loader.js";
 
-function padNumber(value) {
-  return String(value).padStart(2, "0");
-}
-
 export class QuizUI {
   constructor(elements) {
     this.el = elements;
@@ -41,9 +37,12 @@ export class QuizUI {
       button.className = "answer";
       button.dataset.letter = option.letter;
       button.setAttribute("role", "option");
+      button.setAttribute("aria-label", `${option.letter}, ${option.text}`);
       button.innerHTML = `
         <span class="answer-letter">${option.letter}</span>
-        <span class="answer-text">${option.text}</span>
+        <span class="answer-text">
+          <span class="answer-label">${option.text}</span>
+        </span>
       `;
       this.el.answers.appendChild(button);
     });
