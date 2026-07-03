@@ -39,3 +39,29 @@ second-thought/
 3. Refresh the browser
 
 Each quiz round serves **5 random challenges** from the full bank of 60.
+
+## Publish online (Vercel)
+
+Second Thought is a static site (HTML + JSON), which is ideal for [Vercel](https://vercel.com) free hosting.
+
+### One-time setup
+
+1. Create a free account at [vercel.com](https://vercel.com) and sign in with **GitHub**.
+2. Push your latest code to GitHub (branch `cursor/second-thought-quiz-cd13`, or merge to `main`).
+3. In Vercel: **Add New → Project → Import** your `Second-Thought-` repository.
+4. **Important:** open **Configure Project** and set:
+   - **Root Directory:** `second-thought`
+   - **Framework Preset:** Other
+   - **Build Command:** leave empty
+   - **Output Directory:** leave as `.`
+5. Click **Deploy**.
+
+Vercel gives you a public URL like `https://second-thought-xyz.vercel.app`.
+
+### After you change the app
+
+Each `git push` to the connected branch triggers a new deploy automatically.
+
+### Custom domain (optional, later)
+
+In the Vercel project: **Settings → Domains** to add your own name (e.g. `secondthought.app`).
