@@ -53,10 +53,10 @@ export async function loadQuizData() {
   };
 }
 
-export function getCorrectFeedback(biasName) {
-  return `Nice spot — that's ${biasName}. These patterns are very common, and noticing them is the first step.`;
+export function getCorrectFeedback() {
+  return "Correct.";
 }
 
-export function getIncorrectFeedback(biasName) {
-  return `Good try — this one fools a lot of people. The pattern here is ${biasName}.`;
+export function getIncorrectFeedback() {
+  return "Not quite.";
 }

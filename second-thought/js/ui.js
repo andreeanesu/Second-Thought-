@@ -73,7 +73,6 @@ export class QuizUI {
 
   showFeedback(result) {
     const { isCorrect, selectedLetter, challenge } = result;
-    const biasName = challenge.biasName;
 
     this.el.answers.querySelectorAll(".answer").forEach((button) => {
       button.disabled = true;
