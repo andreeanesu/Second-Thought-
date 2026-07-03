@@ -42,8 +42,13 @@ body {
 .header {
   width: 100%;
   max-width: var(--max-width);
-  padding: 1.5rem 1.25rem 0.5rem;
+  padding: 1.25rem 1.25rem 0.75rem;
   text-align: center;
+}
+
+.header-logo {
+  display: block;
+  margin: 0 auto 0.85rem;
 }
 
 .header-series {
@@ -74,15 +79,10 @@ body {
 .main {
   width: 100%;
   max-width: var(--max-width);
-  padding: 0.75rem 1.25rem calc(var(--footer-nav-height) + 4rem);
+  padding: 0.25rem 1.25rem calc(var(--footer-nav-height) + 4rem);
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.character {
-  display: block;
-  margin: 0.5rem auto 1rem;
 }
 
 .progress-block {
