@@ -1,9 +1,10 @@
 /**
  * quiz-engine.js
- * Session logic: shuffle, 5 questions per round, answer checking.
+ * Session logic: shuffle, 5 questions per round, no repeats until all seen.
  */
 
 const SESSION_SIZE = 5;
+const STORAGE_KEY = "second-thought-seen-challenges";
 
 function shuffleArray(items) {
   const copy = [...items];
@@ -14,6 +15,21 @@ function shuffleArray(items) {
   return copy;
 }
 
+function loadSeenIds() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return new Set();
+    const ids = JSON.parse(raw);
+    return new Set(Array.isArray(ids) ? ids : []);
+  } catch {
+    return new Set();
+  }
+}
+
+function saveSeenIds(seenIds) {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify([...seenIds]));
+}
+
 export class QuizEngine {
   constructor(allChallenges) {
     this.allChallenges = allChallenges;
@@ -21,14 +37,50 @@ export class QuizEngine {
     this.currentIndex = 0;
     this.hasAnswered = false;
     this.selectedLetter = null;
+    this.sessionMeta = null;
   }
 
   startSession() {
-    const shuffled = shuffleArray(this.allChallenges);
-    this.sessionChallenges = shuffled.slice(0, SESSION_SIZE);
+    let seenIds = loadSeenIds();
+    let available = this.allChallenges.filter(
+      (challenge) => !seenIds.has(challenge.challengeId)
+    );
+    let poolReset = false;
+
+    if (available.length === 0) {
+      seenIds = new Set();
+      available = [...this.allChallenges];
+      poolReset = true;
+    }
+
+    const shuffled = shuffleArray(available);
+    const sessionCount = Math.min(SESSION_SIZE, available.length);
+    this.sessionChallenges = shuffled.slice(0, sessionCount);
+
+    this.sessionChallenges.forEach((challenge) => {
+      seenIds.add(challenge.challengeId);
+    });
+    saveSeenIds(seenIds);
+
+    const total = this.allChallenges.length;
+    const seenCount = seenIds.size;
+    const remainingInPool = total - seenCount;
+
+    this.sessionMeta = {
+      poolReset,
+      seenCount,
+      totalCount: total,
+      remainingInPool,
+      sessionSize: sessionCount,
+    };
+
     this.currentIndex = 0;
     this.hasAnswered = false;
     this.selectedLetter = null;
+  }
+
+  getSessionMeta() {
+    return this.sessionMeta;
   }
 
   get sessionSize() {

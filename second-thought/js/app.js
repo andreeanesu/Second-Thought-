@@ -21,6 +21,8 @@ const elements = {
   footerCategory: document.getElementById("footer-category"),
   btnNext: document.getElementById("btn-next"),
   btnRestart: document.getElementById("btn-restart"),
+  finishTitle: document.getElementById("finish-title"),
+  finishMessage: document.getElementById("finish-message"),
 };
 
 const ui = new QuizUI(elements);
@@ -44,7 +46,7 @@ function handleNext() {
   engine.goNext();
 
   if (engine.isFinished()) {
-    ui.showFinishScreen();
+    ui.showFinishScreen(engine.getSessionMeta());
     return;
   }
 

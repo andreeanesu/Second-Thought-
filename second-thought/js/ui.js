@@ -113,11 +113,33 @@ export class QuizUI {
     button.querySelector(".answer-text")?.appendChild(icon);
   }
 
-  showFinishScreen() {
+  showFinishScreen(sessionMeta) {
     this.el.quizScreen.classList.add("hidden");
     this.el.finishScreen.classList.remove("hidden");
     this.el.footerCategory.textContent = "";
     this.el.btnNext.hidden = true;
+
+    if (sessionMeta && this.el.finishTitle && this.el.finishMessage) {
+      const { seenCount, totalCount, remainingInPool, sessionSize } = sessionMeta;
+
+      this.el.finishTitle.textContent = "You've finished this round";
+
+      if (remainingInPool === 0) {
+        this.el.finishMessage.textContent =
+          `You've seen all ${totalCount} questions. Next round starts a fresh cycle — shuffled from the beginning.`;
+      } else if (remainingInPool < 5) {
+        this.el.finishMessage.textContent =
+          `You've seen ${seenCount} of ${totalCount}. Next round has ${remainingInPool} new question${remainingInPool === 1 ? "" : "s"} before the cycle restarts.`;
+      } else {
+        this.el.finishMessage.textContent =
+          `You've seen ${seenCount} of ${totalCount}. Next round brings up to 5 new questions you haven't had yet.`;
+      }
+
+      if (sessionSize < 5) {
+        this.el.finishMessage.textContent += ` (This round had ${sessionSize} — you're near the end of the set.)`;
+      }
+    }
+
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 }
