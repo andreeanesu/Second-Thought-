@@ -80,33 +80,9 @@ body {
   align-items: center;
 }
 
-.progress-block {
-  width: 100%;
-  margin-bottom: 1.75rem;
-}
-
-.progress-track {
-  height: 2px;
-  background: #d8d8d8;
-  border-radius: 999px;
-  overflow: hidden;
-}
-
-.progress-fill {
-  height: 100%;
-  width: 0%;
-  background: var(--border);
-  transition: width 0.35s ease;
-}
-
-.progress-label {
-  margin: 0.55rem 0 0;
-  text-align: center;
-  font-size: 0.72rem;
-  font-weight: 500;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--text-muted);
+.character {
+  display: block;
+  margin: 0.5rem auto 1rem;
 }
 
 .divider-label {
@@ -114,7 +90,7 @@ body {
   align-items: center;
   gap: 0.75rem;
   width: 100%;
-  margin-bottom: 1.25rem;
+  margin: 0.25rem 0 1.25rem;
 }
 
 .divider-line {
@@ -123,13 +99,13 @@ body {
   background: #d0d0d0;
 }
 
-.divider-text {
-  font-size: 0.68rem;
+.question-progress {
+  font-size: 0.72rem;
   font-weight: 500;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  letter-spacing: 0.06em;
   color: var(--text-muted);
   white-space: nowrap;
+  font-variant-numeric: tabular-nums;
 }
 
 .scenario {

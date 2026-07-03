@@ -26,10 +26,7 @@ export class QuizUI {
     this.el.scenario.textContent = challenge.statement;
     this.el.footerCategory.textContent = challenge.biasCategory;
 
-    this.el.progressFill.style.width = `${progress.percent}%`;
-    this.el.progressLabel.textContent = `${padNumber(progress.current)} of ${padNumber(
-      progress.total
-    )}`;
+    this.el.questionProgress.textContent = `${progress.current}/${progress.total}`;
 
     this.el.feedback.classList.add("hidden");
     this.el.feedbackVerdict.textContent = "";
