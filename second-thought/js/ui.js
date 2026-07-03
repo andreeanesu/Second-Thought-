@@ -5,6 +5,16 @@
 
 import { getCorrectFeedback, getIncorrectFeedback } from "./data-loader.js";
 
+function getRoundEncouragement(correct, total) {
+  if (total === 0) return "";
+  if (correct === total) return "Sharp eye this round — you spotted them all.";
+  if (correct >= total - 1) return "Strong round. One to sit with.";
+  if (correct >= Math.ceil(total / 2)) {
+    return "Good progress — noticing these patterns takes practice.";
+  }
+  return "Every miss is a chance to learn. No rush.";
+}
+
 export class QuizUI {
   constructor(elements) {
     this.el = elements;
@@ -25,6 +35,7 @@ export class QuizUI {
     this.el.questionProgress.textContent = `${progress.current}/${progress.total}`;
 
     this.el.feedback.classList.add("hidden");
+    this.el.feedback.classList.remove("is-visible");
     this.el.feedbackVerdict.textContent = "";
     this.el.feedbackWhyHumans.textContent = "";
     this.el.feedbackReflection.textContent = "";
@@ -90,12 +101,29 @@ export class QuizUI {
     this.el.feedbackWhyHumans.textContent = challenge.whyHumansDoThis;
     this.el.feedbackReflection.textContent = challenge.reflectionQuestion;
     this.el.feedback.classList.remove("hidden");
+    this.el.feedback.classList.add("is-visible");
 
+    this.playCharacterReaction(isCorrect);
     this.el.btnNext.disabled = false;
 
     requestAnimationFrame(() => {
       this.el.feedback.scrollIntoView({ behavior: "smooth", block: "start" });
     });
+  }
+
+  playCharacterReaction(isCorrect) {
+    const character = this.el.quizCharacter;
+    if (!character) return;
+
+    character.classList.remove("is-nod", "is-ponder");
+    void character.offsetWidth;
+    character.classList.add(isCorrect ? "is-nod" : "is-ponder");
+
+    const clear = () => {
+      character.classList.remove("is-nod", "is-ponder");
+      character.removeEventListener("animationend", clear);
+    };
+    character.addEventListener("animationend", clear);
   }
 
   markAnswer(button, state, label) {
@@ -113,33 +141,64 @@ export class QuizUI {
     button.querySelector(".answer-text")?.appendChild(icon);
   }
 
-  showFinishScreen(sessionMeta) {
+  showFinishScreen(sessionMeta, roundScore) {
     this.el.quizScreen.classList.add("hidden");
     this.el.finishScreen.classList.remove("hidden");
     this.el.footerCategory.textContent = "";
     this.el.btnNext.hidden = true;
 
-    if (sessionMeta && this.el.finishTitle && this.el.finishMessage) {
-      const { seenCount, totalCount, remainingInPool, sessionSize } = sessionMeta;
+    if (roundScore && this.el.finishScore) {
+      const { correct, total } = roundScore;
+      this.el.finishScore.textContent = `${correct} of ${total}`;
+      this.el.finishScore.setAttribute(
+        "aria-label",
+        `You spotted ${correct} of ${total} patterns this round`
+      );
+    }
 
-      this.el.finishTitle.textContent = "You've finished this round";
+    if (this.el.finishTitle) {
+      this.el.finishTitle.textContent = getRoundEncouragement(
+        roundScore?.correct ?? 0,
+        roundScore?.total ?? 0
+      );
+    }
+
+    if (sessionMeta && this.el.finishMessage) {
+      const { seenCount, totalCount, remainingInPool, sessionSize } = sessionMeta;
 
       if (remainingInPool === 0) {
         this.el.finishMessage.textContent =
-          `You've seen all ${totalCount} questions. Next round starts a fresh cycle — shuffled from the beginning.`;
+          `You've now seen all ${totalCount} questions. Next round starts a fresh cycle.`;
       } else if (remainingInPool < 5) {
         this.el.finishMessage.textContent =
-          `You've seen ${seenCount} of ${totalCount}. Next round has ${remainingInPool} new question${remainingInPool === 1 ? "" : "s"} before the cycle restarts.`;
+          `Overall progress: ${seenCount} of ${totalCount} seen. ${remainingInPool} new question${remainingInPool === 1 ? "" : "s"} left in this cycle.`;
       } else {
         this.el.finishMessage.textContent =
-          `You've seen ${seenCount} of ${totalCount}. Next round brings up to 5 new questions you haven't had yet.`;
+          `Overall progress: ${seenCount} of ${totalCount} seen. Keep going when you're ready.`;
       }
 
       if (sessionSize < 5) {
-        this.el.finishMessage.textContent += ` (This round had ${sessionSize} — you're near the end of the set.)`;
+        this.el.finishMessage.textContent += ` (This round had ${sessionSize} questions.)`;
       }
     }
 
+    this.playFinishCharacterReaction(roundScore);
+
     window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  playFinishCharacterReaction(roundScore) {
+    const character = this.el.finishCharacter;
+    if (!character || !roundScore) return;
+
+    const ratio = roundScore.total ? roundScore.correct / roundScore.total : 0;
+    character.classList.remove("is-nod", "is-settle");
+    void character.offsetWidth;
+
+    if (ratio >= 0.8) {
+      character.classList.add("is-nod");
+    } else {
+      character.classList.add("is-settle");
+    }
   }
 }

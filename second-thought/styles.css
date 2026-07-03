@@ -92,6 +92,63 @@ body {
 .character {
   display: block;
   margin: 0.5rem auto 1rem;
+  transform-origin: center bottom;
+}
+
+.quiz-character.is-nod,
+.finish-character.is-nod {
+  animation: character-nod 0.65s ease;
+}
+
+.quiz-character.is-ponder {
+  animation: character-ponder 0.75s ease;
+}
+
+.finish-character.is-settle {
+  animation: character-settle 1s ease;
+}
+
+@keyframes character-nod {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  35% {
+    transform: translateY(-5px);
+  }
+  65% {
+    transform: translateY(-2px);
+  }
+}
+
+@keyframes character-ponder {
+  0%,
+  100% {
+    transform: rotate(0deg) translateY(0);
+  }
+  50% {
+    transform: rotate(-2.5deg) translateY(2px);
+  }
+}
+
+@keyframes character-settle {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(3px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .quiz-character.is-nod,
+  .quiz-character.is-ponder,
+  .finish-character.is-nod,
+  .finish-character.is-settle,
+  .feedback.is-visible {
+    animation: none;
+  }
 }
 
 .divider-label {

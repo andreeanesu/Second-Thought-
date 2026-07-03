@@ -38,6 +38,7 @@ export class QuizEngine {
     this.hasAnswered = false;
     this.selectedLetter = null;
     this.sessionMeta = null;
+    this.correctCount = 0;
   }
 
   startSession() {
@@ -77,6 +78,14 @@ export class QuizEngine {
     this.currentIndex = 0;
     this.hasAnswered = false;
     this.selectedLetter = null;
+    this.correctCount = 0;
+  }
+
+  getRoundScore() {
+    return {
+      correct: this.correctCount,
+      total: this.sessionChallenges.length,
+    };
   }
 
   getSessionMeta() {
@@ -101,6 +110,7 @@ export class QuizEngine {
     this.selectedLetter = letter;
 
     const isCorrect = letter === challenge.correctAnswer;
+    if (isCorrect) this.correctCount += 1;
 
     return {
       isCorrect,

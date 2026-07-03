@@ -23,6 +23,9 @@ const elements = {
   btnRestart: document.getElementById("btn-restart"),
   finishTitle: document.getElementById("finish-title"),
   finishMessage: document.getElementById("finish-message"),
+  finishScore: document.getElementById("finish-score"),
+  quizCharacter: document.getElementById("quiz-character"),
+  finishCharacter: document.getElementById("finish-character"),
 };
 
 const ui = new QuizUI(elements);
@@ -46,7 +49,7 @@ function handleNext() {
   engine.goNext();
 
   if (engine.isFinished()) {
-    ui.showFinishScreen(engine.getSessionMeta());
+    ui.showFinishScreen(engine.getSessionMeta(), engine.getRoundScore());
     return;
   }
 

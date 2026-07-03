@@ -25,7 +25,8 @@
       <main class="main" id="main">
         <div id="quiz-screen">
           <img
-            class="character"
+            class="character quiz-character"
+            id="quiz-character"
             src="assets/character.svg"
             alt=""
             width="88"
@@ -57,12 +58,15 @@
 
         <section class="finish-screen hidden" id="finish-screen">
           <img
-            class="character"
+            class="character finish-character"
+            id="finish-character"
             src="assets/character.svg"
             alt=""
             width="88"
             height="102"
           />
+          <p class="finish-score" id="finish-score" aria-live="polite"></p>
+          <p class="finish-score-label">patterns spotted</p>
           <h2 id="finish-title">You've finished this round</h2>
           <p id="finish-message">
             Five questions, a little more clarity. When you're ready,
