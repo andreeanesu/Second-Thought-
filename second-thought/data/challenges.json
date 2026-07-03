@@ -98,7 +98,7 @@
     "challengeId": "C006",
     "biasId": "B002",
     "biasName": "Anchoring Bias",
-    "statement": "In a job interview, the recruiter asks for a desired salary first, and the candidate's answer ends up anchoring the entire negotiation.",
+    "statement": "In a job interview, they ask for my salary first — and that number ends up anchoring the whole negotiation.",
     "options": {
       "A": "Anchoring Bias",
       "B": "Framing Effect",
@@ -106,9 +106,9 @@
       "D": "Confirmation Bias"
     },
     "correctAnswer": "A",
-    "explanation": "The number stated first becomes the reference point for the rest of the discussion, even as new information emerges.",
-    "reflectionQuestion": "Have you ever felt 'stuck' near a number you mentioned early in a conversation?",
-    "whyHumansDoThis": "Early numbers are hard to mentally let go of, even when new information suggests they should change.",
+    "explanation": "The first number spoken becomes the reference for everything after.",
+    "reflectionQuestion": "Have you ever felt stuck near a number you said early on?",
+    "whyHumansDoThis": "Early numbers are hard to let go of — even when new info suggests we should move on.",
     "realWorldContext": "Salary discussions",
     "difficulty": "Ambiguous",
     "learningObjective": "Learn that anchors set early in a conversation can quietly control the entire negotiation."
@@ -117,7 +117,7 @@
     "challengeId": "C007",
     "biasId": "B003",
     "biasName": "Availability Heuristic",
-    "statement": "After seeing several news stories about plane crashes, someone becomes afraid of flying, even though flying is statistically safer than driving.",
+    "statement": "After a few plane-crash stories in the news, flying feels terrifying — even though stats say driving is riskier.",
     "options": {
       "A": "Confirmation Bias",
       "B": "Negativity Bias",
@@ -125,9 +125,9 @@
       "D": "Availability Heuristic"
     },
     "correctAnswer": "D",
-    "explanation": "Vivid, memorable news stories make plane crashes feel more common than they statistically are.",
-    "reflectionQuestion": "Can you think of a fear you have that might be based on memorable stories rather than actual statistics?",
-    "whyHumansDoThis": "Our brains use ease of recall as a shortcut for judging probability.",
+    "explanation": "Vivid stories feel more common than they are.",
+    "reflectionQuestion": "Any fear you have that might come from memorable stories, not stats?",
+    "whyHumansDoThis": "Easy-to-recall events feel more likely. Our brain uses memory as a shortcut.",
     "realWorldContext": "News",
     "difficulty": "Recognition",
     "learningObjective": "Learn that memorable events are not always common events."
@@ -136,7 +136,7 @@
     "challengeId": "C008",
     "biasId": "B003",
     "biasName": "Availability Heuristic",
-    "statement": "A parent refuses to vaccinate their child after reading a viral post about a rare side effect, while ignoring the far more common risks of the disease itself.",
+    "statement": "I saw one viral post about a rare vaccine side effect — and it stuck more than the disease risks I ignored.",
     "options": {
       "A": "Survivorship Bias",
       "B": "Availability Heuristic",
@@ -144,9 +144,9 @@
       "D": "Negativity Bias"
     },
     "correctAnswer": "B",
-    "explanation": "A vivid, emotionally charged story is easier to recall than statistical data, distorting the perceived risk.",
-    "reflectionQuestion": "When assessing a health risk, do you check the data or rely on the story that comes to mind first?",
-    "whyHumansDoThis": "Emotionally striking examples stick in memory far more than dry statistics.",
+    "explanation": "One vivid story outweighed the broader data.",
+    "reflectionQuestion": "On health risks, do you check the data or trust the story that sticks?",
+    "whyHumansDoThis": "Emotional stories lodge in memory. Dry statistics often don't.",
     "realWorldContext": "Health",
     "difficulty": "Application",
     "learningObjective": "Learn to seek base-rate statistics rather than relying on memorable anecdotes."
@@ -155,7 +155,7 @@
     "challengeId": "C009",
     "biasId": "B003",
     "biasName": "Availability Heuristic",
-    "statement": "After a friend's house is burgled, someone starts believing burglaries are common in their neighborhood, even though crime rates have been falling for years.",
+    "statement": "After a friend's house was burgled, burglaries suddenly feel common here — even though crime has been falling.",
     "options": {
       "A": "Confirmation Bias",
       "B": "Negativity Bias",
@@ -163,9 +163,9 @@
       "D": "Availability Heuristic"
     },
     "correctAnswer": "D",
-    "explanation": "A single vivid, personal example outweighs broader statistical trends in shaping perceived risk.",
-    "reflectionQuestion": "Has a single story from someone you know ever changed how safe you feel, more than actual data would justify?",
-    "whyHumansDoThis": "Personal, close-to-home stories feel more relevant and are recalled more easily than abstract statistics.",
+    "explanation": "One close story outweighed the wider trend.",
+    "reflectionQuestion": "Has one person's story ever changed how safe you feel?",
+    "whyHumansDoThis": "Stories from people we know feel real and relevant — more than numbers on a page.",
     "realWorldContext": "Everyday life",
     "difficulty": "Ambiguous",
     "learningObjective": "Learn to distinguish between a personally vivid story and an actual trend."
@@ -174,7 +174,7 @@
     "challengeId": "C010",
     "biasId": "B004",
     "biasName": "Fundamental Attribution Error",
-    "statement": "A colleague is late to the meeting, and everyone assumes they're just lazy and disorganized, not knowing their car broke down that morning.",
+    "statement": "A colleague was late to the meeting. Everyone assumed they're lazy — not knowing their car broke down.",
     "options": {
       "A": "Halo Effect",
       "B": "Horn Effect",
@@ -182,9 +182,9 @@
       "D": "Self-serving Bias"
     },
     "correctAnswer": "C",
-    "explanation": "Observers default to a character-based explanation instead of considering the situation.",
-    "reflectionQuestion": "Next time someone is late, what situational reasons might explain it before you judge their character?",
-    "whyHumansDoThis": "We have limited information about others' circumstances, so we fill the gap with assumptions about their character.",
+    "explanation": "Character got blamed before circumstances were considered.",
+    "reflectionQuestion": "Next time someone's late — what situation might explain it?",
+    "whyHumansDoThis": "We don't see others' full context, so we fill the gap with personality labels.",
     "realWorldContext": "Work",
     "difficulty": "Recognition",
     "learningObjective": "Learn to consider circumstances before judging character."
@@ -193,7 +193,7 @@
     "challengeId": "C011",
     "biasId": "B004",
     "biasName": "Fundamental Attribution Error",
-    "statement": "A driver cuts you off, and you immediately think 'what a reckless jerk,' without considering they might be rushing to an emergency.",
+    "statement": "Someone cut me off in traffic. I thought 'what a jerk' — without wondering if they had an emergency.",
     "options": {
       "A": "Fundamental Attribution Error",
       "B": "Self-serving Bias",
@@ -201,9 +201,9 @@
       "D": "Horn Effect"
     },
     "correctAnswer": "A",
-    "explanation": "The behavior is attributed entirely to the other driver's character rather than a possible situational cause.",
-    "reflectionQuestion": "Have you ever driven aggressively because of your own circumstances that day?",
-    "whyHumansDoThis": "It's easier to judge a stranger's character in an instant than to imagine their unseen situation.",
+    "explanation": "The action was blamed on character, not situation.",
+    "reflectionQuestion": "Have you ever driven badly because of your own bad day?",
+    "whyHumansDoThis": "It's faster to judge a stranger's character than imagine their unseen story.",
     "realWorldContext": "Driving",
     "difficulty": "Application",
     "learningObjective": "Learn that the same behavior looks different depending on whether you know the situation behind it."
@@ -212,7 +212,7 @@
     "challengeId": "C012",
     "biasId": "B004",
     "biasName": "Fundamental Attribution Error",
-    "statement": "A friend cancels plans last minute again, and you conclude they're unreliable, though it could also be a string of genuinely bad circumstances.",
+    "statement": "A friend cancelled last minute again. I decided they're unreliable — maybe it was just a run of bad luck.",
     "options": {
       "A": "Halo Effect",
       "B": "Horn Effect",
@@ -220,9 +220,9 @@
       "D": "Self-serving Bias"
     },
     "correctAnswer": "C",
-    "explanation": "A single explanation (character) is chosen quickly, when only the accumulation of many instances could clarify whether it's a real pattern.",
-    "reflectionQuestion": "How many times would something need to happen before you'd call it a pattern rather than bad luck?",
-    "whyHumansDoThis": "It's mentally efficient to settle on one clear explanation rather than track uncertainty over time.",
+    "explanation": "One label stuck before a real pattern was clear.",
+    "reflectionQuestion": "How many times before you'd call something a pattern, not bad luck?",
+    "whyHumansDoThis": "One clear story feels easier than holding uncertainty over time.",
     "realWorldContext": "Relationships",
     "difficulty": "Ambiguous",
     "learningObjective": "Learn to separate a single incident from an established pattern before judging someone's character."
@@ -231,7 +231,7 @@
     "challengeId": "C013",
     "biasId": "B005",
     "biasName": "Self-serving Bias",
-    "statement": "A student says they passed the exam because they're smart, but failed the last one because the questions were unfair.",
+    "statement": "I passed because I'm smart — but failed last time because the questions were unfair.",
     "options": {
       "A": "Halo Effect",
       "B": "Self-serving Bias",
@@ -239,9 +239,9 @@
       "D": "Optimism Bias"
     },
     "correctAnswer": "B",
-    "explanation": "Success is credited to personal ability while failure is blamed on external factors.",
-    "reflectionQuestion": "Think of your last success and failure - did you explain them the same way?",
-    "whyHumansDoThis": "Crediting ourselves for success and blaming outside factors for failure protects our self-image.",
+    "explanation": "Success went to me; failure went to outside factors.",
+    "reflectionQuestion": "Your last win and loss — did you explain them the same way?",
+    "whyHumansDoThis": "Crediting ourselves for wins and blaming outside forces for losses protects how we feel about ourselves.",
     "realWorldContext": "Academics",
     "difficulty": "Recognition",
     "learningObjective": "Learn to apply the same standard of explanation to both your successes and failures."
@@ -250,7 +250,7 @@
     "challengeId": "C014",
     "biasId": "B005",
     "biasName": "Self-serving Bias",
-    "statement": "A team captain says the team won because of great strategy, but lost the next game because of a bad referee.",
+    "statement": "We won because of great strategy. We lost because of a bad referee.",
     "options": {
       "A": "Fundamental Attribution Error",
       "B": "Optimism Bias",
@@ -258,9 +258,9 @@
       "D": "Self-serving Bias"
     },
     "correctAnswer": "D",
-    "explanation": "The captain takes credit for the win but externalizes blame for the loss, rather than evaluating both fairly.",
-    "reflectionQuestion": "Can you recall a loss you blamed entirely on something outside your control?",
-    "whyHumansDoThis": "Maintaining a positive self-image feels better than acknowledging personal shortcomings.",
+    "explanation": "The win was ours; the loss was someone else's fault.",
+    "reflectionQuestion": "A loss you blamed entirely on something outside your control?",
+    "whyHumansDoThis": "Keeping a positive self-image feels better than sitting with our own shortcomings.",
     "realWorldContext": "Sport",
     "difficulty": "Application",
     "learningObjective": "Learn to evaluate wins and losses with the same level of scrutiny."
@@ -269,7 +269,7 @@
     "challengeId": "C015",
     "biasId": "B005",
     "biasName": "Self-serving Bias",
-    "statement": "A manager takes credit for a successful project but blames the team when a similar project fails, even though their own decisions played a role both times.",
+    "statement": "A manager took credit when a project worked — and blamed the team when a similar one failed.",
     "options": {
       "A": "Halo Effect",
       "B": "Self-serving Bias",
@@ -277,9 +277,9 @@
       "D": "Optimism Bias"
     },
     "correctAnswer": "B",
-    "explanation": "Crediting success to oneself while shifting blame elsewhere for failure, even when personal decisions contributed to both, is a hallmark of self-serving bias.",
-    "reflectionQuestion": "When a project you led fails, how much of the explanation do you attribute to yourself versus others?",
-    "whyHumansDoThis": "Protecting our sense of competence is more comfortable than acknowledging shared responsibility for failure.",
+    "explanation": "Success was personal; failure was shifted away.",
+    "reflectionQuestion": "When your project fails — how much do you own versus blame others?",
+    "whyHumansDoThis": "Protecting our sense of competence is easier than sharing responsibility for failure.",
     "realWorldContext": "Work",
     "difficulty": "Ambiguous",
     "learningObjective": "Learn to look for your own contribution to both successes and failures, not just the convenient one."
@@ -288,7 +288,7 @@
     "challengeId": "C016",
     "biasId": "B006",
     "biasName": "Sunk Cost Fallacy",
-    "statement": "An investor keeps holding a failing stock because they've already put so much money into it, hoping it will recover.",
+    "statement": "I keep holding a failing stock because I've already put so much into it — hoping it'll bounce back.",
     "options": {
       "A": "Sunk Cost Fallacy",
       "B": "Loss Aversion",
@@ -296,9 +296,9 @@
       "D": "Optimism Bias"
     },
     "correctAnswer": "A",
-    "explanation": "The decision to keep holding is driven by past investment rather than the stock's future prospects.",
-    "reflectionQuestion": "If you were deciding today with no prior investment, would you still choose to hold this stock?",
-    "whyHumansDoThis": "Admitting a past investment was a mistake feels like a loss, so we keep going to avoid that feeling.",
+    "explanation": "Past money spent is driving the choice, not future prospects.",
+    "reflectionQuestion": "If you were deciding fresh today, would you still hold it?",
+    "whyHumansDoThis": "Walking away feels like admitting a mistake. Staying avoids that pain — even when it costs more.",
     "realWorldContext": "Finance",
     "difficulty": "Recognition",
     "learningObjective": "Learn to evaluate decisions based on future outcomes, not past investment."
@@ -307,7 +307,7 @@
     "challengeId": "C017",
     "biasId": "B006",
     "biasName": "Sunk Cost Fallacy",
-    "statement": "Someone stays in an unhappy relationship, thinking 'I've already spent five years on this, I can't leave now.'",
+    "statement": "I've spent five years in this relationship. I can't leave now — even though I'm unhappy.",
     "options": {
       "A": "Status Quo Bias",
       "B": "Optimism Bias",
@@ -315,9 +315,9 @@
       "D": "Loss Aversion"
     },
     "correctAnswer": "C",
-    "explanation": "Time already invested is treated as a reason to continue, even though it cannot be recovered either way.",
-    "reflectionQuestion": "Would you enter this relationship today, knowing what you know now?",
-    "whyHumansDoThis": "Walking away feels like admitting the time already spent was wasted, which is emotionally painful.",
+    "explanation": "Time already spent is treated as a reason to stay.",
+    "reflectionQuestion": "Would you start this relationship today, knowing what you know?",
+    "whyHumansDoThis": "Leaving can feel like wasted years were wasted for nothing. That's painful.",
     "realWorldContext": "Relationships",
     "difficulty": "Application",
     "learningObjective": "Learn that past time invested doesn't change what's the best choice going forward."
@@ -326,7 +326,7 @@
     "challengeId": "C018",
     "biasId": "B006",
     "biasName": "Sunk Cost Fallacy",
-    "statement": "A couple keeps eating an expensive, mediocre restaurant meal because they've already paid for it, even though they could stop.",
+    "statement": "We keep eating a mediocre meal we already paid for — even though we could stop.",
     "options": {
       "A": "Sunk Cost Fallacy",
       "B": "Loss Aversion",
@@ -334,9 +334,9 @@
       "D": "Optimism Bias"
     },
     "correctAnswer": "A",
-    "explanation": "The money already spent is gone regardless of whether they finish the meal, but it still shapes the decision to keep eating.",
-    "reflectionQuestion": "Does knowing you've already paid change how much you 'should' eat?",
-    "whyHumansDoThis": "We conflate the sunk cost with the ongoing decision, even when they're logically separate.",
+    "explanation": "Money already spent shouldn't change whether we keep eating.",
+    "reflectionQuestion": "Does having paid change how much you 'should' finish?",
+    "whyHumansDoThis": "We mix up 'already spent' with 'what to do next' — even when they're separate decisions.",
     "realWorldContext": "Everyday life",
     "difficulty": "Ambiguous",
     "learningObjective": "Learn to separate a past, unrecoverable cost from the decision in front of you right now."
@@ -345,7 +345,7 @@
     "challengeId": "C019",
     "biasId": "B007",
     "biasName": "Negativity Bias",
-    "statement": "After a performance review with nine positive comments and one criticism, the employee can only think about the criticism all week.",
+    "statement": "Nine compliments and one criticism in my review — and I obsessed over the criticism all week.",
     "options": {
       "A": "Availability Heuristic",
       "B": "Loss Aversion",
@@ -353,9 +353,9 @@
       "D": "Negativity Bias"
     },
     "correctAnswer": "D",
-    "explanation": "The single negative comment outweighs the nine positive ones in the employee's mind, despite the imbalance in actual content.",
-    "reflectionQuestion": "After your last piece of feedback, did you remember the praise or the criticism more clearly?",
-    "whyHumansDoThis": "Negative information historically signaled threats, so our brains evolved to prioritize it.",
+    "explanation": "One negative note outweighed nine positive ones.",
+    "reflectionQuestion": "Last feedback you got — praise or criticism stuck more?",
+    "whyHumansDoThis": "Bad news used to signal danger. Our brains still give it extra weight.",
     "realWorldContext": "Work",
     "difficulty": "Recognition",
     "learningObjective": "Learn to consciously weigh positive and negative feedback more evenly."
@@ -364,7 +364,7 @@
     "challengeId": "C020",
     "biasId": "B007",
     "biasName": "Negativity Bias",
-    "statement": "News outlets report far more negative stories than positive ones, because negative headlines get more clicks and attention.",
+    "statement": "News runs more bad stories than good ones — because negative headlines get more clicks.",
     "options": {
       "A": "Optimism Bias",
       "B": "Negativity Bias",
@@ -372,9 +372,9 @@
       "D": "Loss Aversion"
     },
     "correctAnswer": "B",
-    "explanation": "Both audience attention and outlet incentives are shaped by our stronger response to negative information.",
-    "reflectionQuestion": "Do you click on negative headlines more often than positive ones?",
-    "whyHumansDoThis": "Our attention is drawn more strongly to potential threats or bad news than to good news.",
+    "explanation": "Outlets and audiences both lean toward negative news.",
+    "reflectionQuestion": "Do you click negative headlines more than positive ones?",
+    "whyHumansDoThis": "Threats and bad news pull our attention harder than good news.",
     "realWorldContext": "Media",
     "difficulty": "Application",
     "learningObjective": "Learn to notice when media incentives are exploiting a psychological bias you already have."
@@ -383,7 +383,7 @@
     "challengeId": "C021",
     "biasId": "B007",
     "biasName": "Negativity Bias",
-    "statement": "One critical comment from a partner can outweigh many compliments, even though the ratio of positive to negative comments has been high.",
+    "statement": "One critical comment from my partner stuck more than months of compliments.",
     "options": {
       "A": "Availability Heuristic",
       "B": "Loss Aversion",
@@ -391,9 +391,9 @@
       "D": "Negativity Bias"
     },
     "correctAnswer": "D",
-    "explanation": "A single negative remark can dominate emotional memory of a relationship, disproportionate to its actual frequency.",
-    "reflectionQuestion": "Can you recall a relationship where one negative comment overshadowed months of positive ones?",
-    "whyHumansDoThis": "Negative experiences are processed more deeply and remembered more vividly than positive ones.",
+    "explanation": "A single negative remark dominated the emotional memory.",
+    "reflectionQuestion": "One comment that overshadowed a lot of good moments?",
+    "whyHumansDoThis": "Negative moments are processed more deeply and remembered more vividly.",
     "realWorldContext": "Relationships",
     "difficulty": "Ambiguous",
     "learningObjective": "Learn to actively track the ratio of positive to negative moments, rather than trusting your gut feeling."
@@ -402,7 +402,7 @@
     "challengeId": "C022",
     "biasId": "B008",
     "biasName": "Halo Effect",
-    "statement": "A well-dressed, articulate job candidate is assumed to also be highly competent at the technical parts of the job, without evidence.",
+    "statement": "A polished, articulate candidate seemed competent at the technical work too — without any proof.",
     "options": {
       "A": "Authority Bias",
       "B": "Fundamental Attribution Error",
@@ -410,9 +410,9 @@
       "D": "Horn Effect"
     },
     "correctAnswer": "C",
-    "explanation": "A positive impression in one area (presentation) spills over into an unjustified assumption about an unrelated area (technical skill).",
-    "reflectionQuestion": "Have you ever assumed someone was good at their job just because they seemed confident?",
-    "whyHumansDoThis": "It's mentally efficient to form one overall impression rather than evaluate every trait separately.",
+    "explanation": "A good impression in one area spilled into another.",
+    "reflectionQuestion": "Assumed someone was good at their job because they seemed confident?",
+    "whyHumansDoThis": "One overall impression is easier than judging each skill separately.",
     "realWorldContext": "Work",
     "difficulty": "Recognition",
     "learningObjective": "Learn to evaluate specific skills on their own evidence, not on general impressions."
@@ -421,7 +421,7 @@
     "challengeId": "C023",
     "biasId": "B008",
     "biasName": "Halo Effect",
-    "statement": "A celebrity endorses a health product, and fans assume the product must be effective because they like the celebrity.",
+    "statement": "A celebrity endorsed a health product — so fans assumed it works, because they like the celebrity.",
     "options": {
       "A": "Halo Effect",
       "B": "Horn Effect",
@@ -429,9 +429,9 @@
       "D": "Fundamental Attribution Error"
     },
     "correctAnswer": "A",
-    "explanation": "Positive feelings toward the celebrity transfer to an unrelated claim about the product's effectiveness.",
-    "reflectionQuestion": "Would you trust this product's claims as much if a stranger, not a celebrity, made them?",
-    "whyHumansDoThis": "We transfer trust from people we like to things they're associated with.",
+    "explanation": "Feelings about the person transferred to the product.",
+    "reflectionQuestion": "Would you trust the claim as much from a stranger?",
+    "whyHumansDoThis": "We pass trust from people we like to things they're linked with.",
     "realWorldContext": "Media",
     "difficulty": "Application",
     "learningObjective": "Learn to separate your feelings about a person from the evidence for their claims."
@@ -440,7 +440,7 @@
     "challengeId": "C024",
     "biasId": "B008",
     "biasName": "Halo Effect",
-    "statement": "A charismatic new colleague is quickly promoted, and people assume all their ideas must be good, even ones that haven't actually been tested.",
+    "statement": "A charismatic colleague got promoted fast — and people assumed all their ideas were good, untested ones included.",
     "options": {
       "A": "Authority Bias",
       "B": "Fundamental Attribution Error",
@@ -448,9 +448,9 @@
       "D": "Horn Effect"
     },
     "correctAnswer": "C",
-    "explanation": "Likeability creates a general positive impression that extends, without evidence, to the quality of their ideas.",
+    "explanation": "Likeability stretched to ideas without evidence.",
     "reflectionQuestion": "How do you separate liking someone from trusting their untested ideas?",
-    "whyHumansDoThis": "A strong positive first impression is hard to update, even when specific evidence is missing.",
+    "whyHumansDoThis": "A strong first impression is hard to update — even when proof is missing.",
     "realWorldContext": "Social situations",
     "difficulty": "Ambiguous",
     "learningObjective": "Learn that likeability and idea quality are two separate things, even if they feel linked."
@@ -459,7 +459,7 @@
     "challengeId": "C025",
     "biasId": "B009",
     "biasName": "Horn Effect",
-    "statement": "A new employee arrives late on their first day, and colleagues immediately assume they're unreliable and probably not very hardworking either.",
+    "statement": "A new hire was late on day one. Colleagues decided they're unreliable and probably not hardworking.",
     "options": {
       "A": "Negativity Bias",
       "B": "Horn Effect",
@@ -467,9 +467,9 @@
       "D": "Fundamental Attribution Error"
     },
     "correctAnswer": "B",
-    "explanation": "One negative trait (lateness) is generalized into unrelated negative assumptions about work ethic.",
-    "reflectionQuestion": "Has one early mistake ever colored how you saw someone's whole personality?",
-    "whyHumansDoThis": "A single negative impression is mentally simplified into 'this person is generally bad' rather than staying specific.",
+    "explanation": "One slip became a whole personality judgment.",
+    "reflectionQuestion": "One early mistake that colored how you saw someone?",
+    "whyHumansDoThis": "One flaw gets simplified into 'this person is generally bad' instead of staying specific.",
     "realWorldContext": "Work",
     "difficulty": "Recognition",
     "learningObjective": "Learn to keep a single flaw separate from your overall judgment of a person's other qualities."
@@ -478,7 +478,7 @@
     "challengeId": "C026",
     "biasId": "B009",
     "biasName": "Horn Effect",
-    "statement": "Someone mispronounces a word in a presentation, and the audience starts assuming they don't really know the topic well.",
+    "statement": "Someone mispronounced a word in a talk — and the audience doubted whether they know the topic at all.",
     "options": {
       "A": "Halo Effect",
       "B": "Fundamental Attribution Error",
@@ -486,9 +486,9 @@
       "D": "Horn Effect"
     },
     "correctAnswer": "D",
-    "explanation": "A minor, unrelated slip is generalized into doubting the person's actual competence.",
-    "reflectionQuestion": "Have you ever judged someone's expertise based on an unrelated small mistake?",
-    "whyHumansDoThis": "Our brain looks for a consistent story, and one flaw is used to build a broader negative narrative.",
+    "explanation": "A small slip was stretched into a competence judgment.",
+    "reflectionQuestion": "Judged someone's expertise over an unrelated small mistake?",
+    "whyHumansDoThis": "Our brain wants one consistent story — and one flaw builds a negative one fast.",
     "realWorldContext": "Social situations",
     "difficulty": "Application",
     "learningObjective": "Learn to judge competence based on relevant evidence, not unrelated small errors."
@@ -497,7 +497,7 @@
     "challengeId": "C027",
     "biasId": "B009",
     "biasName": "Horn Effect",
-    "statement": "A public figure makes one factual error in an interview, and viewers dismiss everything else they said, even the parts backed by solid evidence.",
+    "statement": "A public figure got one fact wrong — and viewers dismissed everything else they said, even the solid parts.",
     "options": {
       "A": "Negativity Bias",
       "B": "Horn Effect",
@@ -505,9 +505,9 @@
       "D": "Fundamental Attribution Error"
     },
     "correctAnswer": "B",
-    "explanation": "One mistake is generalized to discredit an entire body of otherwise well-supported claims.",
-    "reflectionQuestion": "When someone makes one error, do you dismiss everything else they say?",
-    "whyHumansDoThis": "A single clear flaw feels like reliable evidence, even when it doesn't logically extend to everything else.",
+    "explanation": "One error discredited the whole message.",
+    "reflectionQuestion": "When someone errs once, do you dismiss everything they say?",
+    "whyHumansDoThis": "One clear mistake feels like reliable evidence — even when it isn't about everything else.",
     "realWorldContext": "Media",
     "difficulty": "Ambiguous",
     "learningObjective": "Learn to evaluate each claim on its own evidence rather than by association with an unrelated error."
@@ -516,7 +516,7 @@
     "challengeId": "C028",
     "biasId": "B010",
     "biasName": "Survivorship Bias",
-    "statement": "Business advice books focus on interviews with successful entrepreneurs, ignoring the far larger number who tried similar strategies and failed.",
+    "statement": "Success books interview winning entrepreneurs — not the many who tried the same thing and failed.",
     "options": {
       "A": "Survivorship Bias",
       "B": "Availability Heuristic",
@@ -524,9 +524,9 @@
       "D": "Confirmation Bias"
     },
     "correctAnswer": "A",
-    "explanation": "The sample only includes 'survivors' (successful entrepreneurs), so the strategies that seem to work may not actually be reliable.",
-    "reflectionQuestion": "When you read a success story, do you ever ask how many people tried the same thing and failed?",
-    "whyHumansDoThis": "Failures are often less visible, less discussed, or simply invisible to us, so successes dominate our sample.",
+    "explanation": "We only hear from survivors, so strategies look more reliable than they are.",
+    "reflectionQuestion": "Reading a success story — do you ask who tried the same and failed?",
+    "whyHumansDoThis": "Failures are quieter, less visible, and less fun to talk about.",
     "realWorldContext": "Work",
     "difficulty": "Recognition",
     "learningObjective": "Learn to actively look for the invisible failures behind visible success stories."
@@ -535,7 +535,7 @@
     "challengeId": "C029",
     "biasId": "B010",
     "biasName": "Survivorship Bias",
-    "statement": "A magazine article claims 'these five habits made these CEOs successful,' without checking whether unsuccessful people had the same habits.",
+    "statement": "'These five habits made CEOs successful' — with no check on failed CEOs who had the same habits.",
     "options": {
       "A": "Optimism Bias",
       "B": "Confirmation Bias",
@@ -543,9 +543,9 @@
       "D": "Availability Heuristic"
     },
     "correctAnswer": "C",
-    "explanation": "Without a comparison group of unsuccessful people, it's impossible to know if the habits are actually linked to success.",
-    "reflectionQuestion": "If you never asked who failed, could you really trust an explanation of who succeeded?",
-    "whyHumansDoThis": "Success stories are more visible, celebrated, and interesting to tell than the many quiet failures.",
+    "explanation": "Without a comparison group, the link to success is shaky.",
+    "reflectionQuestion": "Without asking who failed, can you trust why someone succeeded?",
+    "whyHumansDoThis": "Success stories are celebrated. Quiet failures disappear from view.",
     "realWorldContext": "Media",
     "difficulty": "Application",
     "learningObjective": "Learn to ask for the comparison group before trusting a claim about what causes success."
@@ -554,7 +554,7 @@
     "challengeId": "C030",
     "biasId": "B010",
     "biasName": "Survivorship Bias",
-    "statement": "A student assumes a course must be easy because everyone still enrolled speaks well of it, not realizing the people who struggled already dropped out.",
+    "statement": "Everyone still in the course says it's easy — but the people who struggled already dropped out.",
     "options": {
       "A": "Survivorship Bias",
       "B": "Availability Heuristic",
@@ -562,9 +562,9 @@
       "D": "Confirmation Bias"
     },
     "correctAnswer": "A",
-    "explanation": "Only those who stayed and can be asked provide feedback, while those who dropped out are missing from the sample.",
-    "reflectionQuestion": "Whose voices might be missing from the feedback you're hearing?",
-    "whyHumansDoThis": "We naturally only hear from the people still present, forgetting the process that filtered others out.",
+    "explanation": "Only survivors are in the sample you're hearing from.",
+    "reflectionQuestion": "Whose voices might be missing from the feedback you hear?",
+    "whyHumansDoThis": "We hear from who's left — and forget who already walked away.",
     "realWorldContext": "Learning",
     "difficulty": "Ambiguous",
     "learningObjective": "Learn to consider who is missing from a sample before drawing a conclusion."
@@ -573,7 +573,7 @@
     "challengeId": "C031",
     "biasId": "B011",
     "biasName": "Hindsight Bias",
-    "statement": "After a stock crashes, an investor says 'I knew that was going to happen,' even though they bought more shares the week before.",
+    "statement": "After a stock crashed, I said 'I knew that would happen' — though I'd bought more the week before.",
     "options": {
       "A": "Confirmation Bias",
       "B": "Self-serving Bias",
@@ -581,9 +581,9 @@
       "D": "Hindsight Bias"
     },
     "correctAnswer": "D",
-    "explanation": "The investor's memory of their own confidence has shifted to match the now-known outcome.",
-    "reflectionQuestion": "Have you ever claimed you 'knew' something would happen, despite acting otherwise beforehand?",
-    "whyHumansDoThis": "Knowing an outcome makes it feel inevitable in hindsight, distorting our memory of our own uncertainty.",
+    "explanation": "Memory of what we believed shifted to match the outcome.",
+    "reflectionQuestion": "Claimed you 'knew' something — despite acting the opposite before?",
+    "whyHumansDoThis": "Once we know the ending, it feels inevitable — and our memory bends to match.",
     "realWorldContext": "Finance",
     "difficulty": "Recognition",
     "learningObjective": "Learn to check your past predictions honestly instead of assuming you always saw it coming."
@@ -592,7 +592,7 @@
     "challengeId": "C032",
     "biasId": "B011",
     "biasName": "Hindsight Bias",
-    "statement": "After their team loses, a fan insists 'I knew we'd lose,' despite confidently predicting a win to friends the day before.",
+    "statement": "After the loss, I insisted 'I knew we'd lose' — though I'd predicted a win the day before.",
     "options": {
       "A": "Optimism Bias",
       "B": "Hindsight Bias",
@@ -600,9 +600,9 @@
       "D": "Self-serving Bias"
     },
     "correctAnswer": "B",
-    "explanation": "The fan's recollection of their own prediction has been rewritten to fit the actual outcome.",
-    "reflectionQuestion": "Could you find a written or spoken prediction you made, and compare it honestly to what you now claim you thought?",
-    "whyHumansDoThis": "Our brains reconstruct memories of past beliefs in a way that's consistent with what we now know.",
+    "explanation": "Recollection of the prediction was rewritten after the fact.",
+    "reflectionQuestion": "Could you find what you actually predicted — versus what you claim now?",
+    "whyHumansDoThis": "We rebuild past beliefs to fit what we know now.",
     "realWorldContext": "Sport",
     "difficulty": "Application",
     "learningObjective": "Learn that memory of a prediction is not a reliable substitute for the prediction itself."
@@ -611,7 +611,7 @@
     "challengeId": "C033",
     "biasId": "B011",
     "biasName": "Hindsight Bias",
-    "statement": "After a project fails, the team concludes 'the risks were obvious from the start,' even though nobody flagged them clearly during planning.",
+    "statement": "After a project failed, the team said 'the risks were obvious from the start' — though nobody flagged them in planning.",
     "options": {
       "A": "Confirmation Bias",
       "B": "Self-serving Bias",
@@ -619,9 +619,9 @@
       "D": "Hindsight Bias"
     },
     "correctAnswer": "D",
-    "explanation": "Once the failure is known, the risks seem obvious in retrospect, even though they weren't clearly identified beforehand.",
-    "reflectionQuestion": "Were the 'obvious' risks actually written down anywhere before the outcome was known?",
-    "whyHumansDoThis": "Knowing the outcome makes the path to it feel more predictable than it actually was.",
+    "explanation": "Risks look obvious only after failure is known.",
+    "reflectionQuestion": "Were the 'obvious' risks written down before the outcome?",
+    "whyHumansDoThis": "Knowing how it ended makes the path feel more predictable than it was.",
     "realWorldContext": "Work",
     "difficulty": "Ambiguous",
     "learningObjective": "Learn to check documented predictions rather than trusting a reconstructed memory of what was 'obvious.'"
@@ -630,7 +630,7 @@
     "challengeId": "C034",
     "biasId": "B012",
     "biasName": "False Consensus Effect",
-    "statement": "A voter assumes 'most people' agree with their political opinion, mostly because everyone in their social circle does.",
+    "statement": "I assume most people share my political view — because everyone in my circle does.",
     "options": {
       "A": "In-group Bias",
       "B": "Availability Heuristic",
@@ -638,9 +638,9 @@
       "D": "Confirmation Bias"
     },
     "correctAnswer": "C",
-    "explanation": "The person mistakes agreement within their own social circle for agreement across the wider population.",
-    "reflectionQuestion": "How would you actually find out if most people agree with you, beyond your own social circle?",
-    "whyHumansDoThis": "We're surrounded mostly by people similar to us, so their opinions feel like 'everyone's' opinion.",
+    "explanation": "My bubble was mistaken for the whole population.",
+    "reflectionQuestion": "How would you check if most people agree — beyond your circle?",
+    "whyHumansDoThis": "We're surrounded by similar people, so their views feel like everyone's.",
     "realWorldContext": "Politics",
     "difficulty": "Recognition",
     "learningObjective": "Learn to distinguish between the views of your social circle and the views of the wider population."
@@ -649,7 +649,7 @@
     "challengeId": "C035",
     "biasId": "B012",
     "biasName": "False Consensus Effect",
-    "statement": "Someone posts a controversial opinion online and is shocked by the backlash, assuming beforehand that 'everyone thinks this.'",
+    "statement": "I posted a hot take online and got slammed — I'd assumed 'everyone thinks this.'",
     "options": {
       "A": "False Consensus Effect",
       "B": "Confirmation Bias",
@@ -657,9 +657,9 @@
       "D": "Availability Heuristic"
     },
     "correctAnswer": "A",
-    "explanation": "The poster overestimated how widely shared their opinion actually was, mistaking their own bubble for a general consensus.",
-    "reflectionQuestion": "Has an online reaction ever surprised you because you assumed your view was more common than it was?",
-    "whyHumansDoThis": "Our own beliefs feel intuitively 'normal' to us, so we assume others share them by default.",
+    "explanation": "My bubble felt like consensus.",
+    "reflectionQuestion": "Online backlash that surprised you because you thought your view was common?",
+    "whyHumansDoThis": "Our own beliefs feel normal — so we assume others share them.",
     "realWorldContext": "Social Media",
     "difficulty": "Application",
     "learningObjective": "Learn that a view feeling normal to you doesn't mean it's widely shared."
@@ -668,7 +668,7 @@
     "challengeId": "C036",
     "biasId": "B012",
     "biasName": "False Consensus Effect",
-    "statement": "A manager assumes the whole team supports a new policy because the two people who spoke up in the meeting agreed with it.",
+    "statement": "Two people agreed in a meeting — so the manager assumed the whole team supports the policy.",
     "options": {
       "A": "In-group Bias",
       "B": "Availability Heuristic",
@@ -676,9 +676,9 @@
       "D": "Confirmation Bias"
     },
     "correctAnswer": "C",
-    "explanation": "A small, vocal sample is mistaken for the views of the entire team, when silence doesn't necessarily mean agreement.",
-    "reflectionQuestion": "When only a few people speak up in a meeting, what can you actually conclude about everyone else's opinion?",
-    "whyHumansDoThis": "Vocal agreement is easy to notice and remember, while silent disagreement is invisible.",
+    "explanation": "A vocal few stood in for everyone.",
+    "reflectionQuestion": "When few speak up — what can you really conclude about the rest?",
+    "whyHumansDoThis": "Loud agreement is easy to notice. Silent disagreement is invisible.",
     "realWorldContext": "Work",
     "difficulty": "Ambiguous",
     "learningObjective": "Learn to distinguish between a vocal minority and true group consensus."
@@ -687,7 +687,7 @@
     "challengeId": "C037",
     "biasId": "B013",
     "biasName": "In-group Bias",
-    "statement": "A manager gives the benefit of the doubt to a mistake made by someone from their own department, but is harsher about the same mistake from another department.",
+    "statement": "Same mistake from my department gets a pass — from another department, it's a serious problem.",
     "options": {
       "A": "False Consensus Effect",
       "B": "In-group Bias",
@@ -695,9 +695,9 @@
       "D": "Halo Effect"
     },
     "correctAnswer": "B",
-    "explanation": "The same behavior is judged differently depending on whether the person belongs to the manager's own group.",
-    "reflectionQuestion": "Do you judge mistakes from people 'like you' more gently than mistakes from others?",
-    "whyHumansDoThis": "We instinctively extend more trust and leniency to people we perceive as part of our own group.",
+    "explanation": "Group membership changed how the mistake was judged.",
+    "reflectionQuestion": "Judge mistakes from 'your people' more gently than from others?",
+    "whyHumansDoThis": "We extend more trust and leniency to people we see as 'us.'",
     "realWorldContext": "Work",
     "difficulty": "Recognition",
     "learningObjective": "Learn to apply the same standard of judgment regardless of group membership."
@@ -706,7 +706,7 @@
     "challengeId": "C038",
     "biasId": "B013",
     "biasName": "In-group Bias",
-    "statement": "A fan believes a foul by their own team's player was 'clearly accidental,' but the same foul by the opposing team is 'obviously dirty play.'",
+    "statement": "Our player's foul was accidental. Their player's identical foul was dirty play.",
     "options": {
       "A": "Out-group Homogeneity Bias",
       "B": "Halo Effect",
@@ -714,9 +714,9 @@
       "D": "In-group Bias"
     },
     "correctAnswer": "D",
-    "explanation": "Identical behavior is interpreted more charitably when it comes from the fan's own group.",
-    "reflectionQuestion": "Would you interpret this action the same way if the team names were switched?",
-    "whyHumansDoThis": "Group loyalty shapes how we interpret ambiguous actions, favoring our own side.",
+    "explanation": "Same action, different story — depending on the team.",
+    "reflectionQuestion": "Would you see it the same way if the teams were swapped?",
+    "whyHumansDoThis": "Loyalty shapes how we read ambiguous actions — we favor our side.",
     "realWorldContext": "Sport",
     "difficulty": "Application",
     "learningObjective": "Learn to test your judgment by imagining the same action from the 'other side.'"
@@ -725,7 +725,7 @@
     "challengeId": "C039",
     "biasId": "B013",
     "biasName": "In-group Bias",
-    "statement": "A voter excuses a scandal involving a politician from their own party, but is outraged by a similar scandal from the opposing party.",
+    "statement": "I excuse a scandal from my party — but I'm outraged by the same thing from the other side.",
     "options": {
       "A": "False Consensus Effect",
       "B": "In-group Bias",
@@ -733,9 +733,9 @@
       "D": "Halo Effect"
     },
     "correctAnswer": "B",
-    "explanation": "The same type of behavior receives very different moral judgment depending on group allegiance.",
-    "reflectionQuestion": "Would this behavior bother you as much if it came from 'your side' instead of the other?",
-    "whyHumansDoThis": "Protecting the reputation of our own group feels like protecting part of our own identity.",
+    "explanation": "Group allegiance changed the moral judgment.",
+    "reflectionQuestion": "Would this bother you as much from your own side?",
+    "whyHumansDoThis": "Protecting our group's reputation can feel like protecting part of ourselves.",
     "realWorldContext": "Politics",
     "difficulty": "Ambiguous",
     "learningObjective": "Learn to notice when group loyalty, not the facts, is driving your judgment."
@@ -744,7 +744,7 @@
     "challengeId": "C040",
     "biasId": "B014",
     "biasName": "Out-group Homogeneity Bias",
-    "statement": "Someone from the marketing team assumes everyone in engineering thinks and acts the same way, while recognizing lots of different personalities within marketing.",
+    "statement": "Marketing sees lots of personalities in marketing — but assumes everyone in engineering is the same.",
     "options": {
       "A": "Out-group Homogeneity Bias",
       "B": "In-group Bias",
@@ -752,9 +752,9 @@
       "D": "Fundamental Attribution Error"
     },
     "correctAnswer": "A",
-    "explanation": "The person sees diversity within their own group but assumes uniformity in a group they're less familiar with.",
-    "reflectionQuestion": "Which groups do you know well enough to see as diverse, and which do you lump together?",
-    "whyHumansDoThis": "We have more detailed exposure to our own group's individuals, but only surface-level exposure to other groups.",
+    "explanation": "Diversity inside my group; sameness assumed outside it.",
+    "reflectionQuestion": "Which groups do you see as diverse — and which do you lump together?",
+    "whyHumansDoThis": "We know individuals in our group. Other groups we only see from a distance.",
     "realWorldContext": "Work",
     "difficulty": "Recognition",
     "learningObjective": "Learn that unfamiliarity, not actual similarity, often drives the perception that 'they're all the same.'"
@@ -763,7 +763,7 @@
     "challengeId": "C041",
     "biasId": "B014",
     "biasName": "Out-group Homogeneity Bias",
-    "statement": "A person who has never lived abroad assumes that people from a certain country 'all think the same way' about a political issue.",
+    "statement": "I've never lived there — but I'm sure people from that country all think the same on this issue.",
     "options": {
       "A": "Halo Effect",
       "B": "Fundamental Attribution Error",
@@ -771,9 +771,9 @@
       "D": "In-group Bias"
     },
     "correctAnswer": "C",
-    "explanation": "Limited exposure leads to an oversimplified, uniform view of an entire nationality.",
-    "reflectionQuestion": "How much direct exposure do you actually have to the group you're generalizing about?",
-    "whyHumansDoThis": "With less detailed information about a group, our minds fill in the gaps with broad, simplified assumptions.",
+    "explanation": "Limited exposure became a uniform stereotype.",
+    "reflectionQuestion": "How much real exposure do you have to the group you're generalizing?",
+    "whyHumansDoThis": "Less detail about a group means broader, simpler assumptions.",
     "realWorldContext": "Social situations",
     "difficulty": "Application",
     "learningObjective": "Learn to question generalizations about groups you don't know well."
@@ -782,7 +782,7 @@
     "challengeId": "C042",
     "biasId": "B014",
     "biasName": "Out-group Homogeneity Bias",
-    "statement": "A news report describes 'young people today' as if they all share one attitude, even though the reporter would never describe their own generation so simply.",
+    "statement": "A headline says 'young people today' all think one way — but we'd never describe our own generation that simply.",
     "options": {
       "A": "Out-group Homogeneity Bias",
       "B": "In-group Bias",
@@ -790,9 +790,9 @@
       "D": "Fundamental Attribution Error"
     },
     "correctAnswer": "A",
-    "explanation": "A large, diverse group is flattened into a single stereotype, a pattern common in how media describes generations or nationalities.",
-    "reflectionQuestion": "Would you accept this level of generalization about a group you belong to?",
-    "whyHumansDoThis": "Broad categories are easier to write and think about than the messy diversity within a real population.",
+    "explanation": "A diverse group was flattened into one attitude.",
+    "reflectionQuestion": "Would you accept this generalization about a group you're in?",
+    "whyHumansDoThis": "Big categories are easier to write and think about than real diversity.",
     "realWorldContext": "Media",
     "difficulty": "Ambiguous",
     "learningObjective": "Learn to notice when a large group is being described as if it were one single, uniform entity."
@@ -801,7 +801,7 @@
     "challengeId": "C043",
     "biasId": "B015",
     "biasName": "Framing Effect",
-    "statement": "A treatment described as having a '90% survival rate' sounds much more appealing than the same treatment described as having a '10% mortality rate.'",
+    "statement": "'90% survival rate' sounds great. '10% mortality rate' sounds scary. Same treatment.",
     "options": {
       "A": "Anchoring Bias",
       "B": "Loss Aversion",
@@ -809,9 +809,9 @@
       "D": "Framing Effect"
     },
     "correctAnswer": "D",
-    "explanation": "Identical statistics feel very different depending on whether they're framed positively (survival) or negatively (mortality).",
-    "reflectionQuestion": "Can you think of a decision where the way information was worded changed how you felt about it?",
-    "whyHumansDoThis": "We respond emotionally to the frame of information (gain vs. loss) before we process the literal numbers.",
+    "explanation": "Identical stats, different emotional frame.",
+    "reflectionQuestion": "A decision where wording changed how you felt?",
+    "whyHumansDoThis": "We react to gain vs loss framing before we sit with the numbers.",
     "realWorldContext": "Health",
     "difficulty": "Recognition",
     "learningObjective": "Learn to translate framed information into neutral terms before deciding."
@@ -820,7 +820,7 @@
     "challengeId": "C044",
     "biasId": "B015",
     "biasName": "Framing Effect",
-    "statement": "A product labeled '90% fat free' sells better than the identical product labeled '10% fat,' even though the nutritional content is exactly the same.",
+    "statement": "'90% fat free' sells better than '10% fat' — same product on the label.",
     "options": {
       "A": "Confirmation Bias",
       "B": "Framing Effect",
@@ -828,9 +828,9 @@
       "D": "Loss Aversion"
     },
     "correctAnswer": "B",
-    "explanation": "The positive frame ('fat free') is more appealing than the equivalent negative frame ('fat'), despite describing the same product.",
-    "reflectionQuestion": "Have you ever chosen a product because of how it was labeled, rather than its actual content?",
-    "whyHumansDoThis": "Positive-sounding wording triggers a more favorable gut reaction, independent of the actual facts.",
+    "explanation": "Positive wording beat equivalent negative wording.",
+    "reflectionQuestion": "Chosen a product because of the label, not the content?",
+    "whyHumansDoThis": "Positive-sounding words trigger a warmer gut reaction — facts aside.",
     "realWorldContext": "Marketing",
     "difficulty": "Application",
     "learningObjective": "Learn to check the actual numbers behind marketing language, not just the wording used."
@@ -839,7 +839,7 @@
     "challengeId": "C045",
     "biasId": "B015",
     "biasName": "Framing Effect",
-    "statement": "A policy is described as saving '200 lives' by one side and 'failing to save 100 lives' by the other, based on the exact same statistical outcome.",
+    "statement": "One side says a policy saves 200 lives. The other says it fails to save 100 — same outcome, different frame.",
     "options": {
       "A": "Anchoring Bias",
       "B": "Loss Aversion",
@@ -847,9 +847,9 @@
       "D": "Framing Effect"
     },
     "correctAnswer": "D",
-    "explanation": "Both descriptions can be mathematically consistent with the same data, but each frame triggers a different emotional reaction.",
-    "reflectionQuestion": "When you read policy statistics, do you check whether a gain-frame and loss-frame would describe the exact same numbers?",
-    "whyHumansDoThis": "Political communicators intentionally choose the frame most likely to trigger a favorable emotional response.",
+    "explanation": "Same numbers, opposite emotional pull.",
+    "reflectionQuestion": "Do you flip the frame to see if the numbers still hold?",
+    "whyHumansDoThis": "Communicators pick the frame that triggers the feeling they want.",
     "realWorldContext": "Politics",
     "difficulty": "Ambiguous",
     "learningObjective": "Learn to reframe a statistic in the opposite direction before forming an opinion about it."
@@ -858,7 +858,7 @@
     "challengeId": "C046",
     "biasId": "B016",
     "biasName": "Loss Aversion",
-    "statement": "An investor feels far more upset about losing $1,000 than they feel happy about gaining $1,000, even though the amounts are identical.",
+    "statement": "Losing $1,000 hurts more than gaining $1,000 feels good — same amount.",
     "options": {
       "A": "Status Quo Bias",
       "B": "Framing Effect",
@@ -866,9 +866,9 @@
       "D": "Sunk Cost Fallacy"
     },
     "correctAnswer": "C",
-    "explanation": "The emotional weight of a loss is felt more intensely than an equivalent gain, a hallmark of loss aversion.",
-    "reflectionQuestion": "Would you take a coin-flip bet to win $100 or lose $100? Why or why not?",
-    "whyHumansDoThis": "Our brains evolved to prioritize avoiding threats (like losses) over seeking equivalent rewards.",
+    "explanation": "Losses weigh heavier than equal gains.",
+    "reflectionQuestion": "Would you take a 50/50 bet to win or lose $100?",
+    "whyHumansDoThis": "Avoiding loss mattered more for survival than chasing equal rewards.",
     "realWorldContext": "Finance",
     "difficulty": "Recognition",
     "learningObjective": "Learn to notice when the fear of losing is outweighing a rational evaluation of the actual stakes."
@@ -877,7 +877,7 @@
     "challengeId": "C047",
     "biasId": "B016",
     "biasName": "Loss Aversion",
-    "statement": "In a negotiation, a person fights harder to avoid giving up a benefit they already have than they would to gain a new benefit of the same value.",
+    "statement": "In a negotiation, I'll fight harder to keep what I have than to gain something new of equal value.",
     "options": {
       "A": "Loss Aversion",
       "B": "Sunk Cost Fallacy",
@@ -885,9 +885,9 @@
       "D": "Framing Effect"
     },
     "correctAnswer": "A",
-    "explanation": "The prospect of losing an existing benefit feels worse than the prospect of gaining an equivalent new one.",
-    "reflectionQuestion": "In your last negotiation, were you fighting harder to keep something or to gain something new?",
-    "whyHumansDoThis": "Losses are felt roughly twice as intensely as equivalent gains, so we work harder to avoid them.",
+    "explanation": "Losing what we have feels worse than gaining the same amount.",
+    "reflectionQuestion": "Last negotiation — fighting harder to keep or to gain?",
+    "whyHumansDoThis": "Losses are felt more intensely than equivalent gains — often about twice as much.",
     "realWorldContext": "Negotiation",
     "difficulty": "Application",
     "learningObjective": "Learn to evaluate gains and losses of equal size with the same level of effort."
@@ -896,7 +896,7 @@
     "challengeId": "C048",
     "biasId": "B016",
     "biasName": "Loss Aversion",
-    "statement": "Someone keeps an unused gym membership because canceling it feels like 'losing' something, even though they never use it.",
+    "statement": "I keep a gym membership I never use — canceling feels like losing something.",
     "options": {
       "A": "Status Quo Bias",
       "B": "Framing Effect",
@@ -904,9 +904,9 @@
       "D": "Sunk Cost Fallacy"
     },
     "correctAnswer": "C",
-    "explanation": "The decision is driven by an aversion to the feeling of loss (canceling) rather than an objective evaluation of ongoing costs and benefits.",
-    "reflectionQuestion": "Is keeping this thing actually giving you value, or does canceling it just feel like a loss?",
-    "whyHumansDoThis": "The emotional discomfort of 'losing' something, even something unused, outweighs the logical case for letting it go.",
+    "explanation": "Avoiding the feeling of loss beats the logic of stopping payment.",
+    "reflectionQuestion": "Keeping something unused — value, or just fear of losing it?",
+    "whyHumansDoThis": "'Losing' something — even unused — can outweigh the clear case for letting go.",
     "realWorldContext": "Everyday life",
     "difficulty": "Ambiguous",
     "learningObjective": "Learn to separate the feeling of loss from the actual future costs and benefits of a decision."
@@ -915,7 +915,7 @@
     "challengeId": "C049",
     "biasId": "B017",
     "biasName": "Optimism Bias",
-    "statement": "A smoker believes they're less likely than other smokers to develop health problems, without any specific reason to think they're different.",
+    "statement": "I smoke but tell myself I'm less likely to get sick than other smokers — no real reason why.",
     "options": {
       "A": "Dunning-Kruger Effect",
       "B": "Optimism Bias",
@@ -923,9 +923,9 @@
       "D": "Status Quo Bias"
     },
     "correctAnswer": "B",
-    "explanation": "The belief that 'it won't happen to me' isn't based on evidence, just a general tendency to underestimate personal risk.",
-    "reflectionQuestion": "Can you think of a risk you've downplayed for yourself compared to how you'd judge it for someone else?",
-    "whyHumansDoThis": "Believing bad things are less likely to happen to us personally helps maintain motivation and reduce anxiety.",
+    "explanation": "'It won't happen to me' without evidence.",
+    "reflectionQuestion": "A risk you've downplayed for yourself but not for others?",
+    "whyHumansDoThis": "Believing we're the exception reduces anxiety and keeps us moving.",
     "realWorldContext": "Health",
     "difficulty": "Recognition",
     "learningObjective": "Learn to apply the same risk assessment to yourself that you would to someone else in your situation."
@@ -934,7 +934,7 @@
     "challengeId": "C050",
     "biasId": "B017",
     "biasName": "Optimism Bias",
-    "statement": "A team consistently estimates that projects will take less time than they actually do, despite a long history of projects running late.",
+    "statement": "We always estimate projects will finish early — despite a long history of running late.",
     "options": {
       "A": "Self-serving Bias",
       "B": "Status Quo Bias",
@@ -942,9 +942,9 @@
       "D": "Optimism Bias"
     },
     "correctAnswer": "D",
-    "explanation": "Repeated past evidence of delays is ignored in favor of an overly hopeful estimate for the current project.",
-    "reflectionQuestion": "Does your team's planning account for the actual historical track record, or just this project's best-case scenario?",
-    "whyHumansDoThis": "We tend to imagine the best-case scenario for our own plans, discounting evidence of past setbacks.",
+    "explanation": "Past delays get ignored for a hopeful new estimate.",
+    "reflectionQuestion": "Does planning use real history — or just this project's best case?",
+    "whyHumansDoThis": "We picture the best outcome for our own plans and discount past slip-ups.",
     "realWorldContext": "Work",
     "difficulty": "Application",
     "learningObjective": "Learn to use historical data, not just hopeful intuition, when estimating future outcomes."
@@ -953,7 +953,7 @@
     "challengeId": "C051",
     "biasId": "B017",
     "biasName": "Optimism Bias",
-    "statement": "Someone doesn't save for retirement because they assume they'll 'figure it out later,' expecting their future income to be higher than statistics suggest is likely.",
+    "statement": "I'm not saving for retirement — I'll 'figure it out later' and assume I'll earn more than stats suggest.",
     "options": {
       "A": "Dunning-Kruger Effect",
       "B": "Optimism Bias",
@@ -961,9 +961,9 @@
       "D": "Status Quo Bias"
     },
     "correctAnswer": "B",
-    "explanation": "The assumption of a better-than-average future outcome, without specific evidence, reflects a general tendency to expect personal good fortune.",
-    "reflectionQuestion": "Is your financial plan based on an average, realistic scenario, or a best-case one?",
-    "whyHumansDoThis": "An optimistic view of the future feels more comfortable than confronting uncertain or difficult odds.",
+    "explanation": "A rosier-than-average future assumed without proof.",
+    "reflectionQuestion": "Is your plan based on realistic odds — or a hoped-for best case?",
+    "whyHumansDoThis": "An optimistic future feels easier than facing uncertain odds.",
     "realWorldContext": "Finance",
     "difficulty": "Ambiguous",
     "learningObjective": "Learn to plan around realistic, evidence-based expectations rather than a hoped-for best case."
@@ -972,7 +972,7 @@
     "challengeId": "C052",
     "biasId": "B018",
     "biasName": "Status Quo Bias",
-    "statement": "An employee stays in the default retirement plan their company assigned, even though a slightly better plan is available with just one form to switch.",
+    "statement": "I stayed in my company's default retirement plan — even though a better one needed just one form.",
     "options": {
       "A": "Status Quo Bias",
       "B": "Loss Aversion",
@@ -980,9 +980,9 @@
       "D": "Optimism Bias"
     },
     "correctAnswer": "A",
-    "explanation": "The default option is chosen simply because it requires no action, not because it's actually the best choice.",
-    "reflectionQuestion": "Is there a 'default' choice in your life you've never actually reconsidered?",
-    "whyHumansDoThis": "Sticking with the current option requires no effort or decision, so it becomes the path of least resistance.",
+    "explanation": "No action beat a slightly better option.",
+    "reflectionQuestion": "A default choice you've never actually reconsidered?",
+    "whyHumansDoThis": "Sticking with now takes no effort. Change takes a decision.",
     "realWorldContext": "Finance",
     "difficulty": "Recognition",
     "learningObjective": "Learn to periodically re-evaluate default choices instead of assuming they're still the best option."
@@ -991,7 +991,7 @@
     "challengeId": "C053",
     "biasId": "B018",
     "biasName": "Status Quo Bias",
-    "statement": "A company keeps using an outdated software system because switching feels risky, even though the new system would clearly save time and money.",
+    "statement": "We keep outdated software because switching feels risky — though the new system would clearly save time and money.",
     "options": {
       "A": "Sunk Cost Fallacy",
       "B": "Optimism Bias",
@@ -999,9 +999,9 @@
       "D": "Loss Aversion"
     },
     "correctAnswer": "C",
-    "explanation": "The comfort of the familiar system outweighs a rational cost-benefit analysis of switching.",
-    "reflectionQuestion": "What's something at work you keep doing 'because that's how it's always been done'?",
-    "whyHumansDoThis": "Change involves uncertainty and effort, while staying the same feels safe and predictable.",
+    "explanation": "Familiar beat a rational case for change.",
+    "reflectionQuestion": "Something at work you keep because 'that's how it's always been'?",
+    "whyHumansDoThis": "Change means uncertainty. Staying put feels safe and predictable.",
     "realWorldContext": "Work",
     "difficulty": "Application",
     "learningObjective": "Learn to evaluate the current approach against alternatives on their actual merits, not just familiarity."
@@ -1010,7 +1010,7 @@
     "challengeId": "C054",
     "biasId": "B018",
     "biasName": "Status Quo Bias",
-    "statement": "Someone keeps their phone's default settings for years, assuming the manufacturer must have picked the best options, without ever exploring alternatives.",
+    "statement": "I've kept my phone's default settings for years — assuming the manufacturer picked the best ones.",
     "options": {
       "A": "Status Quo Bias",
       "B": "Loss Aversion",
@@ -1018,9 +1018,9 @@
       "D": "Optimism Bias"
     },
     "correctAnswer": "A",
-    "explanation": "The default is treated as inherently correct, simply because changing it requires deliberate action.",
-    "reflectionQuestion": "What default settings have you never questioned, in any part of your life?",
-    "whyHumansDoThis": "Defaults feel like an implicit recommendation, and changing them requires extra mental effort.",
+    "explanation": "Default was treated as best without checking.",
+    "reflectionQuestion": "Default settings you've never questioned — phone, habits, anything?",
+    "whyHumansDoThis": "Defaults feel like a recommendation. Changing them takes mental effort.",
     "realWorldContext": "Everyday life",
     "difficulty": "Ambiguous",
     "learningObjective": "Learn to distinguish between 'default' and 'best,' since they aren't always the same thing."
@@ -1029,7 +1029,7 @@
     "challengeId": "C055",
     "biasId": "B019",
     "biasName": "Dunning-Kruger Effect",
-    "statement": "After a single online course, someone feels confident enough to call themselves an expert in a field that professionals spend years mastering.",
+    "statement": "After one online course, I felt like an expert in a field professionals study for years.",
     "options": {
       "A": "Optimism Bias",
       "B": "Self-serving Bias",
@@ -1037,9 +1037,9 @@
       "D": "Dunning-Kruger Effect"
     },
     "correctAnswer": "D",
-    "explanation": "A small amount of knowledge creates a disproportionate sense of confidence, without the deeper understanding of what's still unknown.",
-    "reflectionQuestion": "Can you think of a skill where you felt confident early on, only to realize later how much you didn't know?",
-    "whyHumansDoThis": "Early learning often skips the part where you discover how much complexity still lies ahead.",
+    "explanation": "A little learning created a lot of confidence.",
+    "reflectionQuestion": "A skill where early confidence later met how much you didn't know?",
+    "whyHumansDoThis": "Early learning skips the part where you discover how much is still ahead.",
     "realWorldContext": "Work",
     "difficulty": "Recognition",
     "learningObjective": "Learn that early confidence in a new skill often reflects unawareness of its full complexity, not real mastery."
@@ -1048,7 +1048,7 @@
     "challengeId": "C056",
     "biasId": "B019",
     "biasName": "Dunning-Kruger Effect",
-    "statement": "A beginner chess player is convinced they could beat a grandmaster with 'the right strategy,' underestimating just how much skill separates the two.",
+    "statement": "As a beginner, I'm sure I could beat a chess grandmaster with the right strategy.",
     "options": {
       "A": "Authority Bias",
       "B": "Dunning-Kruger Effect",
@@ -1056,9 +1056,9 @@
       "D": "Self-serving Bias"
     },
     "correctAnswer": "B",
-    "explanation": "Limited experience makes it hard to accurately judge the gap between beginner and expert skill levels.",
-    "reflectionQuestion": "How do you usually find out how good you really are at something new?",
-    "whyHumansDoThis": "Without expert-level knowledge, it's hard to even recognize what expert-level skill looks like.",
+    "explanation": "Limited experience hid how wide the skill gap really is.",
+    "reflectionQuestion": "How do you find out how good you really are at something new?",
+    "whyHumansDoThis": "Without expert knowledge, it's hard to see what expert skill actually looks like.",
     "realWorldContext": "Learning",
     "difficulty": "Application",
     "learningObjective": "Learn to seek outside, expert feedback to calibrate your own skill level accurately."
@@ -1067,7 +1067,7 @@
     "challengeId": "C057",
     "biasId": "B019",
     "biasName": "Dunning-Kruger Effect",
-    "statement": "Someone reads a few articles online and feels more confident diagnosing their symptoms than the doctor who has treated thousands of similar cases.",
+    "statement": "A few articles online — and I felt more sure about my symptoms than the doctor with thousands of cases.",
     "options": {
       "A": "Optimism Bias",
       "B": "Self-serving Bias",
@@ -1075,9 +1075,9 @@
       "D": "Dunning-Kruger Effect"
     },
     "correctAnswer": "D",
-    "explanation": "A small amount of self-directed research can create a false sense of expertise compared to years of professional training.",
-    "reflectionQuestion": "How do you decide when your own research is enough, versus when you need expert input?",
-    "whyHumansDoThis": "Surface-level information can feel complete, even when it's missing the depth that real expertise provides.",
+    "explanation": "Surface reading felt like real expertise.",
+    "reflectionQuestion": "When is your own research enough — and when do you need a pro?",
+    "whyHumansDoThis": "A little information can feel complete when depth is still missing.",
     "realWorldContext": "Health",
     "difficulty": "Ambiguous",
     "learningObjective": "Learn to recognize the difference between surface-level familiarity and deep expertise."
@@ -1086,7 +1086,7 @@
     "challengeId": "C058",
     "biasId": "B020",
     "biasName": "Authority Bias",
-    "statement": "A patient trusts a diet recommendation from a doctor, even when the doctor is recommending something outside their actual area of expertise.",
+    "statement": "I trusted a diet tip from my doctor — even though it wasn't their area of expertise.",
     "options": {
       "A": "Framing Effect",
       "B": "Confirmation Bias",
@@ -1094,9 +1094,9 @@
       "D": "Halo Effect"
     },
     "correctAnswer": "C",
-    "explanation": "The doctor's general authority is extended to a specific claim, even where their expertise may not directly apply.",
-    "reflectionQuestion": "Does the person's authority actually relate to the specific claim they're making?",
-    "whyHumansDoThis": "We use titles and status as mental shortcuts for trustworthiness, rather than evaluating each specific claim.",
+    "explanation": "General authority stretched to a specific claim.",
+    "reflectionQuestion": "Does their authority actually match this specific advice?",
+    "whyHumansDoThis": "Titles and status become shortcuts for trust — instead of checking each claim.",
     "realWorldContext": "Health",
     "difficulty": "Recognition",
     "learningObjective": "Learn to check whether someone's authority is actually relevant to the specific claim they're making."
@@ -1105,7 +1105,7 @@
     "challengeId": "C059",
     "biasId": "B020",
     "biasName": "Authority Bias",
-    "statement": "A junior employee doesn't question a flawed plan because it came from a senior executive, assuming their seniority means the plan must be sound.",
+    "statement": "I didn't question a flawed plan because a senior executive proposed it.",
     "options": {
       "A": "Authority Bias",
       "B": "Halo Effect",
@@ -1113,9 +1113,9 @@
       "D": "Confirmation Bias"
     },
     "correctAnswer": "A",
-    "explanation": "The plan's merit is assumed based on the source's rank, rather than being evaluated on its own logic.",
-    "reflectionQuestion": "Have you ever gone along with an idea mainly because of who suggested it?",
-    "whyHumansDoThis": "Deferring to authority feels safer and requires less individual scrutiny of the actual argument.",
+    "explanation": "Rank stood in for a sound argument.",
+    "reflectionQuestion": "Gone along with an idea mainly because of who suggested it?",
+    "whyHumansDoThis": "Deferring to authority feels safer than scrutinizing the idea itself.",
     "realWorldContext": "Work",
     "difficulty": "Application",
     "learningObjective": "Learn to evaluate ideas on their own merits, separate from the status of the person proposing them."
@@ -1124,7 +1124,7 @@
     "challengeId": "C060",
     "biasId": "B020",
     "biasName": "Authority Bias",
-    "statement": "An actor who played a doctor on television is invited to comment on a real medical topic, and viewers trust the opinion partly because of the actor's on-screen role.",
+    "statement": "An actor who played a doctor on TV comments on real medicine — and viewers partly trust them because of the role.",
     "options": {
       "A": "Framing Effect",
       "B": "Confirmation Bias",
@@ -1132,9 +1132,9 @@
       "D": "Halo Effect"
     },
     "correctAnswer": "C",
-    "explanation": "A perceived (fictional) authority transfers unearned credibility to a claim on a real, unrelated topic.",
-    "reflectionQuestion": "Would you trust this opinion as much if you didn't know who was saying it?",
-    "whyHumansDoThis": "Familiarity with someone in an authority-associated role can create a felt sense of expertise, even when it isn't real.",
+    "explanation": "A fictional role lent unearned credibility.",
+    "reflectionQuestion": "Would you trust this take as much if you didn't know who was speaking?",
+    "whyHumansDoThis": "Familiarity with an authority-like role can feel like real expertise.",
     "realWorldContext": "Media",
     "difficulty": "Ambiguous",
     "learningObjective": "Learn to check whether a person's actual expertise, not their perceived role, supports their claim."
