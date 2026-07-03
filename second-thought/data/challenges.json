@@ -3,7 +3,7 @@
     "challengeId": "C001",
     "biasId": "B001",
     "biasName": "Confirmation Bias",
-    "statement": "I only read newspapers that agree with my political views, because they're the only trustworthy ones.",
+    "statement": "I only read news that agrees with what I already believe — the rest feels untrustworthy.",
     "options": {
       "A": "Halo Effect",
       "B": "Confirmation Bias",
@@ -11,9 +11,9 @@
       "D": "Availability Heuristic"
     },
     "correctAnswer": "B",
-    "explanation": "Other sources are dismissed for disagreeing, not for being inaccurate.",
-    "reflectionQuestion": "When was the last time you deliberately sought out information that challenged one of your beliefs?",
-    "whyHumansDoThis": "Agreeing information feels comfortable and requires less mental effort to process.",
+    "explanation": "Sources get dismissed for disagreeing, not because they're wrong.",
+    "reflectionQuestion": "When did you last listen to a view you disagreed with — on purpose?",
+    "whyHumansDoThis": "We lean toward what fits what we already think. It feels safer and easier — but it can narrow what we're willing to hear.",
     "realWorldContext": "Politics",
     "difficulty": "Recognition",
     "learningObjective": "Learn that seeking confirming evidence feels natural but can limit better decisions."
@@ -22,7 +22,7 @@
     "challengeId": "C002",
     "biasId": "B001",
     "biasName": "Confirmation Bias",
-    "statement": "After buying a stock, an investor only follows analysts who predict it will rise, and ignores warnings about the company's debt.",
+    "statement": "After I bought a stock, I only followed analysts who said it would rise — and ignored warnings about debt.",
     "options": {
       "A": "Anchoring Bias",
       "B": "Availability Heuristic",
@@ -30,9 +30,9 @@
       "D": "Confirmation Bias"
     },
     "correctAnswer": "D",
-    "explanation": "The investor searches selectively for evidence that supports a decision already made, instead of weighing balanced information.",
-    "reflectionQuestion": "Do you check for warning signs after making a decision, or just look for reasons you were right?",
-    "whyHumansDoThis": "Once we commit to a choice, we want evidence that we made the right one.",
+    "explanation": "After deciding, only the good news gets noticed.",
+    "reflectionQuestion": "After you decide something, do you look for doubts — or proof you were right?",
+    "whyHumansDoThis": "Once we've committed, we want to feel we made the right call. Doubt is uncomfortable — so we often skip it.",
     "realWorldContext": "Investing",
     "difficulty": "Application",
     "learningObjective": "Learn to actively look for disconfirming evidence after making decisions, not just before."
@@ -41,7 +41,7 @@
     "challengeId": "C003",
     "biasId": "B001",
     "biasName": "Confirmation Bias",
-    "statement": "A user's feed shows mostly posts that agree with their views, and they conclude that 'everyone thinks this way.'",
+    "statement": "My feed is full of posts I agree with — so it feels like everyone thinks the same way.",
     "options": {
       "A": "Halo Effect",
       "B": "Confirmation Bias",
@@ -49,9 +49,9 @@
       "D": "Availability Heuristic"
     },
     "correctAnswer": "B",
-    "explanation": "The algorithm feeds confirming content, and the user reads that curated feed as evidence for their views - a digital version of confirmation bias.",
-    "reflectionQuestion": "Does your social feed challenge your views, or mostly agree with them?",
-    "whyHumansDoThis": "We engage more with content we agree with, so platforms show us more of it, creating a feedback loop.",
+    "explanation": "A curated feed gets mistaken for how most people think.",
+    "reflectionQuestion": "Does your feed challenge you, or mostly agree with you?",
+    "whyHumansDoThis": "We engage more with what we agree with. Platforms show us more of it — and the loop can feel like reality.",
     "realWorldContext": "Social Media",
     "difficulty": "Ambiguous",
     "learningObjective": "Learn how confirmation bias interacts with algorithms to create feedback loops that feel like reality."
@@ -60,7 +60,7 @@
     "challengeId": "C004",
     "biasId": "B002",
     "biasName": "Anchoring Bias",
-    "statement": "A house is listed at $500,000, and even though it's overpriced, buyers end up negotiating around that number.",
+    "statement": "A house is listed at $500k. Even if that's high, buyers still haggle around that number.",
     "options": {
       "A": "Anchoring Bias",
       "B": "Framing Effect",
@@ -68,9 +68,9 @@
       "D": "Confirmation Bias"
     },
     "correctAnswer": "A",
-    "explanation": "The initial listing price becomes the reference point that shapes how buyers judge a fair price.",
-    "reflectionQuestion": "Has a first number you heard ever shaped how you judged everything that followed?",
-    "whyHumansDoThis": "We use the first available number as a mental starting point and adjust from there, rather than starting from scratch.",
+    "explanation": "The listing price becomes the anchor for every offer.",
+    "reflectionQuestion": "Has a first price ever shaped what felt 'fair' to you?",
+    "whyHumansDoThis": "The first number we see sticks. We adjust from there — but rarely far enough.",
     "realWorldContext": "Real Estate",
     "difficulty": "Recognition",
     "learningObjective": "Learn to recognize when a starting number is shaping your judgment instead of the actual value."
@@ -79,7 +79,7 @@
     "challengeId": "C005",
     "biasId": "B002",
     "biasName": "Anchoring Bias",
-    "statement": "A $300 jacket marked down to $150 feels like a steal, even though $150 might still be more than the jacket is worth.",
+    "statement": "A jacket was $300, now $150 — feels like a steal, even if $150 is still a lot.",
     "options": {
       "A": "Status Quo Bias",
       "B": "Confirmation Bias",
@@ -87,9 +87,9 @@
       "D": "Framing Effect"
     },
     "correctAnswer": "C",
-    "explanation": "The original price sets an anchor that makes the discounted price seem like a bargain, regardless of the jacket's real value.",
-    "reflectionQuestion": "Next time you see a 'was/now' price tag, can you judge the item on its own value?",
-    "whyHumansDoThis": "Discounts frame a lower number against a higher one, and our brain focuses on the gap rather than the actual price.",
+    "explanation": "The old price makes the discount feel bigger than it is.",
+    "reflectionQuestion": "Next 'sale' tag you see — what's the item actually worth?",
+    "whyHumansDoThis": "We focus on the drop, not the real value. The starting price quietly pulls our judgment.",
     "realWorldContext": "Shopping",
     "difficulty": "Application",
     "learningObjective": "Learn to evaluate the actual value of something rather than the discount from an arbitrary starting price."

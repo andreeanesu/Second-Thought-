@@ -15,7 +15,6 @@ const elements = {
   answers: document.getElementById("answers"),
   feedback: document.getElementById("feedback"),
   feedbackVerdict: document.getElementById("feedback-verdict"),
-  feedbackExplanation: document.getElementById("feedback-explanation"),
   feedbackWhyHumans: document.getElementById("feedback-why-humans"),
   feedbackReflection: document.getElementById("feedback-reflection"),
   questionProgress: document.getElementById("question-progress"),

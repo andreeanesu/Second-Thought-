@@ -26,7 +26,6 @@ export class QuizUI {
 
     this.el.feedback.classList.add("hidden");
     this.el.feedbackVerdict.textContent = "";
-    this.el.feedbackExplanation.textContent = "";
     this.el.feedbackWhyHumans.textContent = "";
     this.el.feedbackReflection.textContent = "";
 
@@ -88,7 +87,6 @@ export class QuizUI {
     this.el.feedbackVerdict.className = `feedback-verdict ${
       isCorrect ? "is-correct" : "is-incorrect"
     }`;
-    this.el.feedbackExplanation.textContent = challenge.explanation;
     this.el.feedbackWhyHumans.textContent = challenge.whyHumansDoThis;
     this.el.feedbackReflection.textContent = challenge.reflectionQuestion;
     this.el.feedback.classList.remove("hidden");
