@@ -46,26 +46,21 @@ body {
   text-align: center;
 }
 
-.header-logo {
-  display: block;
-  margin: 0 auto 0.85rem;
+.header-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
 }
 
 .header-series {
-  margin: 0 0 0.35rem;
+  margin: 0 0 0.65rem;
   font-size: 0.7rem;
   font-weight: 500;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--text-muted);
-}
-
-.header-title {
-  margin: 0 0 0.65rem;
-  font-size: 1.35rem;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
 }
 
 .header-tagline {
