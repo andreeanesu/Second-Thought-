@@ -3,7 +3,7 @@
  * Renders the quiz screen and handles scroll + button states.
  */
 
-import { getCorrectFeedback, getIncorrectFeedback } from "./data-loader.js";
+import { getCorrectFeedbackHtml, getIncorrectFeedbackHtml } from "./data-loader.js";
 
 function getRoundEncouragement(correct, total) {
   if (total === 0) return "";
@@ -73,6 +73,7 @@ export class QuizUI {
 
   showFeedback(result) {
     const { isCorrect, selectedLetter, challenge } = result;
+    const biasName = challenge.biasName;
 
     this.el.answers.querySelectorAll(".answer").forEach((button) => {
       button.disabled = true;
@@ -91,9 +92,9 @@ export class QuizUI {
       }
     });
 
-    this.el.feedbackVerdict.textContent = isCorrect
-      ? getCorrectFeedback(biasName)
-      : getIncorrectFeedback(biasName);
+    this.el.feedbackVerdict.innerHTML = isCorrect
+      ? getCorrectFeedbackHtml(biasName)
+      : getIncorrectFeedbackHtml(biasName);
     this.el.feedbackVerdict.className = `feedback-verdict ${
       isCorrect ? "is-correct" : "is-incorrect"
     }`;

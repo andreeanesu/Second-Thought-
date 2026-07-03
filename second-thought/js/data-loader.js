@@ -53,10 +53,17 @@ export async function loadQuizData() {
   };
 }
 
-export function getCorrectFeedback() {
-  return "Correct.";
+function escapeHtml(text) {
+  return text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
 }
 
-export function getIncorrectFeedback() {
-  return "Not quite.";
+export function getCorrectFeedbackHtml(biasName) {
+  return `Nice spot — this is <strong>${escapeHtml(biasName)}</strong>.`;
+}
+
+export function getIncorrectFeedbackHtml(biasName) {
+  return `Not quite — the pattern here is <strong>${escapeHtml(biasName)}</strong>.`;
 }
