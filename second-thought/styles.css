@@ -89,6 +89,109 @@ body {
   align-items: stretch;
 }
 
+.start-screen {
+  width: 100%;
+  padding: 0.5rem 0 2rem;
+}
+
+.start-heading {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.start-intro {
+  margin: 0 auto 1.5rem;
+  max-width: 38ch;
+  text-align: center;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--text-muted);
+}
+
+.tier-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.tier-option {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.35rem;
+  width: 100%;
+  padding: 1rem 1.1rem;
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  cursor: pointer;
+  text-align: left;
+  font: inherit;
+  color: inherit;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.tier-option:hover {
+  background: #fff;
+}
+
+.tier-option.is-complete {
+  border-color: var(--accent-correct);
+  background: #f4faf7;
+}
+
+.tier-option-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.tier-option-label {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.tier-option-progress {
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-muted);
+}
+
+.tier-option-subtitle {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.tier-option-meta {
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.btn-change-tier {
+  margin-top: 0.65rem;
+  padding: 0.75rem 1.25rem;
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.btn-change-tier:hover {
+  color: var(--text);
+}
+
 .character {
   display: block;
   margin: 0.5rem auto 1rem;

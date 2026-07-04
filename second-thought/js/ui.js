@@ -15,12 +15,57 @@ function getRoundEncouragement(correct, total) {
   return "Every miss is a chance to learn. No rush.";
 }
 
+function getModeLabel(playModes, mode) {
+  return playModes.find((m) => m.id === mode)?.label ?? "This level";
+}
+
 export class QuizUI {
   constructor(elements) {
     this.el = elements;
   }
 
+  showStartScreen(summaries, playModes, onSelect) {
+    this.el.startScreen?.classList.remove("hidden");
+    this.el.quizScreen?.classList.add("hidden");
+    this.el.finishScreen?.classList.add("hidden");
+    this.el.btnNext.hidden = true;
+    this.el.footerCategory.textContent = "";
+
+    if (!this.el.tierOptions) return;
+
+    this.el.tierOptions.innerHTML = "";
+    summaries.forEach((summary) => {
+      const modeInfo = playModes.find((m) => m.id === summary.mode);
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "tier-option";
+      button.dataset.mode = summary.mode;
+
+      const complete =
+        summary.totalCount > 0 && summary.seenCount >= summary.totalCount;
+
+      button.innerHTML = `
+        <span class="tier-option-top">
+          <span class="tier-option-label">${modeInfo?.label ?? summary.mode}</span>
+          <span class="tier-option-progress">${summary.seenCount} / ${summary.totalCount}</span>
+        </span>
+        <span class="tier-option-subtitle">${modeInfo?.subtitle ?? ""}</span>
+        <span class="tier-option-meta">${summary.biasCount} biases · questions seen in this tier</span>
+      `;
+
+      if (complete) {
+        button.classList.add("is-complete");
+      }
+
+      button.addEventListener("click", () => onSelect(summary.mode));
+      this.el.tierOptions.appendChild(button);
+    });
+
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
   showQuizScreen() {
+    this.el.startScreen?.classList.add("hidden");
     this.el.quizScreen.classList.remove("hidden");
     this.el.finishScreen.classList.add("hidden");
     this.el.btnNext.hidden = false;
@@ -141,11 +186,14 @@ export class QuizUI {
     button.querySelector(".answer-text")?.appendChild(icon);
   }
 
-  showFinishScreen(sessionMeta, roundScore) {
+  showFinishScreen(sessionMeta, roundScore, playModes = []) {
+    this.el.startScreen?.classList.add("hidden");
     this.el.quizScreen.classList.add("hidden");
     this.el.finishScreen.classList.remove("hidden");
     this.el.footerCategory.textContent = "";
     this.el.btnNext.hidden = true;
+
+    const modeLabel = getModeLabel(playModes, sessionMeta?.mode);
 
     if (roundScore && this.el.finishScore) {
       const { correct, total } = roundScore;
@@ -168,13 +216,13 @@ export class QuizUI {
 
       if (remainingInPool === 0) {
         this.el.finishMessage.textContent =
-          `You've now seen all ${totalCount} questions. Next round starts a fresh cycle.`;
+          `${modeLabel}: you've seen all ${totalCount} questions here. Next round in this tier starts fresh.`;
       } else if (remainingInPool < 5) {
         this.el.finishMessage.textContent =
-          `Overall progress: ${seenCount} of ${totalCount} seen. ${remainingInPool} new question${remainingInPool === 1 ? "" : "s"} left in this cycle.`;
+          `${modeLabel} progress: ${seenCount} of ${totalCount} seen. ${remainingInPool} new question${remainingInPool === 1 ? "" : "s"} left in this tier.`;
       } else {
         this.el.finishMessage.textContent =
-          `Overall progress: ${seenCount} of ${totalCount} seen. Keep going when you're ready.`;
+          `${modeLabel} progress: ${seenCount} of ${totalCount} seen in this tier.`;
       }
 
       if (sessionSize < 5) {

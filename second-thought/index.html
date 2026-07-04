@@ -23,7 +23,15 @@
       </header>
 
       <main class="main" id="main">
-        <div id="quiz-screen">
+        <section class="start-screen" id="start-screen">
+          <h2 class="start-heading">Choose your level</h2>
+          <p class="start-intro">
+            Each tier has its own questions. Your progress is saved separately for each one.
+          </p>
+          <div class="tier-options" id="tier-options"></div>
+        </section>
+
+        <div id="quiz-screen" class="hidden">
           <img
             class="character quiz-character"
             id="quiz-character"
@@ -74,6 +82,9 @@
           </p>
           <button type="button" class="btn-restart" id="btn-restart">
             Start another round →
+          </button>
+          <button type="button" class="btn-change-tier" id="btn-change-tier">
+            Choose another level
           </button>
         </section>
       </main>

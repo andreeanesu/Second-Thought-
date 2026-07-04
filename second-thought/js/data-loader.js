@@ -38,6 +38,7 @@ export async function loadQuizData() {
     return {
       ...challenge,
       biasCategory: bias?.category ?? "Uncategorized",
+      tier: bias?.tier ?? 1,
       correctOptionText,
       optionList: LETTERS.map((key) => ({
         letter: key,
@@ -50,6 +51,30 @@ export async function loadQuizData() {
     biases,
     categories,
     challenges: enrichedChallenges,
+  };
+}
+
+export function getPlayModes() {
+  return [
+    { id: "1", label: "Tier 1", subtitle: "Familiar patterns" },
+    { id: "2", label: "Tier 2", subtitle: "A little trickier" },
+    { id: "3", label: "Tier 3", subtitle: "Subtle & nuanced" },
+    { id: "mix", label: "Mix", subtitle: "All tiers together" },
+  ];
+}
+
+export function getTierStats(challenges, mode) {
+  const pool =
+    mode === "mix"
+      ? challenges
+      : challenges.filter((c) => String(c.tier) === String(mode));
+
+  const biasCount = new Set(pool.map((c) => c.biasId)).size;
+
+  return {
+    mode,
+    questionCount: pool.length,
+    biasCount,
   };
 }
 

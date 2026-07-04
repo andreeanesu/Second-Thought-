@@ -1,14 +1,16 @@
 /**
  * app.js
- * Boots the app: load data → start session → wire UI events.
+ * Boots the app: load data → start screen → quiz → finish.
  */
 
-import { loadQuizData } from "./data-loader.js";
+import { loadQuizData, getPlayModes } from "./data-loader.js";
 import { QuizEngine } from "./quiz-engine.js";
 import { QuizUI } from "./ui.js";
 
 const elements = {
   main: document.getElementById("main"),
+  startScreen: document.getElementById("start-screen"),
+  tierOptions: document.getElementById("tier-options"),
   quizScreen: document.getElementById("quiz-screen"),
   finishScreen: document.getElementById("finish-screen"),
   scenario: document.getElementById("scenario"),
@@ -21,6 +23,7 @@ const elements = {
   footerCategory: document.getElementById("footer-category"),
   btnNext: document.getElementById("btn-next"),
   btnRestart: document.getElementById("btn-restart"),
+  btnChangeTier: document.getElementById("btn-change-tier"),
   finishTitle: document.getElementById("finish-title"),
   finishMessage: document.getElementById("finish-message"),
   finishScore: document.getElementById("finish-score"),
@@ -29,6 +32,7 @@ const elements = {
 };
 
 const ui = new QuizUI(elements);
+const playModes = getPlayModes();
 let engine;
 
 function renderCurrentQuestion() {
@@ -49,33 +53,43 @@ function handleNext() {
   engine.goNext();
 
   if (engine.isFinished()) {
-    ui.showFinishScreen(engine.getSessionMeta(), engine.getRoundScore());
+    ui.showFinishScreen(engine.getSessionMeta(), engine.getRoundScore(), playModes);
     return;
   }
 
   renderCurrentQuestion();
 }
 
-function startNewRound() {
+function startRound(mode) {
+  engine.setMode(mode);
   engine.startSession();
   renderCurrentQuestion();
+}
+
+function startNewRound() {
+  startRound(engine.mode);
+}
+
+function showLevelPicker() {
+  ui.showStartScreen(engine.getAllProgressSummaries(), playModes, startRound);
 }
 
 async function init() {
   try {
     const data = await loadQuizData();
     engine = new QuizEngine(data.challenges);
-    engine.startSession();
 
     ui.bindAnswerHandler(handleAnswer);
     elements.btnNext.addEventListener("click", handleNext);
     elements.btnRestart.addEventListener("click", startNewRound);
+    elements.btnChangeTier.addEventListener("click", showLevelPicker);
 
-    renderCurrentQuestion();
+    showLevelPicker();
   } catch (error) {
     console.error(error);
-    elements.quizScreen.classList.add("hidden");
-    elements.finishScreen.classList.remove("hidden");
+    elements.startScreen?.classList.add("hidden");
+    elements.quizScreen?.classList.add("hidden");
+    elements.finishScreen?.classList.remove("hidden");
     elements.finishScreen.innerHTML = `
       <h2>Could not load quiz content</h2>
       <p class="error-message">

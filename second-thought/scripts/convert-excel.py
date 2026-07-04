@@ -43,6 +43,7 @@ def main() -> None:
                 "name": src["Bias"],
                 "definition": src["Definition"],
                 "category": src["Category"],
+                "tier": int(src.get("Tier") or 1),
                 "description": src["Description"],
                 "everydayTip": src["Everyday Tip"],
                 "commonContexts": [
