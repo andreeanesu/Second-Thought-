@@ -53,7 +53,7 @@
     "name": "Fundamental Attribution Error",
     "definition": "We judge others' behavior as caused by their character, while excusing our own behavior as caused by circumstances.",
     "category": "Social Judgement",
-    "tier": 3,
+    "tier": 1,
     "description": "When explaining someone else's actions we overweight personality traits and underweight situational factors, but we do the opposite for ourselves.",
     "everydayTip": "Before judging someone's behavior, ask what situational pressures might explain it.",
     "commonContexts": [
@@ -68,7 +68,7 @@
     "name": "Self-serving Bias",
     "definition": "We attribute our successes to our own abilities and our failures to external circumstances.",
     "category": "Social Judgement",
-    "tier": 3,
+    "tier": 1,
     "description": "This bias protects self-esteem by crediting ourselves for good outcomes while blaming outside factors for bad ones.",
     "everydayTip": "When something goes wrong, ask honestly what part, if any, was within your control.",
     "commonContexts": [
@@ -142,7 +142,7 @@
     "name": "Survivorship Bias",
     "definition": "We focus on the people or things that 'survived' a process, while overlooking those that didn't, skewing our conclusions.",
     "category": "Decision Making",
-    "tier": 2,
+    "tier": 1,
     "description": "Because failures are often invisible or unreported, we draw conclusions from an incomplete, success-only sample.",
     "everydayTip": "When hearing a success story, actively ask how many people tried the same thing and failed.",
     "commonContexts": [
@@ -157,7 +157,7 @@
     "name": "Hindsight Bias",
     "definition": "After an event happens, we tend to believe we 'knew it all along,' even if we couldn't have predicted it beforehand.",
     "category": "Decision Making",
-    "tier": 2,
+    "tier": 1,
     "description": "Once we know the outcome, our memory of our own earlier predictions shifts to seem more accurate than they really were.",
     "everydayTip": "Write predictions down beforehand so you can honestly check them against what you actually said.",
     "commonContexts": [
@@ -172,7 +172,7 @@
     "name": "False Consensus Effect",
     "definition": "We overestimate how much other people share our beliefs, opinions, and behaviors.",
     "category": "Social Judgement",
-    "tier": 2,
+    "tier": 1,
     "description": "This bias makes our own views feel more common or 'normal' than they actually are in the wider population.",
     "everydayTip": "Before assuming your opinion is the majority view, ask how you would actually know that.",
     "commonContexts": [
@@ -187,7 +187,7 @@
     "name": "In-group Bias",
     "definition": "We favor members of our own group over members of other groups, often unconsciously.",
     "category": "Social Judgement",
-    "tier": 3,
+    "tier": 1,
     "description": "This bias leads to more trust, generosity, and positive judgment toward people we see as 'us' compared to 'them.'",
     "everydayTip": "When evaluating people from a different group, ask if you'd judge the same behavior differently coming from your own group.",
     "commonContexts": [
@@ -202,7 +202,7 @@
     "name": "Out-group Homogeneity Bias",
     "definition": "We tend to see members of other groups as more similar to each other than they really are, while seeing our own group as diverse.",
     "category": "Social Judgement",
-    "tier": 3,
+    "tier": 1,
     "description": "This bias leads to stereotyping, since we assume 'they're all the same' about outsiders while recognizing individuality within our own group.",
     "everydayTip": "When you catch yourself thinking 'they're all like that,' pause and ask if you'd say the same about your own group.",
     "commonContexts": [
@@ -217,7 +217,7 @@
     "name": "Framing Effect",
     "definition": "Our decisions are influenced by how information is presented (framed), even when the underlying facts are the same.",
     "category": "Decision Making",
-    "tier": 2,
+    "tier": 1,
     "description": "The same statistic or choice can lead to different decisions depending on whether it's framed in terms of gains or losses.",
     "everydayTip": "Try restating a choice in the opposite frame (gain vs. loss) before deciding.",
     "commonContexts": [
@@ -232,7 +232,7 @@
     "name": "Loss Aversion",
     "definition": "The pain of losing something feels psychologically stronger than the pleasure of gaining something of equal value.",
     "category": "Finance",
-    "tier": 2,
+    "tier": 1,
     "description": "This asymmetry means people often make decisions to avoid losses rather than to pursue equivalent gains.",
     "everydayTip": "When facing a risky decision, ask whether you're avoiding a loss out of proportion to what you'd actually miss.",
     "commonContexts": [
@@ -247,7 +247,7 @@
     "name": "Optimism Bias",
     "definition": "We tend to overestimate the likelihood of positive events happening to us and underestimate the likelihood of negative ones.",
     "category": "Self-awareness",
-    "tier": 2,
+    "tier": 1,
     "description": "This bias makes people believe they are less likely than others to experience negative outcomes like illness, accidents, or failure.",
     "everydayTip": "When planning, ask what would happen if things went worse than expected, not just as planned.",
     "commonContexts": [
@@ -262,7 +262,7 @@
     "name": "Status Quo Bias",
     "definition": "We prefer things to stay the same, and treat the current state as a reasonable default, even when change might be better.",
     "category": "Decision Making",
-    "tier": 2,
+    "tier": 1,
     "description": "This bias makes people resist switching to new options, defaulting instead to whatever is already in place.",
     "everydayTip": "When comparing the current option to a new one, imagine you were choosing between them fresh, with no history.",
     "commonContexts": [
@@ -277,7 +277,7 @@
     "name": "Dunning-Kruger Effect",
     "definition": "People with limited knowledge or skill in an area tend to overestimate their own competence.",
     "category": "Self-awareness",
-    "tier": 3,
+    "tier": 1,
     "description": "A little knowledge can create unearned confidence, while true experts are often more aware of what they don't know.",
     "everydayTip": "Before feeling confident about a new skill, ask an actual expert to check your assumptions.",
     "commonContexts": [
@@ -292,7 +292,7 @@
     "name": "Authority Bias",
     "definition": "We tend to attribute greater accuracy and trust to the opinions of an authority figure, regardless of the actual content.",
     "category": "Social Judgement",
-    "tier": 3,
+    "tier": 1,
     "description": "A person's title, uniform, or perceived status can make their claims seem more credible, even without supporting evidence.",
     "everydayTip": "Evaluate a claim by its evidence, then separately consider whether the source's authority is actually relevant to that claim.",
     "commonContexts": [
@@ -300,6 +300,606 @@
       "Health",
       "Media",
       "Politics"
+    ]
+  },
+  {
+    "biasId": "B021",
+    "name": "Planning Fallacy",
+    "definition": "We routinely underestimate how long tasks will take and overestimate how smoothly they will go.",
+    "category": "Decision Making",
+    "tier": 2,
+    "description": "Even with past experience of delays, we often believe this time will be different and plan too optimistically.",
+    "everydayTip": "When estimating time, look at how long similar tasks actually took — not how long you hoped they would take.",
+    "commonContexts": [
+      "Work",
+      "Everyday life",
+      "Learning",
+      "Health"
+    ]
+  },
+  {
+    "biasId": "B022",
+    "name": "Recency Bias",
+    "definition": "We give more weight to recent events than to older ones, even when the older pattern matters more.",
+    "category": "Decision Making",
+    "tier": 2,
+    "description": "The latest example feels freshest and can overshadow a longer track record of evidence.",
+    "everydayTip": "Before deciding, ask what the full history shows — not just the last week.",
+    "commonContexts": [
+      "Work",
+      "Finance",
+      "Relationships",
+      "Media"
+    ]
+  },
+  {
+    "biasId": "B023",
+    "name": "Bandwagon Effect",
+    "definition": "We are more likely to adopt a belief or behaviour because many others are doing it.",
+    "category": "Social Judgement",
+    "tier": 2,
+    "description": "Popularity can feel like proof, even when we have not checked the reasons ourselves.",
+    "everydayTip": "Before joining in, ask whether you would still choose this if nobody else were doing it.",
+    "commonContexts": [
+      "Social Media",
+      "Work",
+      "Politics",
+      "Everyday life"
+    ]
+  },
+  {
+    "biasId": "B024",
+    "name": "Mere Exposure Effect",
+    "definition": "We tend to like things more simply because we have encountered them before.",
+    "category": "Social Judgement",
+    "tier": 2,
+    "description": "Familiarity can create warmth and preference, even without new reasons to prefer something.",
+    "everydayTip": "Notice when you like something mainly because it feels familiar — not because you have compared it fairly.",
+    "commonContexts": [
+      "Relationships",
+      "Media",
+      "Work",
+      "Everyday life"
+    ]
+  },
+  {
+    "biasId": "B025",
+    "name": "Endowment Effect",
+    "definition": "We value things more highly simply because we already own them.",
+    "category": "Finance",
+    "tier": 2,
+    "description": "Ownership changes how much something feels worth, compared with an identical item we do not own.",
+    "everydayTip": "When selling or keeping something, ask what you would pay for it today if you did not already have it.",
+    "commonContexts": [
+      "Finance",
+      "Everyday life",
+      "Work",
+      "Negotiation"
+    ]
+  },
+  {
+    "biasId": "B026",
+    "name": "Gambler's Fallacy",
+    "definition": "We expect random events to balance out in the short run, as if past outcomes change future odds.",
+    "category": "Decision Making",
+    "tier": 2,
+    "description": "Independent random events do not 'make up' for earlier results, but it can feel like they should.",
+    "everydayTip": "Ask whether each new event is truly independent — or whether you are expecting a pattern that randomness does not owe you.",
+    "commonContexts": [
+      "Everyday life",
+      "Finance",
+      "Sport",
+      "Decision Making"
+    ]
+  },
+  {
+    "biasId": "B027",
+    "name": "Clustering Illusion",
+    "definition": "We see meaningful patterns in small sets of random or unrelated events.",
+    "category": "Decision Making",
+    "tier": 2,
+    "description": "A short streak of similar outcomes can feel like a signal, even when it is just noise.",
+    "everydayTip": "Before calling something a pattern, ask how much data you really have.",
+    "commonContexts": [
+      "Work",
+      "Health",
+      "Sport",
+      "Everyday life"
+    ]
+  },
+  {
+    "biasId": "B028",
+    "name": "Representativeness Heuristic",
+    "definition": "We judge how likely something is by how much it resembles a stereotype, instead of using actual odds.",
+    "category": "Decision Making",
+    "tier": 2,
+    "description": "A good story or familiar type can feel more probable than the base rate suggests.",
+    "everydayTip": "When a description feels like a perfect fit, check the real frequency before deciding.",
+    "commonContexts": [
+      "Work",
+      "Learning",
+      "Media",
+      "Everyday life"
+    ]
+  },
+  {
+    "biasId": "B029",
+    "name": "Base Rate Neglect",
+    "definition": "We ignore general base-rate information and focus on specific, vivid details instead.",
+    "category": "Decision Making",
+    "tier": 2,
+    "description": "A striking example can overpower the broader statistic about how common something really is.",
+    "everydayTip": "Start with how often something happens in general, then adjust — not the other way around.",
+    "commonContexts": [
+      "Health",
+      "Media",
+      "Work",
+      "Finance"
+    ]
+  },
+  {
+    "biasId": "B030",
+    "name": "Peak-End Rule",
+    "definition": "We judge an experience mainly by its most intense moment and how it ended, not the whole duration.",
+    "category": "Emotion",
+    "tier": 2,
+    "description": "A strong ending or peak moment can reshape memory more than hours of ordinary experience.",
+    "everydayTip": "When recalling an event, ask what happened in the middle — not only the highlight or the finish.",
+    "commonContexts": [
+      "Relationships",
+      "Health",
+      "Work",
+      "Everyday life"
+    ]
+  },
+  {
+    "biasId": "B031",
+    "name": "Choice-Supportive Bias",
+    "definition": "After making a choice, we remember the chosen option more favourably and downplay its downsides.",
+    "category": "Decision Making",
+    "tier": 2,
+    "description": "Once we commit, our memory and judgment tilt toward making that choice look wiser.",
+    "everydayTip": "After buying or deciding, ask what you would say to a friend making the same choice fresh today.",
+    "commonContexts": [
+      "Finance",
+      "Relationships",
+      "Work",
+      "Everyday life"
+    ]
+  },
+  {
+    "biasId": "B032",
+    "name": "Illusion of Control",
+    "definition": "We overestimate how much influence we have over outcomes that are mostly chance or outside our control.",
+    "category": "Self-awareness",
+    "tier": 2,
+    "description": "Small actions can feel like they are steering big results, even when they are not.",
+    "everydayTip": "Ask which parts of the outcome you can actually affect — and which parts are luck or other people.",
+    "commonContexts": [
+      "Everyday life",
+      "Work",
+      "Health",
+      "Finance"
+    ]
+  },
+  {
+    "biasId": "B033",
+    "name": "Spotlight Effect",
+    "definition": "We overestimate how much other people notice our appearance, mistakes, or behaviour.",
+    "category": "Social Judgement",
+    "tier": 2,
+    "description": "We are each at the centre of our own attention, but others are usually paying far less attention to us.",
+    "everydayTip": "When you feel painfully visible, ask what you would think if a friend did the same thing.",
+    "commonContexts": [
+      "Work",
+      "Relationships",
+      "Everyday life",
+      "Learning"
+    ]
+  },
+  {
+    "biasId": "B034",
+    "name": "Cognitive Dissonance",
+    "definition": "When our actions clash with our beliefs, we often change our beliefs or excuses rather than face the clash.",
+    "category": "Emotion",
+    "tier": 2,
+    "description": "Mental discomfort pushes us to justify, minimise, or reframe what we did so it fits who we think we are.",
+    "everydayTip": "When you catch yourself rationalising, ask what belief your action is bumping into.",
+    "commonContexts": [
+      "Health",
+      "Relationships",
+      "Work",
+      "Everyday life"
+    ]
+  },
+  {
+    "biasId": "B035",
+    "name": "Belief Perseverance",
+    "definition": "We keep believing something even after the evidence supporting it has been weakened or removed.",
+    "category": "Decision Making",
+    "tier": 2,
+    "description": "Once a belief takes hold, we can defend it with new reasons after the original reasons fall away.",
+    "everydayTip": "Ask what evidence would change your mind — and whether you are still using it honestly.",
+    "commonContexts": [
+      "Politics",
+      "Work",
+      "Relationships",
+      "Media"
+    ]
+  },
+  {
+    "biasId": "B036",
+    "name": "Normalcy Bias",
+    "definition": "We underestimate the chance of disruption and assume things will keep going as they usually do.",
+    "category": "Decision Making",
+    "tier": 2,
+    "description": "Familiar routines feel stable, so warnings or unusual signs can be brushed aside too easily.",
+    "everydayTip": "When something feels 'unthinkable,' ask what you would do if it happened anyway.",
+    "commonContexts": [
+      "Health",
+      "Everyday life",
+      "Work",
+      "Finance"
+    ]
+  },
+  {
+    "biasId": "B037",
+    "name": "Curse of Knowledge",
+    "definition": "Once we know something, we find it hard to imagine not knowing it.",
+    "category": "Learning",
+    "tier": 2,
+    "description": "Experts and experienced people can explain in ways that skip steps obvious to them but not to beginners.",
+    "everydayTip": "When explaining, ask what confused you when you first learned this.",
+    "commonContexts": [
+      "Work",
+      "Learning",
+      "Relationships",
+      "Everyday life"
+    ]
+  },
+  {
+    "biasId": "B038",
+    "name": "Illusory Correlation",
+    "definition": "We perceive a link between two things when none exists, or see a stronger link than the data supports.",
+    "category": "Decision Making",
+    "tier": 2,
+    "description": "Memorable pairings can feel like cause and effect, especially when we already expect a connection.",
+    "everydayTip": "Before blaming one thing for another, ask how often the effect happens without the cause.",
+    "commonContexts": [
+      "Health",
+      "Everyday life",
+      "Work",
+      "Relationships"
+    ]
+  },
+  {
+    "biasId": "B039",
+    "name": "Conjunction Fallacy",
+    "definition": "We judge a detailed, specific story as more likely than a broader, more general one.",
+    "category": "Decision Making",
+    "tier": 2,
+    "description": "Extra detail can make a scenario feel more believable, even though specifics always lower the true odds.",
+    "everydayTip": "Ask whether each added detail makes the story more vivid — or actually more probable.",
+    "commonContexts": [
+      "Media",
+      "Work",
+      "Learning",
+      "Everyday life"
+    ]
+  },
+  {
+    "biasId": "B040",
+    "name": "Illusory Truth Effect",
+    "definition": "Repeated statements feel more true, even when we know we should check them.",
+    "category": "Media",
+    "tier": 2,
+    "description": "Familiar wording creates a sense of accuracy, whether or not the claim has been verified.",
+    "everydayTip": "Treat familiarity as a reason to pause — not as proof something is correct.",
+    "commonContexts": [
+      "Media",
+      "Politics",
+      "Social Media",
+      "Health"
+    ]
+  },
+  {
+    "biasId": "B041",
+    "name": "Actor-Observer Bias",
+    "definition": "We explain other people's actions by their character, but our own by the situation.",
+    "category": "Social Judgement",
+    "tier": 3,
+    "description": "The same kind of behaviour gets different stories depending on whether we or someone else did it.",
+    "everydayTip": "When judging someone else, ask what situation might explain it — the way you would for yourself.",
+    "commonContexts": [
+      "Work",
+      "Relationships",
+      "Driving",
+      "Everyday life"
+    ]
+  },
+  {
+    "biasId": "B042",
+    "name": "Bias Blind Spot",
+    "definition": "We notice biases in others more easily than in ourselves.",
+    "category": "Self-awareness",
+    "tier": 3,
+    "description": "It can feel obvious that other people are skewed, while our own view still feels objective.",
+    "everydayTip": "When you spot a bias in someone else, ask where the same pattern might show up in you.",
+    "commonContexts": [
+      "Work",
+      "Relationships",
+      "Politics",
+      "Everyday life"
+    ]
+  },
+  {
+    "biasId": "B043",
+    "name": "Naive Realism",
+    "definition": "We believe we see reality directly and that reasonable people should agree with us.",
+    "category": "Social Judgement",
+    "tier": 3,
+    "description": "Our own perspective can feel like plain fact, making disagreement seem like bias or bad faith in others.",
+    "everydayTip": "When someone disagrees, ask what they might be seeing that you are not.",
+    "commonContexts": [
+      "Politics",
+      "Work",
+      "Relationships",
+      "Media"
+    ]
+  },
+  {
+    "biasId": "B044",
+    "name": "Just-World Hypothesis",
+    "definition": "We assume people generally get what they deserve, and search for reasons bad outcomes were earned.",
+    "category": "Social Judgement",
+    "tier": 3,
+    "description": "The idea of a fair world can make us blame victims or downplay luck and circumstance.",
+    "everydayTip": "When something bad happens to someone, notice if you are looking for a reason they 'must have' deserved it.",
+    "commonContexts": [
+      "Media",
+      "Relationships",
+      "Work",
+      "Politics"
+    ]
+  },
+  {
+    "biasId": "B045",
+    "name": "Hostile Attribution Bias",
+    "definition": "We interpret ambiguous actions from others as intentionally hostile or unkind.",
+    "category": "Social Judgement",
+    "tier": 3,
+    "description": "A neutral tone, delay, or mistake can be read as personal attack when the intent is unclear.",
+    "everydayTip": "Before assuming someone meant harm, ask what neutral explanation would also fit.",
+    "commonContexts": [
+      "Relationships",
+      "Work",
+      "Everyday life",
+      "Social Media"
+    ]
+  },
+  {
+    "biasId": "B046",
+    "name": "Egocentric Bias",
+    "definition": "We remember our own role in events as larger and more central than it was.",
+    "category": "Self-awareness",
+    "tier": 3,
+    "description": "Our contribution, importance, or effort can loom larger in memory than in the shared reality.",
+    "everydayTip": "When recalling a group effort, ask what others would say they contributed.",
+    "commonContexts": [
+      "Work",
+      "Relationships",
+      "Learning",
+      "Everyday life"
+    ]
+  },
+  {
+    "biasId": "B047",
+    "name": "Illusion of Transparency",
+    "definition": "We overestimate how clearly others can read our emotions and thoughts.",
+    "category": "Social Judgement",
+    "tier": 3,
+    "description": "What feels obvious inside can be nearly invisible outside, but we often assume people can tell.",
+    "everydayTip": "If something matters, say it plainly — do not assume your feelings are showing clearly.",
+    "commonContexts": [
+      "Work",
+      "Relationships",
+      "Learning",
+      "Everyday life"
+    ]
+  },
+  {
+    "biasId": "B048",
+    "name": "Hyperbolic Discounting",
+    "definition": "We prefer smaller rewards now over larger rewards later, more steeply than calm planning would suggest.",
+    "category": "Finance",
+    "tier": 3,
+    "description": "The immediate option feels disproportionately attractive compared with a better long-term choice.",
+    "everydayTip": "Ask what future-you would prefer — not only what right-now-you wants.",
+    "commonContexts": [
+      "Finance",
+      "Health",
+      "Everyday life",
+      "Work"
+    ]
+  },
+  {
+    "biasId": "B049",
+    "name": "Ambiguity Effect",
+    "definition": "We avoid options when the odds of a good outcome are unclear, even if they might be favourable.",
+    "category": "Decision Making",
+    "tier": 3,
+    "description": "Known risks can feel safer than unknown ones, so we may stick with the familiar gamble.",
+    "everydayTip": "When you avoid something because it feels uncertain, ask whether the known option is truly better.",
+    "commonContexts": [
+      "Finance",
+      "Work",
+      "Health",
+      "Everyday life"
+    ]
+  },
+  {
+    "biasId": "B050",
+    "name": "Identifiable Victim Effect",
+    "definition": "We respond more strongly to one identifiable person in need than to large, statistical groups.",
+    "category": "Emotion",
+    "tier": 3,
+    "description": "A single story with a face and name can move us more than numbers describing many people.",
+    "everydayTip": "Notice when one story is pulling your attention away from the broader scale of a problem.",
+    "commonContexts": [
+      "Media",
+      "Politics",
+      "Health",
+      "Everyday life"
+    ]
+  },
+  {
+    "biasId": "B051",
+    "name": "Restraint Bias",
+    "definition": "We overestimate our ability to resist temptation in the moment.",
+    "category": "Self-awareness",
+    "tier": 3,
+    "description": "We predict strong self-control in advance, then struggle when the temptation is actually in front of us.",
+    "everydayTip": "Plan for the moment of temptation, not the moment of planning.",
+    "commonContexts": [
+      "Health",
+      "Everyday life",
+      "Finance",
+      "Work"
+    ]
+  },
+  {
+    "biasId": "B052",
+    "name": "Reactance",
+    "definition": "When we feel our freedom is threatened, we push back — sometimes by doing the opposite.",
+    "category": "Emotion",
+    "tier": 3,
+    "description": "Being told what to do can spark resistance, even when the advice is reasonable.",
+    "everydayTip": "Notice when you are saying no mainly because someone told you yes — or the reverse.",
+    "commonContexts": [
+      "Relationships",
+      "Work",
+      "Health",
+      "Everyday life"
+    ]
+  },
+  {
+    "biasId": "B053",
+    "name": "Ostrich Effect",
+    "definition": "We avoid information that might force us to face an uncomfortable problem.",
+    "category": "Finance",
+    "tier": 3,
+    "description": "Not looking can feel like relief, even though the issue remains and may grow worse unseen.",
+    "everydayTip": "If you are avoiding a number, email, or conversation, ask what you are afraid it will confirm.",
+    "commonContexts": [
+      "Finance",
+      "Health",
+      "Work",
+      "Relationships"
+    ]
+  },
+  {
+    "biasId": "B054",
+    "name": "Zero-Sum Bias",
+    "definition": "We treat situations as if one person's gain must mean another person's loss, even when both could benefit.",
+    "category": "Social Judgement",
+    "tier": 3,
+    "description": "Success, praise, or opportunity can feel like a fixed pie, making cooperation harder to see.",
+    "everydayTip": "When someone else wins, ask whether anything actually came off your plate.",
+    "commonContexts": [
+      "Work",
+      "Relationships",
+      "Politics",
+      "Everyday life"
+    ]
+  },
+  {
+    "biasId": "B055",
+    "name": "Moral Luck",
+    "definition": "We judge the morality of an action partly by how lucky or unlucky the outcome was.",
+    "category": "Social Judgement",
+    "tier": 3,
+    "description": "The same choice can look wise or reckless depending on results that were not fully in the person's control.",
+    "everydayTip": "Try judging the decision separately from how lucky the outcome turned out to be.",
+    "commonContexts": [
+      "Work",
+      "Driving",
+      "Relationships",
+      "Everyday life"
+    ]
+  },
+  {
+    "biasId": "B056",
+    "name": "Texas Sharpshooter Fallacy",
+    "definition": "We notice a cluster first, then draw a target around it as if we predicted it.",
+    "category": "Decision Making",
+    "tier": 3,
+    "description": "Patterns can be invented after the fact, making random data look meaningful.",
+    "everydayTip": "Ask whether you are finding a pattern because you looked for it — or because you predicted it beforehand.",
+    "commonContexts": [
+      "Work",
+      "Media",
+      "Finance",
+      "Health"
+    ]
+  },
+  {
+    "biasId": "B057",
+    "name": "Overconfidence Effect",
+    "definition": "We are more certain of our judgments than our accuracy usually supports.",
+    "category": "Self-awareness",
+    "tier": 3,
+    "description": "Confidence can feel like proof, even when we are wrong surprisingly often.",
+    "everydayTip": "When you feel sure, ask what would make you only 70% sure instead of 100%.",
+    "commonContexts": [
+      "Work",
+      "Learning",
+      "Finance",
+      "Everyday life"
+    ]
+  },
+  {
+    "biasId": "B058",
+    "name": "Pro-Innovation Bias",
+    "definition": "We assume a new tool or change will help more than it does, and overlook its limits.",
+    "category": "Work",
+    "tier": 3,
+    "description": "Novelty can feel like progress by itself, even before evidence shows it works better.",
+    "everydayTip": "Ask what problem the new thing solves — and what it might break.",
+    "commonContexts": [
+      "Work",
+      "Health",
+      "Learning",
+      "Everyday life"
+    ]
+  },
+  {
+    "biasId": "B059",
+    "name": "Semmelweis Reflex",
+    "definition": "We reject new evidence or ideas because they challenge established norms or beliefs.",
+    "category": "Learning",
+    "tier": 3,
+    "description": "Familiar ways of doing things can feel safer than unfamiliar evidence, even when the evidence is strong.",
+    "everydayTip": "When a new idea feels wrong mainly because it is new, separate that feeling from whether it is actually wrong.",
+    "commonContexts": [
+      "Work",
+      "Health",
+      "Learning",
+      "Politics"
+    ]
+  },
+  {
+    "biasId": "B060",
+    "name": "Risk Compensation",
+    "definition": "We take more risks when we feel safer, partly offsetting the protection we gained.",
+    "category": "Health",
+    "tier": 3,
+    "description": "Extra safety can lead to looser behaviour, so the overall risk may not fall as much as expected.",
+    "everydayTip": "When a safety measure makes you feel protected, ask whether you are relaxing in ways that bring risk back.",
+    "commonContexts": [
+      "Health",
+      "Driving",
+      "Everyday life",
+      "Work"
     ]
   }
 ]
