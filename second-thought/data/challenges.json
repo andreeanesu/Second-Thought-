@@ -1,0 +1,3422 @@
+[
+  {
+    "challengeId": "C001",
+    "biasId": "B001",
+    "biasName": "Confirmation Bias",
+    "statement": "I only read news that agrees with what I already believe — the rest feels untrustworthy.",
+    "options": {
+      "A": "Halo Effect",
+      "B": "Confirmation Bias",
+      "C": "Anchoring Bias",
+      "D": "Availability Heuristic"
+    },
+    "correctAnswer": "B",
+    "explanation": "Sources get dismissed for disagreeing, not because they're wrong.",
+    "reflectionQuestion": "When did you last listen to a view you disagreed with — on purpose?",
+    "whyHumansDoThis": "We lean toward what fits what we already think. It feels safer and easier — but it can narrow what we're willing to hear.",
+    "realWorldContext": "Politics",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn that seeking confirming evidence feels natural but can limit better decisions."
+  },
+  {
+    "challengeId": "C002",
+    "biasId": "B001",
+    "biasName": "Confirmation Bias",
+    "statement": "After I bought a stock, I only followed analysts who said it would rise — and ignored warnings about debt.",
+    "options": {
+      "A": "Anchoring Bias",
+      "B": "Availability Heuristic",
+      "C": "Halo Effect",
+      "D": "Confirmation Bias"
+    },
+    "correctAnswer": "D",
+    "explanation": "After deciding, only the good news gets noticed.",
+    "reflectionQuestion": "After you decide something, do you look for doubts — or proof you were right?",
+    "whyHumansDoThis": "Once we've committed, we want to feel we made the right call. Doubt is uncomfortable — so we often skip it.",
+    "realWorldContext": "Investing",
+    "difficulty": "Application",
+    "learningObjective": "Learn to actively look for disconfirming evidence after making decisions, not just before."
+  },
+  {
+    "challengeId": "C003",
+    "biasId": "B001",
+    "biasName": "Confirmation Bias",
+    "statement": "My feed is full of posts I agree with — so it feels like everyone thinks the same way.",
+    "options": {
+      "A": "Halo Effect",
+      "B": "Confirmation Bias",
+      "C": "Anchoring Bias",
+      "D": "Availability Heuristic"
+    },
+    "correctAnswer": "B",
+    "explanation": "A curated feed gets mistaken for how most people think.",
+    "reflectionQuestion": "Does your feed challenge you, or mostly agree with you?",
+    "whyHumansDoThis": "We engage more with what we agree with. Platforms show us more of it — and the loop can feel like reality.",
+    "realWorldContext": "Social Media",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn how confirmation bias interacts with algorithms to create feedback loops that feel like reality."
+  },
+  {
+    "challengeId": "C004",
+    "biasId": "B002",
+    "biasName": "Anchoring Bias",
+    "statement": "A house is listed at $500k. Even if that's high, buyers still haggle around that number.",
+    "options": {
+      "A": "Anchoring Bias",
+      "B": "Framing Effect",
+      "C": "Status Quo Bias",
+      "D": "Confirmation Bias"
+    },
+    "correctAnswer": "A",
+    "explanation": "The listing price becomes the anchor for every offer.",
+    "reflectionQuestion": "Has a first price ever shaped what felt 'fair' to you?",
+    "whyHumansDoThis": "The first number we see sticks. We adjust from there — but rarely far enough.",
+    "realWorldContext": "Real Estate",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to recognize when a starting number is shaping your judgment instead of the actual value."
+  },
+  {
+    "challengeId": "C005",
+    "biasId": "B002",
+    "biasName": "Anchoring Bias",
+    "statement": "A jacket was $300, now $150 — feels like a steal, even if $150 is still a lot.",
+    "options": {
+      "A": "Status Quo Bias",
+      "B": "Confirmation Bias",
+      "C": "Anchoring Bias",
+      "D": "Framing Effect"
+    },
+    "correctAnswer": "C",
+    "explanation": "The old price makes the discount feel bigger than it is.",
+    "reflectionQuestion": "Next 'sale' tag you see — what's the item actually worth?",
+    "whyHumansDoThis": "We focus on the drop, not the real value. The starting price quietly pulls our judgment.",
+    "realWorldContext": "Shopping",
+    "difficulty": "Application",
+    "learningObjective": "Learn to evaluate the actual value of something rather than the discount from an arbitrary starting price."
+  },
+  {
+    "challengeId": "C006",
+    "biasId": "B002",
+    "biasName": "Anchoring Bias",
+    "statement": "In a job interview, they ask for my salary first — and that number ends up anchoring the whole negotiation.",
+    "options": {
+      "A": "Anchoring Bias",
+      "B": "Framing Effect",
+      "C": "Status Quo Bias",
+      "D": "Confirmation Bias"
+    },
+    "correctAnswer": "A",
+    "explanation": "The first number spoken becomes the reference for everything after.",
+    "reflectionQuestion": "Have you ever felt stuck near a number you said early on?",
+    "whyHumansDoThis": "Early numbers are hard to let go of — even when new info suggests we should move on.",
+    "realWorldContext": "Salary discussions",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn that anchors set early in a conversation can quietly control the entire negotiation."
+  },
+  {
+    "challengeId": "C007",
+    "biasId": "B003",
+    "biasName": "Availability Heuristic",
+    "statement": "After a few plane-crash stories in the news, flying feels terrifying — even though stats say driving is riskier.",
+    "options": {
+      "A": "Confirmation Bias",
+      "B": "Negativity Bias",
+      "C": "Survivorship Bias",
+      "D": "Availability Heuristic"
+    },
+    "correctAnswer": "D",
+    "explanation": "Vivid stories feel more common than they are.",
+    "reflectionQuestion": "Any fear you have that might come from memorable stories, not stats?",
+    "whyHumansDoThis": "Easy-to-recall events feel more likely. Our brain uses memory as a shortcut.",
+    "realWorldContext": "News",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn that memorable events are not always common events."
+  },
+  {
+    "challengeId": "C008",
+    "biasId": "B003",
+    "biasName": "Availability Heuristic",
+    "statement": "I saw one viral post about a rare vaccine side effect — and it stuck more than the disease risks I ignored.",
+    "options": {
+      "A": "Survivorship Bias",
+      "B": "Availability Heuristic",
+      "C": "Confirmation Bias",
+      "D": "Negativity Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "One vivid story outweighed the broader data.",
+    "reflectionQuestion": "On health risks, do you check the data or trust the story that sticks?",
+    "whyHumansDoThis": "Emotional stories lodge in memory. Dry statistics often don't.",
+    "realWorldContext": "Health",
+    "difficulty": "Application",
+    "learningObjective": "Learn to seek base-rate statistics rather than relying on memorable anecdotes."
+  },
+  {
+    "challengeId": "C009",
+    "biasId": "B003",
+    "biasName": "Availability Heuristic",
+    "statement": "After a friend's house was burgled, burglaries suddenly feel common here — even though crime has been falling.",
+    "options": {
+      "A": "Confirmation Bias",
+      "B": "Negativity Bias",
+      "C": "Survivorship Bias",
+      "D": "Availability Heuristic"
+    },
+    "correctAnswer": "D",
+    "explanation": "One close story outweighed the wider trend.",
+    "reflectionQuestion": "Has one person's story ever changed how safe you feel?",
+    "whyHumansDoThis": "Stories from people we know feel real and relevant — more than numbers on a page.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to distinguish between a personally vivid story and an actual trend."
+  },
+  {
+    "challengeId": "C010",
+    "biasId": "B004",
+    "biasName": "Fundamental Attribution Error",
+    "statement": "A colleague was late to the meeting. Everyone assumed they're lazy — not knowing their car broke down.",
+    "options": {
+      "A": "Halo Effect",
+      "B": "Horn Effect",
+      "C": "Fundamental Attribution Error",
+      "D": "Self-serving Bias"
+    },
+    "correctAnswer": "C",
+    "explanation": "Character got blamed before circumstances were considered.",
+    "reflectionQuestion": "Next time someone's late — what situation might explain it?",
+    "whyHumansDoThis": "We don't see others' full context, so we fill the gap with personality labels.",
+    "realWorldContext": "Work",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to consider circumstances before judging character."
+  },
+  {
+    "challengeId": "C011",
+    "biasId": "B004",
+    "biasName": "Fundamental Attribution Error",
+    "statement": "Someone cut me off in traffic. I thought 'what a jerk' — without wondering if they had an emergency.",
+    "options": {
+      "A": "Fundamental Attribution Error",
+      "B": "Self-serving Bias",
+      "C": "Halo Effect",
+      "D": "Horn Effect"
+    },
+    "correctAnswer": "A",
+    "explanation": "The action was blamed on character, not situation.",
+    "reflectionQuestion": "Have you ever driven badly because of your own bad day?",
+    "whyHumansDoThis": "It's faster to judge a stranger's character than imagine their unseen story.",
+    "realWorldContext": "Driving",
+    "difficulty": "Application",
+    "learningObjective": "Learn that the same behavior looks different depending on whether you know the situation behind it."
+  },
+  {
+    "challengeId": "C012",
+    "biasId": "B004",
+    "biasName": "Fundamental Attribution Error",
+    "statement": "A friend cancelled last minute again. I decided they're unreliable — maybe it was just a run of bad luck.",
+    "options": {
+      "A": "Halo Effect",
+      "B": "Horn Effect",
+      "C": "Fundamental Attribution Error",
+      "D": "Self-serving Bias"
+    },
+    "correctAnswer": "C",
+    "explanation": "One label stuck before a real pattern was clear.",
+    "reflectionQuestion": "How many times before you'd call something a pattern, not bad luck?",
+    "whyHumansDoThis": "One clear story feels easier than holding uncertainty over time.",
+    "realWorldContext": "Relationships",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to separate a single incident from an established pattern before judging someone's character."
+  },
+  {
+    "challengeId": "C013",
+    "biasId": "B005",
+    "biasName": "Self-serving Bias",
+    "statement": "I passed because I'm smart — but failed last time because the questions were unfair.",
+    "options": {
+      "A": "Halo Effect",
+      "B": "Self-serving Bias",
+      "C": "Fundamental Attribution Error",
+      "D": "Optimism Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "Success went to me; failure went to outside factors.",
+    "reflectionQuestion": "Your last win and loss — did you explain them the same way?",
+    "whyHumansDoThis": "Crediting ourselves for wins and blaming outside forces for losses protects how we feel about ourselves.",
+    "realWorldContext": "Academics",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to apply the same standard of explanation to both your successes and failures."
+  },
+  {
+    "challengeId": "C014",
+    "biasId": "B005",
+    "biasName": "Self-serving Bias",
+    "statement": "We won because of great strategy. We lost because of a bad referee.",
+    "options": {
+      "A": "Fundamental Attribution Error",
+      "B": "Optimism Bias",
+      "C": "Halo Effect",
+      "D": "Self-serving Bias"
+    },
+    "correctAnswer": "D",
+    "explanation": "The win was ours; the loss was someone else's fault.",
+    "reflectionQuestion": "A loss you blamed entirely on something outside your control?",
+    "whyHumansDoThis": "Keeping a positive self-image feels better than sitting with our own shortcomings.",
+    "realWorldContext": "Sport",
+    "difficulty": "Application",
+    "learningObjective": "Learn to evaluate wins and losses with the same level of scrutiny."
+  },
+  {
+    "challengeId": "C015",
+    "biasId": "B005",
+    "biasName": "Self-serving Bias",
+    "statement": "A manager took credit when a project worked — and blamed the team when a similar one failed.",
+    "options": {
+      "A": "Halo Effect",
+      "B": "Self-serving Bias",
+      "C": "Fundamental Attribution Error",
+      "D": "Optimism Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "Success was personal; failure was shifted away.",
+    "reflectionQuestion": "When your project fails — how much do you own versus blame others?",
+    "whyHumansDoThis": "Protecting our sense of competence is easier than sharing responsibility for failure.",
+    "realWorldContext": "Work",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to look for your own contribution to both successes and failures, not just the convenient one."
+  },
+  {
+    "challengeId": "C016",
+    "biasId": "B006",
+    "biasName": "Sunk Cost Fallacy",
+    "statement": "I keep holding a failing stock because I've already put so much into it — hoping it'll bounce back.",
+    "options": {
+      "A": "Sunk Cost Fallacy",
+      "B": "Loss Aversion",
+      "C": "Status Quo Bias",
+      "D": "Optimism Bias"
+    },
+    "correctAnswer": "A",
+    "explanation": "Past money spent is driving the choice, not future prospects.",
+    "reflectionQuestion": "If you were deciding fresh today, would you still hold it?",
+    "whyHumansDoThis": "Walking away feels like admitting a mistake. Staying avoids that pain — even when it costs more.",
+    "realWorldContext": "Finance",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to evaluate decisions based on future outcomes, not past investment."
+  },
+  {
+    "challengeId": "C017",
+    "biasId": "B006",
+    "biasName": "Sunk Cost Fallacy",
+    "statement": "I've spent five years in this relationship. I can't leave now — even though I'm unhappy.",
+    "options": {
+      "A": "Status Quo Bias",
+      "B": "Optimism Bias",
+      "C": "Sunk Cost Fallacy",
+      "D": "Loss Aversion"
+    },
+    "correctAnswer": "C",
+    "explanation": "Time already spent is treated as a reason to stay.",
+    "reflectionQuestion": "Would you start this relationship today, knowing what you know?",
+    "whyHumansDoThis": "Leaving can feel like wasted years were wasted for nothing. That's painful.",
+    "realWorldContext": "Relationships",
+    "difficulty": "Application",
+    "learningObjective": "Learn that past time invested doesn't change what's the best choice going forward."
+  },
+  {
+    "challengeId": "C018",
+    "biasId": "B006",
+    "biasName": "Sunk Cost Fallacy",
+    "statement": "We keep eating a mediocre meal we already paid for — even though we could stop.",
+    "options": {
+      "A": "Sunk Cost Fallacy",
+      "B": "Loss Aversion",
+      "C": "Status Quo Bias",
+      "D": "Optimism Bias"
+    },
+    "correctAnswer": "A",
+    "explanation": "Money already spent shouldn't change whether we keep eating.",
+    "reflectionQuestion": "Does having paid change how much you 'should' finish?",
+    "whyHumansDoThis": "We mix up 'already spent' with 'what to do next' — even when they're separate decisions.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to separate a past, unrecoverable cost from the decision in front of you right now."
+  },
+  {
+    "challengeId": "C019",
+    "biasId": "B007",
+    "biasName": "Negativity Bias",
+    "statement": "Nine compliments and one criticism in my review — and I obsessed over the criticism all week.",
+    "options": {
+      "A": "Availability Heuristic",
+      "B": "Loss Aversion",
+      "C": "Optimism Bias",
+      "D": "Negativity Bias"
+    },
+    "correctAnswer": "D",
+    "explanation": "One negative note outweighed nine positive ones.",
+    "reflectionQuestion": "Last feedback you got — praise or criticism stuck more?",
+    "whyHumansDoThis": "Bad news used to signal danger. Our brains still give it extra weight.",
+    "realWorldContext": "Work",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to consciously weigh positive and negative feedback more evenly."
+  },
+  {
+    "challengeId": "C020",
+    "biasId": "B007",
+    "biasName": "Negativity Bias",
+    "statement": "News runs more bad stories than good ones — because negative headlines get more clicks.",
+    "options": {
+      "A": "Optimism Bias",
+      "B": "Negativity Bias",
+      "C": "Availability Heuristic",
+      "D": "Loss Aversion"
+    },
+    "correctAnswer": "B",
+    "explanation": "Outlets and audiences both lean toward negative news.",
+    "reflectionQuestion": "Do you click negative headlines more than positive ones?",
+    "whyHumansDoThis": "Threats and bad news pull our attention harder than good news.",
+    "realWorldContext": "Media",
+    "difficulty": "Application",
+    "learningObjective": "Learn to notice when media incentives are exploiting a psychological bias you already have."
+  },
+  {
+    "challengeId": "C021",
+    "biasId": "B007",
+    "biasName": "Negativity Bias",
+    "statement": "One critical comment from my partner stuck more than months of compliments.",
+    "options": {
+      "A": "Availability Heuristic",
+      "B": "Loss Aversion",
+      "C": "Optimism Bias",
+      "D": "Negativity Bias"
+    },
+    "correctAnswer": "D",
+    "explanation": "A single negative remark dominated the emotional memory.",
+    "reflectionQuestion": "One comment that overshadowed a lot of good moments?",
+    "whyHumansDoThis": "Negative moments are processed more deeply and remembered more vividly.",
+    "realWorldContext": "Relationships",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to actively track the ratio of positive to negative moments, rather than trusting your gut feeling."
+  },
+  {
+    "challengeId": "C022",
+    "biasId": "B008",
+    "biasName": "Halo Effect",
+    "statement": "A polished, articulate candidate seemed competent at the technical work too — without any proof.",
+    "options": {
+      "A": "Authority Bias",
+      "B": "Fundamental Attribution Error",
+      "C": "Halo Effect",
+      "D": "Horn Effect"
+    },
+    "correctAnswer": "C",
+    "explanation": "A good impression in one area spilled into another.",
+    "reflectionQuestion": "Assumed someone was good at their job because they seemed confident?",
+    "whyHumansDoThis": "One overall impression is easier than judging each skill separately.",
+    "realWorldContext": "Work",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to evaluate specific skills on their own evidence, not on general impressions."
+  },
+  {
+    "challengeId": "C023",
+    "biasId": "B008",
+    "biasName": "Halo Effect",
+    "statement": "A celebrity endorsed a health product — so fans assumed it works, because they like the celebrity.",
+    "options": {
+      "A": "Halo Effect",
+      "B": "Horn Effect",
+      "C": "Authority Bias",
+      "D": "Fundamental Attribution Error"
+    },
+    "correctAnswer": "A",
+    "explanation": "Feelings about the person transferred to the product.",
+    "reflectionQuestion": "Would you trust the claim as much from a stranger?",
+    "whyHumansDoThis": "We pass trust from people we like to things they're linked with.",
+    "realWorldContext": "Media",
+    "difficulty": "Application",
+    "learningObjective": "Learn to separate your feelings about a person from the evidence for their claims."
+  },
+  {
+    "challengeId": "C024",
+    "biasId": "B008",
+    "biasName": "Halo Effect",
+    "statement": "A charismatic colleague got promoted fast — and people assumed all their ideas were good, untested ones included.",
+    "options": {
+      "A": "Authority Bias",
+      "B": "Fundamental Attribution Error",
+      "C": "Halo Effect",
+      "D": "Horn Effect"
+    },
+    "correctAnswer": "C",
+    "explanation": "Likeability stretched to ideas without evidence.",
+    "reflectionQuestion": "How do you separate liking someone from trusting their untested ideas?",
+    "whyHumansDoThis": "A strong first impression is hard to update — even when proof is missing.",
+    "realWorldContext": "Social situations",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn that likeability and idea quality are two separate things, even if they feel linked."
+  },
+  {
+    "challengeId": "C025",
+    "biasId": "B009",
+    "biasName": "Horn Effect",
+    "statement": "A new hire was late on day one. Colleagues decided they're unreliable and probably not hardworking.",
+    "options": {
+      "A": "Negativity Bias",
+      "B": "Horn Effect",
+      "C": "Halo Effect",
+      "D": "Fundamental Attribution Error"
+    },
+    "correctAnswer": "B",
+    "explanation": "One slip became a whole personality judgment.",
+    "reflectionQuestion": "One early mistake that colored how you saw someone?",
+    "whyHumansDoThis": "One flaw gets simplified into 'this person is generally bad' instead of staying specific.",
+    "realWorldContext": "Work",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to keep a single flaw separate from your overall judgment of a person's other qualities."
+  },
+  {
+    "challengeId": "C026",
+    "biasId": "B009",
+    "biasName": "Horn Effect",
+    "statement": "Someone mispronounced a word in a talk — and the audience doubted whether they know the topic at all.",
+    "options": {
+      "A": "Halo Effect",
+      "B": "Fundamental Attribution Error",
+      "C": "Negativity Bias",
+      "D": "Horn Effect"
+    },
+    "correctAnswer": "D",
+    "explanation": "A small slip was stretched into a competence judgment.",
+    "reflectionQuestion": "Judged someone's expertise over an unrelated small mistake?",
+    "whyHumansDoThis": "Our brain wants one consistent story — and one flaw builds a negative one fast.",
+    "realWorldContext": "Social situations",
+    "difficulty": "Application",
+    "learningObjective": "Learn to judge competence based on relevant evidence, not unrelated small errors."
+  },
+  {
+    "challengeId": "C027",
+    "biasId": "B009",
+    "biasName": "Horn Effect",
+    "statement": "A public figure got one fact wrong — and viewers dismissed everything else they said, even the solid parts.",
+    "options": {
+      "A": "Negativity Bias",
+      "B": "Horn Effect",
+      "C": "Halo Effect",
+      "D": "Fundamental Attribution Error"
+    },
+    "correctAnswer": "B",
+    "explanation": "One error discredited the whole message.",
+    "reflectionQuestion": "When someone errs once, do you dismiss everything they say?",
+    "whyHumansDoThis": "One clear mistake feels like reliable evidence — even when it isn't about everything else.",
+    "realWorldContext": "Media",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to evaluate each claim on its own evidence rather than by association with an unrelated error."
+  },
+  {
+    "challengeId": "C028",
+    "biasId": "B010",
+    "biasName": "Survivorship Bias",
+    "statement": "Success books interview winning entrepreneurs — not the many who tried the same thing and failed.",
+    "options": {
+      "A": "Survivorship Bias",
+      "B": "Availability Heuristic",
+      "C": "Optimism Bias",
+      "D": "Confirmation Bias"
+    },
+    "correctAnswer": "A",
+    "explanation": "We only hear from survivors, so strategies look more reliable than they are.",
+    "reflectionQuestion": "Reading a success story — do you ask who tried the same and failed?",
+    "whyHumansDoThis": "Failures are quieter, less visible, and less fun to talk about.",
+    "realWorldContext": "Work",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to actively look for the invisible failures behind visible success stories."
+  },
+  {
+    "challengeId": "C029",
+    "biasId": "B010",
+    "biasName": "Survivorship Bias",
+    "statement": "'These five habits made CEOs successful' — with no check on failed CEOs who had the same habits.",
+    "options": {
+      "A": "Optimism Bias",
+      "B": "Confirmation Bias",
+      "C": "Survivorship Bias",
+      "D": "Availability Heuristic"
+    },
+    "correctAnswer": "C",
+    "explanation": "Without a comparison group, the link to success is shaky.",
+    "reflectionQuestion": "Without asking who failed, can you trust why someone succeeded?",
+    "whyHumansDoThis": "Success stories are celebrated. Quiet failures disappear from view.",
+    "realWorldContext": "Media",
+    "difficulty": "Application",
+    "learningObjective": "Learn to ask for the comparison group before trusting a claim about what causes success."
+  },
+  {
+    "challengeId": "C030",
+    "biasId": "B010",
+    "biasName": "Survivorship Bias",
+    "statement": "Everyone still in the course says it's easy — but the people who struggled already dropped out.",
+    "options": {
+      "A": "Survivorship Bias",
+      "B": "Availability Heuristic",
+      "C": "Optimism Bias",
+      "D": "Confirmation Bias"
+    },
+    "correctAnswer": "A",
+    "explanation": "Only survivors are in the sample you're hearing from.",
+    "reflectionQuestion": "Whose voices might be missing from the feedback you hear?",
+    "whyHumansDoThis": "We hear from who's left — and forget who already walked away.",
+    "realWorldContext": "Learning",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to consider who is missing from a sample before drawing a conclusion."
+  },
+  {
+    "challengeId": "C031",
+    "biasId": "B011",
+    "biasName": "Hindsight Bias",
+    "statement": "After a stock crashed, I said 'I knew that would happen' — though I'd bought more the week before.",
+    "options": {
+      "A": "Confirmation Bias",
+      "B": "Self-serving Bias",
+      "C": "Optimism Bias",
+      "D": "Hindsight Bias"
+    },
+    "correctAnswer": "D",
+    "explanation": "Memory of what we believed shifted to match the outcome.",
+    "reflectionQuestion": "Claimed you 'knew' something — despite acting the opposite before?",
+    "whyHumansDoThis": "Once we know the ending, it feels inevitable — and our memory bends to match.",
+    "realWorldContext": "Finance",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to check your past predictions honestly instead of assuming you always saw it coming."
+  },
+  {
+    "challengeId": "C032",
+    "biasId": "B011",
+    "biasName": "Hindsight Bias",
+    "statement": "After the loss, I insisted 'I knew we'd lose' — though I'd predicted a win the day before.",
+    "options": {
+      "A": "Optimism Bias",
+      "B": "Hindsight Bias",
+      "C": "Confirmation Bias",
+      "D": "Self-serving Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "Recollection of the prediction was rewritten after the fact.",
+    "reflectionQuestion": "Could you find what you actually predicted — versus what you claim now?",
+    "whyHumansDoThis": "We rebuild past beliefs to fit what we know now.",
+    "realWorldContext": "Sport",
+    "difficulty": "Application",
+    "learningObjective": "Learn that memory of a prediction is not a reliable substitute for the prediction itself."
+  },
+  {
+    "challengeId": "C033",
+    "biasId": "B011",
+    "biasName": "Hindsight Bias",
+    "statement": "After a project failed, the team said 'the risks were obvious from the start' — though nobody flagged them in planning.",
+    "options": {
+      "A": "Confirmation Bias",
+      "B": "Self-serving Bias",
+      "C": "Optimism Bias",
+      "D": "Hindsight Bias"
+    },
+    "correctAnswer": "D",
+    "explanation": "Risks look obvious only after failure is known.",
+    "reflectionQuestion": "Were the 'obvious' risks written down before the outcome?",
+    "whyHumansDoThis": "Knowing how it ended makes the path feel more predictable than it was.",
+    "realWorldContext": "Work",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to check documented predictions rather than trusting a reconstructed memory of what was 'obvious.'"
+  },
+  {
+    "challengeId": "C034",
+    "biasId": "B012",
+    "biasName": "False Consensus Effect",
+    "statement": "I assume most people share my political view — because everyone in my circle does.",
+    "options": {
+      "A": "In-group Bias",
+      "B": "Availability Heuristic",
+      "C": "False Consensus Effect",
+      "D": "Confirmation Bias"
+    },
+    "correctAnswer": "C",
+    "explanation": "My bubble was mistaken for the whole population.",
+    "reflectionQuestion": "How would you check if most people agree — beyond your circle?",
+    "whyHumansDoThis": "We're surrounded by similar people, so their views feel like everyone's.",
+    "realWorldContext": "Politics",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to distinguish between the views of your social circle and the views of the wider population."
+  },
+  {
+    "challengeId": "C035",
+    "biasId": "B012",
+    "biasName": "False Consensus Effect",
+    "statement": "I posted a hot take online and got slammed — I'd assumed 'everyone thinks this.'",
+    "options": {
+      "A": "False Consensus Effect",
+      "B": "Confirmation Bias",
+      "C": "In-group Bias",
+      "D": "Availability Heuristic"
+    },
+    "correctAnswer": "A",
+    "explanation": "My bubble felt like consensus.",
+    "reflectionQuestion": "Online backlash that surprised you because you thought your view was common?",
+    "whyHumansDoThis": "Our own beliefs feel normal — so we assume others share them.",
+    "realWorldContext": "Social Media",
+    "difficulty": "Application",
+    "learningObjective": "Learn that a view feeling normal to you doesn't mean it's widely shared."
+  },
+  {
+    "challengeId": "C036",
+    "biasId": "B012",
+    "biasName": "False Consensus Effect",
+    "statement": "Two people agreed in a meeting — so the manager assumed the whole team supports the policy.",
+    "options": {
+      "A": "In-group Bias",
+      "B": "Availability Heuristic",
+      "C": "False Consensus Effect",
+      "D": "Confirmation Bias"
+    },
+    "correctAnswer": "C",
+    "explanation": "A vocal few stood in for everyone.",
+    "reflectionQuestion": "When few speak up — what can you really conclude about the rest?",
+    "whyHumansDoThis": "Loud agreement is easy to notice. Silent disagreement is invisible.",
+    "realWorldContext": "Work",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to distinguish between a vocal minority and true group consensus."
+  },
+  {
+    "challengeId": "C037",
+    "biasId": "B013",
+    "biasName": "In-group Bias",
+    "statement": "Same mistake from my department gets a pass — from another department, it's a serious problem.",
+    "options": {
+      "A": "False Consensus Effect",
+      "B": "In-group Bias",
+      "C": "Out-group Homogeneity Bias",
+      "D": "Halo Effect"
+    },
+    "correctAnswer": "B",
+    "explanation": "Group membership changed how the mistake was judged.",
+    "reflectionQuestion": "Judge mistakes from 'your people' more gently than from others?",
+    "whyHumansDoThis": "We extend more trust and leniency to people we see as 'us.'",
+    "realWorldContext": "Work",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to apply the same standard of judgment regardless of group membership."
+  },
+  {
+    "challengeId": "C038",
+    "biasId": "B013",
+    "biasName": "In-group Bias",
+    "statement": "Our player's foul was accidental. Their player's identical foul was dirty play.",
+    "options": {
+      "A": "Out-group Homogeneity Bias",
+      "B": "Halo Effect",
+      "C": "False Consensus Effect",
+      "D": "In-group Bias"
+    },
+    "correctAnswer": "D",
+    "explanation": "Same action, different story — depending on the team.",
+    "reflectionQuestion": "Would you see it the same way if the teams were swapped?",
+    "whyHumansDoThis": "Loyalty shapes how we read ambiguous actions — we favor our side.",
+    "realWorldContext": "Sport",
+    "difficulty": "Application",
+    "learningObjective": "Learn to test your judgment by imagining the same action from the 'other side.'"
+  },
+  {
+    "challengeId": "C039",
+    "biasId": "B013",
+    "biasName": "In-group Bias",
+    "statement": "I excuse a scandal from my party — but I'm outraged by the same thing from the other side.",
+    "options": {
+      "A": "False Consensus Effect",
+      "B": "In-group Bias",
+      "C": "Out-group Homogeneity Bias",
+      "D": "Halo Effect"
+    },
+    "correctAnswer": "B",
+    "explanation": "Group allegiance changed the moral judgment.",
+    "reflectionQuestion": "Would this bother you as much from your own side?",
+    "whyHumansDoThis": "Protecting our group's reputation can feel like protecting part of ourselves.",
+    "realWorldContext": "Politics",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to notice when group loyalty, not the facts, is driving your judgment."
+  },
+  {
+    "challengeId": "C040",
+    "biasId": "B014",
+    "biasName": "Out-group Homogeneity Bias",
+    "statement": "Marketing sees lots of personalities in marketing — but assumes everyone in engineering is the same.",
+    "options": {
+      "A": "Out-group Homogeneity Bias",
+      "B": "In-group Bias",
+      "C": "Halo Effect",
+      "D": "Fundamental Attribution Error"
+    },
+    "correctAnswer": "A",
+    "explanation": "Diversity inside my group; sameness assumed outside it.",
+    "reflectionQuestion": "Which groups do you see as diverse — and which do you lump together?",
+    "whyHumansDoThis": "We know individuals in our group. Other groups we only see from a distance.",
+    "realWorldContext": "Work",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn that unfamiliarity, not actual similarity, often drives the perception that 'they're all the same.'"
+  },
+  {
+    "challengeId": "C041",
+    "biasId": "B014",
+    "biasName": "Out-group Homogeneity Bias",
+    "statement": "I've never lived there — but I'm sure people from that country all think the same on this issue.",
+    "options": {
+      "A": "Halo Effect",
+      "B": "Fundamental Attribution Error",
+      "C": "Out-group Homogeneity Bias",
+      "D": "In-group Bias"
+    },
+    "correctAnswer": "C",
+    "explanation": "Limited exposure became a uniform stereotype.",
+    "reflectionQuestion": "How much real exposure do you have to the group you're generalizing?",
+    "whyHumansDoThis": "Less detail about a group means broader, simpler assumptions.",
+    "realWorldContext": "Social situations",
+    "difficulty": "Application",
+    "learningObjective": "Learn to question generalizations about groups you don't know well."
+  },
+  {
+    "challengeId": "C042",
+    "biasId": "B014",
+    "biasName": "Out-group Homogeneity Bias",
+    "statement": "A headline says 'young people today' all think one way — but we'd never describe our own generation that simply.",
+    "options": {
+      "A": "Out-group Homogeneity Bias",
+      "B": "In-group Bias",
+      "C": "Halo Effect",
+      "D": "Fundamental Attribution Error"
+    },
+    "correctAnswer": "A",
+    "explanation": "A diverse group was flattened into one attitude.",
+    "reflectionQuestion": "Would you accept this generalization about a group you're in?",
+    "whyHumansDoThis": "Big categories are easier to write and think about than real diversity.",
+    "realWorldContext": "Media",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to notice when a large group is being described as if it were one single, uniform entity."
+  },
+  {
+    "challengeId": "C043",
+    "biasId": "B015",
+    "biasName": "Framing Effect",
+    "statement": "'90% survival rate' sounds great. '10% mortality rate' sounds scary. Same treatment.",
+    "options": {
+      "A": "Anchoring Bias",
+      "B": "Loss Aversion",
+      "C": "Confirmation Bias",
+      "D": "Framing Effect"
+    },
+    "correctAnswer": "D",
+    "explanation": "Identical stats, different emotional frame.",
+    "reflectionQuestion": "A decision where wording changed how you felt?",
+    "whyHumansDoThis": "We react to gain vs loss framing before we sit with the numbers.",
+    "realWorldContext": "Health",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to translate framed information into neutral terms before deciding."
+  },
+  {
+    "challengeId": "C044",
+    "biasId": "B015",
+    "biasName": "Framing Effect",
+    "statement": "'90% fat free' sells better than '10% fat' — same product on the label.",
+    "options": {
+      "A": "Confirmation Bias",
+      "B": "Framing Effect",
+      "C": "Anchoring Bias",
+      "D": "Loss Aversion"
+    },
+    "correctAnswer": "B",
+    "explanation": "Positive wording beat equivalent negative wording.",
+    "reflectionQuestion": "Chosen a product because of the label, not the content?",
+    "whyHumansDoThis": "Positive-sounding words trigger a warmer gut reaction — facts aside.",
+    "realWorldContext": "Marketing",
+    "difficulty": "Application",
+    "learningObjective": "Learn to check the actual numbers behind marketing language, not just the wording used."
+  },
+  {
+    "challengeId": "C045",
+    "biasId": "B015",
+    "biasName": "Framing Effect",
+    "statement": "One side says a policy saves 200 lives. The other says it fails to save 100 — same outcome, different frame.",
+    "options": {
+      "A": "Anchoring Bias",
+      "B": "Loss Aversion",
+      "C": "Confirmation Bias",
+      "D": "Framing Effect"
+    },
+    "correctAnswer": "D",
+    "explanation": "Same numbers, opposite emotional pull.",
+    "reflectionQuestion": "Do you flip the frame to see if the numbers still hold?",
+    "whyHumansDoThis": "Communicators pick the frame that triggers the feeling they want.",
+    "realWorldContext": "Politics",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to reframe a statistic in the opposite direction before forming an opinion about it."
+  },
+  {
+    "challengeId": "C046",
+    "biasId": "B016",
+    "biasName": "Loss Aversion",
+    "statement": "Losing $1,000 hurts more than gaining $1,000 feels good — same amount.",
+    "options": {
+      "A": "Status Quo Bias",
+      "B": "Framing Effect",
+      "C": "Loss Aversion",
+      "D": "Sunk Cost Fallacy"
+    },
+    "correctAnswer": "C",
+    "explanation": "Losses weigh heavier than equal gains.",
+    "reflectionQuestion": "Would you take a 50/50 bet to win or lose $100?",
+    "whyHumansDoThis": "Avoiding loss mattered more for survival than chasing equal rewards.",
+    "realWorldContext": "Finance",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to notice when the fear of losing is outweighing a rational evaluation of the actual stakes."
+  },
+  {
+    "challengeId": "C047",
+    "biasId": "B016",
+    "biasName": "Loss Aversion",
+    "statement": "In a negotiation, I'll fight harder to keep what I have than to gain something new of equal value.",
+    "options": {
+      "A": "Loss Aversion",
+      "B": "Sunk Cost Fallacy",
+      "C": "Status Quo Bias",
+      "D": "Framing Effect"
+    },
+    "correctAnswer": "A",
+    "explanation": "Losing what we have feels worse than gaining the same amount.",
+    "reflectionQuestion": "Last negotiation — fighting harder to keep or to gain?",
+    "whyHumansDoThis": "Losses are felt more intensely than equivalent gains — often about twice as much.",
+    "realWorldContext": "Negotiation",
+    "difficulty": "Application",
+    "learningObjective": "Learn to evaluate gains and losses of equal size with the same level of effort."
+  },
+  {
+    "challengeId": "C048",
+    "biasId": "B016",
+    "biasName": "Loss Aversion",
+    "statement": "I keep a gym membership I never use — canceling feels like losing something.",
+    "options": {
+      "A": "Status Quo Bias",
+      "B": "Framing Effect",
+      "C": "Loss Aversion",
+      "D": "Sunk Cost Fallacy"
+    },
+    "correctAnswer": "C",
+    "explanation": "Avoiding the feeling of loss beats the logic of stopping payment.",
+    "reflectionQuestion": "Keeping something unused — value, or just fear of losing it?",
+    "whyHumansDoThis": "'Losing' something — even unused — can outweigh the clear case for letting go.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to separate the feeling of loss from the actual future costs and benefits of a decision."
+  },
+  {
+    "challengeId": "C049",
+    "biasId": "B017",
+    "biasName": "Optimism Bias",
+    "statement": "I smoke but tell myself I'm less likely to get sick than other smokers — no real reason why.",
+    "options": {
+      "A": "Dunning-Kruger Effect",
+      "B": "Optimism Bias",
+      "C": "Self-serving Bias",
+      "D": "Status Quo Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "'It won't happen to me' without evidence.",
+    "reflectionQuestion": "A risk you've downplayed for yourself but not for others?",
+    "whyHumansDoThis": "Believing we're the exception reduces anxiety and keeps us moving.",
+    "realWorldContext": "Health",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to apply the same risk assessment to yourself that you would to someone else in your situation."
+  },
+  {
+    "challengeId": "C050",
+    "biasId": "B017",
+    "biasName": "Optimism Bias",
+    "statement": "We always estimate projects will finish early — despite a long history of running late.",
+    "options": {
+      "A": "Self-serving Bias",
+      "B": "Status Quo Bias",
+      "C": "Dunning-Kruger Effect",
+      "D": "Optimism Bias"
+    },
+    "correctAnswer": "D",
+    "explanation": "Past delays get ignored for a hopeful new estimate.",
+    "reflectionQuestion": "Does planning use real history — or just this project's best case?",
+    "whyHumansDoThis": "We picture the best outcome for our own plans and discount past slip-ups.",
+    "realWorldContext": "Work",
+    "difficulty": "Application",
+    "learningObjective": "Learn to use historical data, not just hopeful intuition, when estimating future outcomes."
+  },
+  {
+    "challengeId": "C051",
+    "biasId": "B017",
+    "biasName": "Optimism Bias",
+    "statement": "I'm not saving for retirement — I'll 'figure it out later' and assume I'll earn more than stats suggest.",
+    "options": {
+      "A": "Dunning-Kruger Effect",
+      "B": "Optimism Bias",
+      "C": "Self-serving Bias",
+      "D": "Status Quo Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "A rosier-than-average future assumed without proof.",
+    "reflectionQuestion": "Is your plan based on realistic odds — or a hoped-for best case?",
+    "whyHumansDoThis": "An optimistic future feels easier than facing uncertain odds.",
+    "realWorldContext": "Finance",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to plan around realistic, evidence-based expectations rather than a hoped-for best case."
+  },
+  {
+    "challengeId": "C052",
+    "biasId": "B018",
+    "biasName": "Status Quo Bias",
+    "statement": "I stayed in my company's default retirement plan — even though a better one needed just one form.",
+    "options": {
+      "A": "Status Quo Bias",
+      "B": "Loss Aversion",
+      "C": "Sunk Cost Fallacy",
+      "D": "Optimism Bias"
+    },
+    "correctAnswer": "A",
+    "explanation": "No action beat a slightly better option.",
+    "reflectionQuestion": "A default choice you've never actually reconsidered?",
+    "whyHumansDoThis": "Sticking with now takes no effort. Change takes a decision.",
+    "realWorldContext": "Finance",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to periodically re-evaluate default choices instead of assuming they're still the best option."
+  },
+  {
+    "challengeId": "C053",
+    "biasId": "B018",
+    "biasName": "Status Quo Bias",
+    "statement": "We keep outdated software because switching feels risky — though the new system would clearly save time and money.",
+    "options": {
+      "A": "Sunk Cost Fallacy",
+      "B": "Optimism Bias",
+      "C": "Status Quo Bias",
+      "D": "Loss Aversion"
+    },
+    "correctAnswer": "C",
+    "explanation": "Familiar beat a rational case for change.",
+    "reflectionQuestion": "Something at work you keep because 'that's how it's always been'?",
+    "whyHumansDoThis": "Change means uncertainty. Staying put feels safe and predictable.",
+    "realWorldContext": "Work",
+    "difficulty": "Application",
+    "learningObjective": "Learn to evaluate the current approach against alternatives on their actual merits, not just familiarity."
+  },
+  {
+    "challengeId": "C054",
+    "biasId": "B018",
+    "biasName": "Status Quo Bias",
+    "statement": "I've kept my phone's default settings for years — assuming the manufacturer picked the best ones.",
+    "options": {
+      "A": "Status Quo Bias",
+      "B": "Loss Aversion",
+      "C": "Sunk Cost Fallacy",
+      "D": "Optimism Bias"
+    },
+    "correctAnswer": "A",
+    "explanation": "Default was treated as best without checking.",
+    "reflectionQuestion": "Default settings you've never questioned — phone, habits, anything?",
+    "whyHumansDoThis": "Defaults feel like a recommendation. Changing them takes mental effort.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to distinguish between 'default' and 'best,' since they aren't always the same thing."
+  },
+  {
+    "challengeId": "C055",
+    "biasId": "B019",
+    "biasName": "Dunning-Kruger Effect",
+    "statement": "After one online course, I felt like an expert in a field professionals study for years.",
+    "options": {
+      "A": "Optimism Bias",
+      "B": "Self-serving Bias",
+      "C": "Authority Bias",
+      "D": "Dunning-Kruger Effect"
+    },
+    "correctAnswer": "D",
+    "explanation": "A little learning created a lot of confidence.",
+    "reflectionQuestion": "A skill where early confidence later met how much you didn't know?",
+    "whyHumansDoThis": "Early learning skips the part where you discover how much is still ahead.",
+    "realWorldContext": "Work",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn that early confidence in a new skill often reflects unawareness of its full complexity, not real mastery."
+  },
+  {
+    "challengeId": "C056",
+    "biasId": "B019",
+    "biasName": "Dunning-Kruger Effect",
+    "statement": "As a beginner, I'm sure I could beat a chess grandmaster with the right strategy.",
+    "options": {
+      "A": "Authority Bias",
+      "B": "Dunning-Kruger Effect",
+      "C": "Optimism Bias",
+      "D": "Self-serving Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "Limited experience hid how wide the skill gap really is.",
+    "reflectionQuestion": "How do you find out how good you really are at something new?",
+    "whyHumansDoThis": "Without expert knowledge, it's hard to see what expert skill actually looks like.",
+    "realWorldContext": "Learning",
+    "difficulty": "Application",
+    "learningObjective": "Learn to seek outside, expert feedback to calibrate your own skill level accurately."
+  },
+  {
+    "challengeId": "C057",
+    "biasId": "B019",
+    "biasName": "Dunning-Kruger Effect",
+    "statement": "A few articles online — and I felt more sure about my symptoms than the doctor with thousands of cases.",
+    "options": {
+      "A": "Optimism Bias",
+      "B": "Self-serving Bias",
+      "C": "Authority Bias",
+      "D": "Dunning-Kruger Effect"
+    },
+    "correctAnswer": "D",
+    "explanation": "Surface reading felt like real expertise.",
+    "reflectionQuestion": "When is your own research enough — and when do you need a pro?",
+    "whyHumansDoThis": "A little information can feel complete when depth is still missing.",
+    "realWorldContext": "Health",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to recognize the difference between surface-level familiarity and deep expertise."
+  },
+  {
+    "challengeId": "C058",
+    "biasId": "B020",
+    "biasName": "Authority Bias",
+    "statement": "I trusted a diet tip from my doctor — even though it wasn't their area of expertise.",
+    "options": {
+      "A": "Framing Effect",
+      "B": "Confirmation Bias",
+      "C": "Authority Bias",
+      "D": "Halo Effect"
+    },
+    "correctAnswer": "C",
+    "explanation": "General authority stretched to a specific claim.",
+    "reflectionQuestion": "Does their authority actually match this specific advice?",
+    "whyHumansDoThis": "Titles and status become shortcuts for trust — instead of checking each claim.",
+    "realWorldContext": "Health",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to check whether someone's authority is actually relevant to the specific claim they're making."
+  },
+  {
+    "challengeId": "C059",
+    "biasId": "B020",
+    "biasName": "Authority Bias",
+    "statement": "I didn't question a flawed plan because a senior executive proposed it.",
+    "options": {
+      "A": "Authority Bias",
+      "B": "Halo Effect",
+      "C": "Framing Effect",
+      "D": "Confirmation Bias"
+    },
+    "correctAnswer": "A",
+    "explanation": "Rank stood in for a sound argument.",
+    "reflectionQuestion": "Gone along with an idea mainly because of who suggested it?",
+    "whyHumansDoThis": "Deferring to authority feels safer than scrutinizing the idea itself.",
+    "realWorldContext": "Work",
+    "difficulty": "Application",
+    "learningObjective": "Learn to evaluate ideas on their own merits, separate from the status of the person proposing them."
+  },
+  {
+    "challengeId": "C060",
+    "biasId": "B020",
+    "biasName": "Authority Bias",
+    "statement": "An actor who played a doctor on TV comments on real medicine — and viewers partly trust them because of the role.",
+    "options": {
+      "A": "Framing Effect",
+      "B": "Confirmation Bias",
+      "C": "Authority Bias",
+      "D": "Halo Effect"
+    },
+    "correctAnswer": "C",
+    "explanation": "A fictional role lent unearned credibility.",
+    "reflectionQuestion": "Would you trust this take as much if you didn't know who was speaking?",
+    "whyHumansDoThis": "Familiarity with an authority-like role can feel like real expertise.",
+    "realWorldContext": "Media",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to check whether a person's actual expertise, not their perceived role, supports their claim."
+  },
+  {
+    "challengeId": "C061",
+    "biasId": "B021",
+    "biasName": "Planning Fallacy",
+    "statement": "I told myself the report would take an hour. Three hours later, I was still finishing tables.",
+    "options": {
+      "A": "Recency Bias",
+      "B": "Planning Fallacy",
+      "C": "Optimism Bias",
+      "D": "Status Quo Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "The estimate was far too optimistic compared with what actually happened.",
+    "reflectionQuestion": "What task recently took you much longer than you planned?",
+    "whyHumansDoThis": "We picture the smooth version of a task and forget the delays, edits, and interruptions that usually show up.",
+    "realWorldContext": "Work",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to compare new time estimates with how long similar tasks really took."
+  },
+  {
+    "challengeId": "C062",
+    "biasId": "B021",
+    "biasName": "Planning Fallacy",
+    "statement": "We left for the airport 'with plenty of time' — and still sprinted to the gate because packing took longer than expected.",
+    "options": {
+      "A": "Normalcy Bias",
+      "B": "Planning Fallacy",
+      "C": "Anchoring Bias",
+      "D": "Recency Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "Travel time was planned as if everything would go perfectly.",
+    "reflectionQuestion": "When travelling, do you build in buffer time or hope for the best?",
+    "whyHumansDoThis": "A best-case mental movie feels realistic in advance, even when past trips told a different story.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Application",
+    "learningObjective": "Learn that travel and prep tasks usually need margin, not ideal-case timing."
+  },
+  {
+    "challengeId": "C063",
+    "biasId": "B021",
+    "biasName": "Planning Fallacy",
+    "statement": "'I'll just tidy the kitchen before guests arrive' — then the whole evening slipped because small jobs kept appearing.",
+    "options": {
+      "A": "Planning Fallacy",
+      "B": "Sunk Cost Fallacy",
+      "C": "Status Quo Bias",
+      "D": "Clustering Illusion"
+    },
+    "correctAnswer": "A",
+    "explanation": "A quick job was treated as quick without room for the usual extras.",
+    "reflectionQuestion": "What 'small' job recently grew much bigger than you expected?",
+    "whyHumansDoThis": "We estimate the main task and forget the side tasks that almost always come with it.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to notice when a simple task is being underestimated because hidden steps are ignored."
+  },
+  {
+    "challengeId": "C064",
+    "biasId": "B022",
+    "biasName": "Recency Bias",
+    "statement": "One bad week at work made me feel like I'm failing — even though the last six months went well.",
+    "options": {
+      "A": "Negativity Bias",
+      "B": "Recency Bias",
+      "C": "Availability Heuristic",
+      "D": "Hindsight Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "The latest week weighed more than the longer track record.",
+    "reflectionQuestion": "Has a recent rough patch ever overshadowed a longer stretch of good progress?",
+    "whyHumansDoThis": "Fresh events are vivid and easy to recall, so they can feel like the whole story.",
+    "realWorldContext": "Work",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to widen the time window before judging your overall performance."
+  },
+  {
+    "challengeId": "C065",
+    "biasId": "B022",
+    "biasName": "Recency Bias",
+    "statement": "After one great month of saving, I felt rich — and spent more, forgetting the tighter months before.",
+    "options": {
+      "A": "Optimism Bias",
+      "B": "Recency Bias",
+      "C": "Loss Aversion",
+      "D": "Endowment Effect"
+    },
+    "correctAnswer": "B",
+    "explanation": "The latest month shaped the feeling more than the fuller pattern.",
+    "reflectionQuestion": "Do recent wins or losses change your spending more than your average month?",
+    "whyHumansDoThis": "What just happened feels most real right now, even when the longer pattern matters more.",
+    "realWorldContext": "Finance",
+    "difficulty": "Application",
+    "learningObjective": "Learn to check your average pattern, not only your latest result."
+  },
+  {
+    "challengeId": "C066",
+    "biasId": "B022",
+    "biasName": "Recency Bias",
+    "statement": "My friend cancelled once last week, so I thought they were pulling away — though they'd been reliable for years.",
+    "options": {
+      "A": "Fundamental Attribution Error",
+      "B": "Recency Bias",
+      "C": "Hostile Attribution Bias",
+      "D": "Negativity Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "One recent event was treated as the new normal.",
+    "reflectionQuestion": "When did a single recent moment change how you saw someone overall?",
+    "whyHumansDoThis": "The latest interaction is bright in memory and can drown out a longer history.",
+    "realWorldContext": "Relationships",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to balance a recent event against the longer relationship pattern."
+  },
+  {
+    "challengeId": "C067",
+    "biasId": "B023",
+    "biasName": "Bandwagon Effect",
+    "statement": "Everyone at work switched to a new app, so I did too — without checking if it actually helped me.",
+    "options": {
+      "A": "Bandwagon Effect",
+      "B": "Authority Bias",
+      "C": "Status Quo Bias",
+      "D": "Mere Exposure Effect"
+    },
+    "correctAnswer": "A",
+    "explanation": "Popularity became the reason to join in.",
+    "reflectionQuestion": "Have you adopted something mainly because others already had?",
+    "whyHumansDoThis": "If many people are doing it, it can feel validated — even before we test it ourselves.",
+    "realWorldContext": "Work",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to separate 'everyone is doing it' from 'this is right for me.'"
+  },
+  {
+    "challengeId": "C068",
+    "biasId": "B023",
+    "biasName": "Bandwagon Effect",
+    "statement": "I bought the coat everyone was posting online — and only later wondered if I actually liked it.",
+    "options": {
+      "A": "Halo Effect",
+      "B": "Confirmation Bias",
+      "C": "Bandwagon Effect",
+      "D": "Mere Exposure Effect"
+    },
+    "correctAnswer": "C",
+    "explanation": "Trendiness pushed the choice more than personal preference.",
+    "reflectionQuestion": "Anything in your home that felt like a trend purchase afterward?",
+    "whyHumansDoThis": "Seeing many people choose something makes it feel safer and more correct.",
+    "realWorldContext": "Social Media",
+    "difficulty": "Application",
+    "learningObjective": "Learn to pause when popularity is doing most of the convincing."
+  },
+  {
+    "challengeId": "C069",
+    "biasId": "B023",
+    "biasName": "Bandwagon Effect",
+    "statement": "The whole group wanted the same restaurant, so I went along — even though I wanted something quieter.",
+    "options": {
+      "A": "False Consensus Effect",
+      "B": "In-group Bias",
+      "C": "Bandwagon Effect",
+      "D": "Reactance"
+    },
+    "correctAnswer": "C",
+    "explanation": "The group direction pulled the choice more than personal preference.",
+    "reflectionQuestion": "When did you follow the crowd even though you wanted something different?",
+    "whyHumansDoThis": "Going with the group reduces friction and can feel like the obvious move.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to notice when group momentum is replacing your own preference."
+  },
+  {
+    "challengeId": "C070",
+    "biasId": "B024",
+    "biasName": "Mere Exposure Effect",
+    "statement": "A song I initially skipped started feeling good after the café played it every day.",
+    "options": {
+      "A": "Mere Exposure Effect",
+      "B": "Bandwagon Effect",
+      "C": "Confirmation Bias",
+      "D": "Halo Effect"
+    },
+    "correctAnswer": "A",
+    "explanation": "Repeated exposure created liking without any new reason.",
+    "reflectionQuestion": "Something you disliked at first but warmed to just from hearing or seeing it often?",
+    "whyHumansDoThis": "Familiarity feels comfortable, and comfort can be mistaken for quality.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn that liking can grow from repetition alone."
+  },
+  {
+    "challengeId": "C071",
+    "biasId": "B024",
+    "biasName": "Mere Exposure Effect",
+    "statement": "The new colleague seemed awkward at first — then likeable after a few lunches together.",
+    "options": {
+      "A": "Halo Effect",
+      "B": "Mere Exposure Effect",
+      "C": "In-group Bias",
+      "D": "False Consensus Effect"
+    },
+    "correctAnswer": "B",
+    "explanation": "Familiar contact warmed the impression over time.",
+    "reflectionQuestion": "Someone who grew on you mainly because you saw them more often?",
+    "whyHumansDoThis": "Repeated contact lowers uncertainty and makes people feel easier to be around.",
+    "realWorldContext": "Work",
+    "difficulty": "Application",
+    "learningObjective": "Learn to notice when familiarity is improving your opinion more than new information is."
+  },
+  {
+    "challengeId": "C072",
+    "biasId": "B024",
+    "biasName": "Mere Exposure Effect",
+    "statement": "I chose the logo design we'd seen in every mock-up — not because it was best, but because it felt right.",
+    "options": {
+      "A": "Status Quo Bias",
+      "B": "Choice-Supportive Bias",
+      "C": "Mere Exposure Effect",
+      "D": "Anchoring Bias"
+    },
+    "correctAnswer": "C",
+    "explanation": "Repeated viewing made one option feel more natural.",
+    "reflectionQuestion": "Have you preferred the version you saw most often, not the one you judged most carefully?",
+    "whyHumansDoThis": "What we see repeatedly feels more true, safe, and 'ours.'",
+    "realWorldContext": "Work",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to separate repeated exposure from genuine preference."
+  },
+  {
+    "challengeId": "C073",
+    "biasId": "B025",
+    "biasName": "Endowment Effect",
+    "statement": "I wouldn't pay £80 for that mug in a shop — but I also don't want to sell mine for £80.",
+    "options": {
+      "A": "Sunk Cost Fallacy",
+      "B": "Endowment Effect",
+      "C": "Loss Aversion",
+      "D": "Anchoring Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "Owning it made the same mug feel worth more.",
+    "reflectionQuestion": "Something you would not rebuy today but still do not want to let go?",
+    "whyHumansDoThis": "Ownership attaches identity and memory, which inflates how valuable something feels.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn that ownership alone can change what price feels fair."
+  },
+  {
+    "challengeId": "C074",
+    "biasId": "B025",
+    "biasName": "Endowment Effect",
+    "statement": "Selling my old bike felt painful, even though I had not ridden it in two years.",
+    "options": {
+      "A": "Endowment Effect",
+      "B": "Sunk Cost Fallacy",
+      "C": "Status Quo Bias",
+      "D": "Loss Aversion"
+    },
+    "correctAnswer": "A",
+    "explanation": "Letting go of something owned felt costly beyond its use.",
+    "reflectionQuestion": "Something you kept mainly because it was yours, not because you used it?",
+    "whyHumansDoThis": "Giving up what we own can feel like losing part of ourselves, not just an object.",
+    "realWorldContext": "Finance",
+    "difficulty": "Application",
+    "learningObjective": "Learn to ask what an item is worth to you now, not what ownership added emotionally."
+  },
+  {
+    "challengeId": "C075",
+    "biasId": "B025",
+    "biasName": "Endowment Effect",
+    "statement": "I priced my childhood books higher than identical copies online — because they had been on my shelf.",
+    "options": {
+      "A": "Anchoring Bias",
+      "B": "Endowment Effect",
+      "C": "Choice-Supportive Bias",
+      "D": "Sunk Cost Fallacy"
+    },
+    "correctAnswer": "B",
+    "explanation": "Personal ownership pushed the price above the market norm.",
+    "reflectionQuestion": "Have you overpriced something you were selling because it felt special to you?",
+    "whyHumansDoThis": "Our things carry stories, and those stories can feel like extra market value.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to separate sentimental value from what a buyer would actually pay."
+  },
+  {
+    "challengeId": "C076",
+    "biasId": "B026",
+    "biasName": "Gambler's Fallacy",
+    "statement": "The coin landed heads four times, so tails felt 'due' on the next flip.",
+    "options": {
+      "A": "Clustering Illusion",
+      "B": "Gambler's Fallacy",
+      "C": "Representativeness Heuristic",
+      "D": "Illusion of Control"
+    },
+    "correctAnswer": "B",
+    "explanation": "Past flips do not change the odds of the next independent flip.",
+    "reflectionQuestion": "Have you ever expected luck to 'balance out' right away?",
+    "whyHumansDoThis": "Random sequences can look like they owe us a correction, even when each event is fresh.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn that independent random events do not repay earlier outcomes."
+  },
+  {
+    "challengeId": "C077",
+    "biasId": "B026",
+    "biasName": "Gambler's Fallacy",
+    "statement": "After three rainy weekends, I packed for sun — because it 'had to' change soon.",
+    "options": {
+      "A": "Gambler's Fallacy",
+      "B": "Optimism Bias",
+      "C": "Normalcy Bias",
+      "D": "Recency Bias"
+    },
+    "correctAnswer": "A",
+    "explanation": "Weather was treated as if it should balance a streak, not start fresh each week.",
+    "reflectionQuestion": "When have you expected a streak to end just because it had gone on long enough?",
+    "whyHumansDoThis": "Streaks feel meaningful, but many natural patterns do not keep score for us.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Application",
+    "learningObjective": "Learn to ask whether a streak actually changes the next odds."
+  },
+  {
+    "challengeId": "C078",
+    "biasId": "B026",
+    "biasName": "Gambler's Fallacy",
+    "statement": "Our team lost twice, so I felt the next match was almost guaranteed — as if losses had to be repaid.",
+    "options": {
+      "A": "Optimism Bias",
+      "B": "Gambler's Fallacy",
+      "C": "Survivorship Bias",
+      "D": "Hindsight Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "Past results were treated as if they forced a coming correction.",
+    "reflectionQuestion": "Have past results ever made you feel sure the next one would swing the other way?",
+    "whyHumansDoThis": "We like stories where things even out, even when the next try is its own separate chance.",
+    "realWorldContext": "Sport",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to treat the next attempt on its own merits, not as debt repayment from earlier results."
+  },
+  {
+    "challengeId": "C079",
+    "biasId": "B027",
+    "biasName": "Clustering Illusion",
+    "statement": "Three colleagues quit in one month, so I decided the company must be in trouble.",
+    "options": {
+      "A": "Recency Bias",
+      "B": "Survivorship Bias",
+      "C": "Clustering Illusion",
+      "D": "Availability Heuristic"
+    },
+    "correctAnswer": "C",
+    "explanation": "A short cluster was read as a meaningful signal from very little data.",
+    "reflectionQuestion": "A small streak that made you sure something bigger was going on?",
+    "whyHumansDoThis": "Our brains are pattern hunters, and a few similar events can look like proof.",
+    "realWorldContext": "Work",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to ask how much data you really have before calling something a trend."
+  },
+  {
+    "challengeId": "C080",
+    "biasId": "B027",
+    "biasName": "Clustering Illusion",
+    "statement": "Two buses arrived together, so I concluded the schedule was broken — though it might have been chance.",
+    "options": {
+      "A": "Gambler's Fallacy",
+      "B": "Clustering Illusion",
+      "C": "Illusory Correlation",
+      "D": "Normalcy Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "A clump in timing was treated as a system failure without enough evidence.",
+    "reflectionQuestion": "When have a few coincidences felt like a clear pattern to you?",
+    "whyHumansDoThis": "Clusters stand out in memory, while ordinary spacing is easy to forget.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Application",
+    "learningObjective": "Learn that clumps can happen by chance and still feel intentional."
+  },
+  {
+    "challengeId": "C081",
+    "biasId": "B027",
+    "biasName": "Clustering Illusion",
+    "statement": "Three friends got colds the same week, so I blamed the restaurant — with no real link.",
+    "options": {
+      "A": "Illusory Correlation",
+      "B": "Base Rate Neglect",
+      "C": "Clustering Illusion",
+      "D": "Availability Heuristic"
+    },
+    "correctAnswer": "C",
+    "explanation": "A short cluster was turned into a cause without checking how often that happens randomly.",
+    "reflectionQuestion": "A coincidence you turned into a story with a culprit?",
+    "whyHumansDoThis": "When events bunch together, we often invent a tidy explanation instead of sitting with randomness.",
+    "realWorldContext": "Health",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to test whether a cluster is large enough to mean anything."
+  },
+  {
+    "challengeId": "C082",
+    "biasId": "B028",
+    "biasName": "Representativeness Heuristic",
+    "statement": "Quiet, careful, loves reading — I guessed librarian, not salesperson, without checking the odds.",
+    "options": {
+      "A": "Base Rate Neglect",
+      "B": "Representativeness Heuristic",
+      "C": "Conjunction Fallacy",
+      "D": "Availability Heuristic"
+    },
+    "correctAnswer": "B",
+    "explanation": "The description fit a stereotype more than it fit real-world frequency.",
+    "reflectionQuestion": "When have you guessed someone's job or role from vibes alone?",
+    "whyHumansDoThis": "A neat type-match feels convincing, even when the stereotype is rare in reality.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn that a good fit to a stereotype is not the same as a good probability estimate."
+  },
+  {
+    "challengeId": "C083",
+    "biasId": "B028",
+    "biasName": "Representativeness Heuristic",
+    "statement": "The polished speaker seemed like a great analyst — though their numbers did not hold up.",
+    "options": {
+      "A": "Halo Effect",
+      "B": "Representativeness Heuristic",
+      "C": "Authority Bias",
+      "D": "Confirmation Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "They looked like the type of person who should be good at analysis.",
+    "reflectionQuestion": "When has someone 'seemed like' the right person for a role before you checked the work?",
+    "whyHumansDoThis": "We use prototypes to judge skill, because prototypes are easier than evidence.",
+    "realWorldContext": "Work",
+    "difficulty": "Application",
+    "learningObjective": "Learn to check performance instead of type-fit when judging competence."
+  },
+  {
+    "challengeId": "C084",
+    "biasId": "B028",
+    "biasName": "Representativeness Heuristic",
+    "statement": "A startup with a sleek office felt destined to succeed — more than a scrappy one with better sales.",
+    "options": {
+      "A": "Halo Effect",
+      "B": "Survivorship Bias",
+      "C": "Representativeness Heuristic",
+      "D": "Optimism Bias"
+    },
+    "correctAnswer": "C",
+    "explanation": "Success was inferred from how the company looked, not how it performed.",
+    "reflectionQuestion": "What surface cues have ever made something feel more successful than it was?",
+    "whyHumansDoThis": "We expect success to look a certain way, so the look itself can sell the story.",
+    "realWorldContext": "Work",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to separate appearance of success from actual results."
+  },
+  {
+    "challengeId": "C085",
+    "biasId": "B029",
+    "biasName": "Base Rate Neglect",
+    "statement": "After one dramatic news story, I worried the problem was everywhere — though it is actually rare.",
+    "options": {
+      "A": "Availability Heuristic",
+      "B": "Base Rate Neglect",
+      "C": "Negativity Bias",
+      "D": "Illusory Truth Effect"
+    },
+    "correctAnswer": "B",
+    "explanation": "A vivid case overpowered how uncommon the issue really is.",
+    "reflectionQuestion": "A rare problem that felt common because one example was memorable?",
+    "whyHumansDoThis": "Specific stories hit harder than background statistics, so the story can feel like the norm.",
+    "realWorldContext": "Media",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to start with how common something is before judging from one example."
+  },
+  {
+    "challengeId": "C086",
+    "biasId": "B029",
+    "biasName": "Base Rate Neglect",
+    "statement": "The test came back positive, and I panicked — forgetting how often false positives happen in screening.",
+    "options": {
+      "A": "Availability Heuristic",
+      "B": "Base Rate Neglect",
+      "C": "Negativity Bias",
+      "D": "Framing Effect"
+    },
+    "correctAnswer": "B",
+    "explanation": "The result felt definitive without weighing how common false positives are.",
+    "reflectionQuestion": "When have you reacted to one result without the broader odds?",
+    "whyHumansDoThis": "A single alarming number feels personal and urgent, while base rates feel abstract.",
+    "realWorldContext": "Health",
+    "difficulty": "Application",
+    "learningObjective": "Learn to combine test results with how often they are wrong in your group."
+  },
+  {
+    "challengeId": "C087",
+    "biasId": "B029",
+    "biasName": "Base Rate Neglect",
+    "statement": "She matched the profile perfectly, so I was sure she was the right hire — though most strong profiles still fail.",
+    "options": {
+      "A": "Representativeness Heuristic",
+      "B": "Halo Effect",
+      "C": "Base Rate Neglect",
+      "D": "Confirmation Bias"
+    },
+    "correctAnswer": "C",
+    "explanation": "A good fit to the ideal profile ignored how few such candidates work out overall.",
+    "reflectionQuestion": "When have you felt certain from a great match without the bigger success rate?",
+    "whyHumansDoThis": "A perfect-seeming case can make us forget how often similar cases do not pan out.",
+    "realWorldContext": "Work",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to ask how often similar-looking cases succeed, not only how good this one looks."
+  },
+  {
+    "challengeId": "C088",
+    "biasId": "B030",
+    "biasName": "Peak-End Rule",
+    "statement": "The holiday was mostly fine, but one awful final day made me call the whole trip bad.",
+    "options": {
+      "A": "Negativity Bias",
+      "B": "Peak-End Rule",
+      "C": "Recency Bias",
+      "D": "Choice-Supportive Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "The ending reshaped memory more than the full week.",
+    "reflectionQuestion": "A trip or event remembered mainly by its worst moment or ending?",
+    "whyHumansDoThis": "Peaks and endings are vivid, so they can rewrite how the whole experience feels.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn that memory often weights the peak and ending more than the middle."
+  },
+  {
+    "challengeId": "C089",
+    "biasId": "B030",
+    "biasName": "Peak-End Rule",
+    "statement": "The dentist visit hurt most at the end, so I remembered it as painful — though most of it was fine.",
+    "options": {
+      "A": "Negativity Bias",
+      "B": "Peak-End Rule",
+      "C": "Availability Heuristic",
+      "D": "Recency Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "The final discomfort dominated the memory of the whole appointment.",
+    "reflectionQuestion": "An experience where the ending coloured the whole memory?",
+    "whyHumansDoThis": "How something ends leaves a strong stamp on what we take away.",
+    "realWorldContext": "Health",
+    "difficulty": "Application",
+    "learningObjective": "Learn to recall the full timeline, not only the loudest or last moment."
+  },
+  {
+    "challengeId": "C090",
+    "biasId": "B030",
+    "biasName": "Peak-End Rule",
+    "statement": "One amazing dessert at the end made me rave about a restaurant — even though the main course was average.",
+    "options": {
+      "A": "Halo Effect",
+      "B": "Peak-End Rule",
+      "C": "Choice-Supportive Bias",
+      "D": "Mere Exposure Effect"
+    },
+    "correctAnswer": "B",
+    "explanation": "A strong ending lifted the whole meal in memory.",
+    "reflectionQuestion": "Has a great ending ever made you recommend something more than the full experience deserved?",
+    "whyHumansDoThis": "A high point at the close can make the whole episode feel better than it was minute by minute.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to judge experiences across the whole arc, not only the highlight or finish."
+  },
+  {
+    "challengeId": "C091",
+    "biasId": "B031",
+    "biasName": "Choice-Supportive Bias",
+    "statement": "After buying the car, I kept noticing perks — and forgot the flaws I worried about in the showroom.",
+    "options": {
+      "A": "Confirmation Bias",
+      "B": "Choice-Supportive Bias",
+      "C": "Endowment Effect",
+      "D": "Sunk Cost Fallacy"
+    },
+    "correctAnswer": "B",
+    "explanation": "Memory tilted toward making the purchase look smarter after it was made.",
+    "reflectionQuestion": "After a big purchase, did you start defending it more than you questioned it beforehand?",
+    "whyHumansDoThis": "Once we choose, we want to feel we chose well — so the mind edits the story.",
+    "realWorldContext": "Finance",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn that post-choice memory often flatters the option you picked."
+  },
+  {
+    "challengeId": "C092",
+    "biasId": "B031",
+    "biasName": "Choice-Supportive Bias",
+    "statement": "I moved cities and told everyone it was perfect — though I had serious doubts the week before.",
+    "options": {
+      "A": "Optimism Bias",
+      "B": "Choice-Supportive Bias",
+      "C": "Cognitive Dissonance",
+      "D": "Belief Perseverance"
+    },
+    "correctAnswer": "B",
+    "explanation": "The decision was remembered more positively after committing.",
+    "reflectionQuestion": "A choice you talked up more after making it than while deciding?",
+    "whyHumansDoThis": "Public commitment and private doubt do not sit well together, so recall gets rosier.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Application",
+    "learningObjective": "Learn to compare your after-the-fact story with what you felt before deciding."
+  },
+  {
+    "challengeId": "C093",
+    "biasId": "B031",
+    "biasName": "Choice-Supportive Bias",
+    "statement": "The holiday I picked now feels like the best option — even though the other plans looked just as good.",
+    "options": {
+      "A": "Choice-Supportive Bias",
+      "B": "Peak-End Rule",
+      "C": "Mere Exposure Effect",
+      "D": "Confirmation Bias"
+    },
+    "correctAnswer": "A",
+    "explanation": "The chosen trip is remembered as clearly better than the alternatives.",
+    "reflectionQuestion": "After choosing between good options, did the one you picked suddenly seem obviously best?",
+    "whyHumansDoThis": "Choosing creates ownership, and ownership makes our option feel more justified.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to notice when commitment is upgrading your memory of the chosen option."
+  },
+  {
+    "challengeId": "C094",
+    "biasId": "B032",
+    "biasName": "Illusion of Control",
+    "statement": "I pressed refresh three times, convinced it would make the page load faster.",
+    "options": {
+      "A": "Illusion of Control",
+      "B": "Gambler's Fallacy",
+      "C": "Optimism Bias",
+      "D": "Clustering Illusion"
+    },
+    "correctAnswer": "A",
+    "explanation": "A small action was treated as steering an outcome it could not affect.",
+    "reflectionQuestion": "Any small ritual you do that feels like it helps, though it probably does not?",
+    "whyHumansDoThis": "Doing something feels better than waiting helplessly, so action can feel like control.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to spot when your actions cannot actually change the outcome."
+  },
+  {
+    "challengeId": "C095",
+    "biasId": "B032",
+    "biasName": "Illusion of Control",
+    "statement": "I picked my own lottery numbers, so they felt more likely to win than a random ticket.",
+    "options": {
+      "A": "Gambler's Fallacy",
+      "B": "Illusion of Control",
+      "C": "Representativeness Heuristic",
+      "D": "Optimism Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "Personal choice created a false sense of influence over random odds.",
+    "reflectionQuestion": "Have you ever felt more hopeful about a chance because you chose the details yourself?",
+    "whyHumansDoThis": "Choosing numbers ourselves makes the outcome feel connected to us, even when it is not.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Application",
+    "learningObjective": "Learn that personal involvement does not change random odds."
+  },
+  {
+    "challengeId": "C096",
+    "biasId": "B032",
+    "biasName": "Illusion of Control",
+    "statement": "When my team is losing, I change seats — as if where I sit could affect the score.",
+    "options": {
+      "A": "Optimism Bias",
+      "B": "Illusion of Control",
+      "C": "Bandwagon Effect",
+      "D": "Recency Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "A personal action was linked to a result it cannot control.",
+    "reflectionQuestion": "Any lucky routine you keep during games or stressful moments?",
+    "whyHumansDoThis": "In uncertain moments, we reach for anything that might give us a handle on the result.",
+    "realWorldContext": "Sport",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to notice comfort rituals that feel like control but are not."
+  },
+  {
+    "challengeId": "C097",
+    "biasId": "B033",
+    "biasName": "Spotlight Effect",
+    "statement": "I spilled coffee on my shirt and felt everyone stared — but nobody mentioned it all day.",
+    "options": {
+      "A": "Negativity Bias",
+      "B": "Spotlight Effect",
+      "C": "Illusion of Transparency",
+      "D": "Hostile Attribution Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "The mistake felt highly visible, though others barely noticed.",
+    "reflectionQuestion": "A small embarrassment that felt huge to you but probably passed unnoticed?",
+    "whyHumansDoThis": "We live inside our own attention, so our flaws feel giant while others stay focused on themselves.",
+    "realWorldContext": "Work",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn that others usually notice your slip-ups far less than you do."
+  },
+  {
+    "challengeId": "C098",
+    "biasId": "B033",
+    "biasName": "Spotlight Effect",
+    "statement": "I thought my bad haircut was obvious to everyone — my friends said they hadn't noticed.",
+    "options": {
+      "A": "Spotlight Effect",
+      "B": "Negativity Bias",
+      "C": "Horn Effect",
+      "D": "Illusion of Transparency"
+    },
+    "correctAnswer": "A",
+    "explanation": "A personal worry felt public, though it was mostly private.",
+    "reflectionQuestion": "Something about your appearance that felt glaring, but others barely saw?",
+    "whyHumansDoThis": "What bothers us about ourselves takes centre stage in our mind, not in everyone else's.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Application",
+    "learningObjective": "Learn to test your visibility fears against what others actually report noticing."
+  },
+  {
+    "challengeId": "C099",
+    "biasId": "B033",
+    "biasName": "Spotlight Effect",
+    "statement": "I stumbled over one word in a talk and replayed it for days — the audience moved on in seconds.",
+    "options": {
+      "A": "Negativity Bias",
+      "B": "Spotlight Effect",
+      "C": "Peak-End Rule",
+      "D": "Recency Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "One slip felt unforgettable to the speaker, but not to listeners.",
+    "reflectionQuestion": "A minor mistake you magnified more than anyone else did?",
+    "whyHumansDoThis": "We are each the star of our own show, so our blunders get a close-up in memory.",
+    "realWorldContext": "Work",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn that audiences usually weight your whole message, not one wobble."
+  },
+  {
+    "challengeId": "C100",
+    "biasId": "B034",
+    "biasName": "Cognitive Dissonance",
+    "statement": "I said I'd cut back on sugar — then told myself one biscuit 'doesn't count' after a hard day.",
+    "options": {
+      "A": "Self-serving Bias",
+      "B": "Cognitive Dissonance",
+      "C": "Restraint Bias",
+      "D": "Optimism Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "The action clashed with the goal, so the rule got quietly rewritten.",
+    "reflectionQuestion": "A promise to yourself that you explained away when you broke it?",
+    "whyHumansDoThis": "When behaviour and beliefs collide, it is often easier to adjust the story than change the habit.",
+    "realWorldContext": "Health",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to notice when you are reframing a rule to match what you already did."
+  },
+  {
+    "challengeId": "C101",
+    "biasId": "B034",
+    "biasName": "Cognitive Dissonance",
+    "statement": "I spent a lot on a course I rarely use — so I started saying it is 'investing in myself.'",
+    "options": {
+      "A": "Sunk Cost Fallacy",
+      "B": "Choice-Supportive Bias",
+      "C": "Cognitive Dissonance",
+      "D": "Confirmation Bias"
+    },
+    "correctAnswer": "C",
+    "explanation": "A costly choice was reframed to reduce the discomfort of not using it.",
+    "reflectionQuestion": "Something you defended with a new story after realising you were not using it?",
+    "whyHumansDoThis": "We dislike feeling wasteful or inconsistent, so we reshape the meaning of the choice.",
+    "realWorldContext": "Learning",
+    "difficulty": "Application",
+    "learningObjective": "Learn to spot when a new justification is easing discomfort, not adding value."
+  },
+  {
+    "challengeId": "C102",
+    "biasId": "B034",
+    "biasName": "Cognitive Dissonance",
+    "statement": "I know smoking is bad for me, so I focus on the one uncle who smoked and lived to ninety.",
+    "options": {
+      "A": "Confirmation Bias",
+      "B": "Cognitive Dissonance",
+      "C": "Availability Heuristic",
+      "D": "Belief Perseverance"
+    },
+    "correctAnswer": "B",
+    "explanation": "A comforting exception was used to soften the clash between habit and health knowledge.",
+    "reflectionQuestion": "An exception you hold onto when a habit bumps into what you know?",
+    "whyHumansDoThis": "One counterexample can feel like permission when the main belief is uncomfortable to face.",
+    "realWorldContext": "Health",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to notice when you are hunting exceptions to reduce mental discomfort."
+  },
+  {
+    "challengeId": "C103",
+    "biasId": "B035",
+    "biasName": "Belief Perseverance",
+    "statement": "Even after the study was debunked, I still believed the original claim.",
+    "options": {
+      "A": "Confirmation Bias",
+      "B": "Belief Perseverance",
+      "C": "Illusory Truth Effect",
+      "D": "Authority Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "The belief survived after its main support was removed.",
+    "reflectionQuestion": "Something you kept believing after the main reason for it fell apart?",
+    "whyHumansDoThis": "Letting go of a settled belief takes effort, so the mind keeps patching it instead.",
+    "realWorldContext": "Media",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to ask whether you still believe something because the evidence supports it today."
+  },
+  {
+    "challengeId": "C104",
+    "biasId": "B035",
+    "biasName": "Belief Perseverance",
+    "statement": "My colleague proved the process was fine, but I still felt sure they were the problem.",
+    "options": {
+      "A": "Hostile Attribution Bias",
+      "B": "Belief Perseverance",
+      "C": "Confirmation Bias",
+      "D": "Horn Effect"
+    },
+    "correctAnswer": "B",
+    "explanation": "The original blame stuck even after the explanation changed.",
+    "reflectionQuestion": "When has new information failed to shift a view you already held?",
+    "whyHumansDoThis": "First impressions and early stories can keep running even when the facts move on.",
+    "realWorldContext": "Work",
+    "difficulty": "Application",
+    "learningObjective": "Learn to update judgments when the supporting reasons have been overturned."
+  },
+  {
+    "challengeId": "C105",
+    "biasId": "B035",
+    "biasName": "Belief Perseverance",
+    "statement": "The restaurant got great reviews later, but I still called it bad because of one visit years ago.",
+    "options": {
+      "A": "Negativity Bias",
+      "B": "Belief Perseverance",
+      "C": "Anchoring Bias",
+      "D": "Recency Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "An old judgment held on after newer evidence improved.",
+    "reflectionQuestion": "A place or person you judged early and never really reconsidered?",
+    "whyHumansDoThis": "Early beliefs become familiar, and familiar beliefs feel true even when life updates.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to reopen old judgments when meaningful new evidence appears."
+  },
+  {
+    "challengeId": "C106",
+    "biasId": "B036",
+    "biasName": "Normalcy Bias",
+    "statement": "Storm warnings came in, but I stayed home because bad weather 'never really hits us here.'",
+    "options": {
+      "A": "Optimism Bias",
+      "B": "Normalcy Bias",
+      "C": "Availability Heuristic",
+      "D": "Status Quo Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "Past routine made disruption feel unlikely, despite the warning.",
+    "reflectionQuestion": "A warning you downplayed because trouble had not happened locally before?",
+    "whyHumansDoThis": "What has always been normal feels like what will keep being normal, until it does not.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn that a calm history does not guarantee a calm future."
+  },
+  {
+    "challengeId": "C107",
+    "biasId": "B036",
+    "biasName": "Normalcy Bias",
+    "statement": "The smoke alarm beeped oddly, but I kept cooking because fires 'don't happen to careful people.'",
+    "options": {
+      "A": "Normalcy Bias",
+      "B": "Optimism Bias",
+      "C": "Illusion of Control",
+      "D": "Negativity Bias"
+    },
+    "correctAnswer": "A",
+    "explanation": "Ordinary life felt too normal for a serious risk to feel real.",
+    "reflectionQuestion": "A safety sign or signal you brushed off because the day felt ordinary?",
+    "whyHumansDoThis": "Daily routine is comforting, and comfort can make rare dangers feel unreal.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Application",
+    "learningObjective": "Learn to treat warnings seriously even when your routine has been smooth."
+  },
+  {
+    "challengeId": "C108",
+    "biasId": "B036",
+    "biasName": "Normalcy Bias",
+    "statement": "People said the company was struggling, but I ignored it — we'd been stable for years.",
+    "options": {
+      "A": "Confirmation Bias",
+      "B": "Normalcy Bias",
+      "C": "Sunk Cost Fallacy",
+      "D": "Status Quo Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "Long stability made warning signs feel less believable.",
+    "reflectionQuestion": "When has 'it's always been fine' made you slow to react?",
+    "whyHumansDoThis": "A long stretch of normal makes change feel hypothetical, even when signs are showing.",
+    "realWorldContext": "Work",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to weigh warning signs even when your own experience has been steady."
+  },
+  {
+    "challengeId": "C109",
+    "biasId": "B037",
+    "biasName": "Curse of Knowledge",
+    "statement": "I explained the form in two minutes — then watched a new starter get lost on step one.",
+    "options": {
+      "A": "Curse of Knowledge",
+      "B": "Dunning-Kruger Effect",
+      "C": "Fundamental Attribution Error",
+      "D": "Naive Realism"
+    },
+    "correctAnswer": "A",
+    "explanation": "What felt obvious to me skipped steps that were not obvious to a beginner.",
+    "reflectionQuestion": "Something that feels simple to you now but was confusing when you started?",
+    "whyHumansDoThis": "Once we know a thing, it is hard to remember what it was like not to know it.",
+    "realWorldContext": "Work",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to explain from the listener's starting point, not your current one."
+  },
+  {
+    "challengeId": "C110",
+    "biasId": "B037",
+    "biasName": "Curse of Knowledge",
+    "statement": "My parent kept asking basic phone questions, and I got impatient — forgetting I once needed the same help.",
+    "options": {
+      "A": "Fundamental Attribution Error",
+      "B": "Curse of Knowledge",
+      "C": "Horn Effect",
+      "D": "Negativity Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "My skill made their struggle feel harder to understand than it should have.",
+    "reflectionQuestion": "When have you forgotten how recently something was new to you too?",
+    "whyHumansDoThis": "Competence can make other people's learning pace feel surprisingly slow.",
+    "realWorldContext": "Relationships",
+    "difficulty": "Application",
+    "learningObjective": "Learn to remember your own beginner stage when teaching someone else."
+  },
+  {
+    "challengeId": "C111",
+    "biasId": "B037",
+    "biasName": "Curse of Knowledge",
+    "statement": "The teacher said the maths was 'obvious' — but half the class was still lost on the first step.",
+    "options": {
+      "A": "Authority Bias",
+      "B": "Curse of Knowledge",
+      "C": "Dunning-Kruger Effect",
+      "D": "Overconfidence Effect"
+    },
+    "correctAnswer": "B",
+    "explanation": "Expert ease made the gap invisible to the person explaining.",
+    "reflectionQuestion": "A teacher or guide who skipped steps that were not obvious to you?",
+    "whyHumansDoThis": "Experts often see the whole path at once, while learners still need the first stones pointed out.",
+    "realWorldContext": "Learning",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to test explanations on someone who does not already know the answer."
+  },
+  {
+    "challengeId": "C112",
+    "biasId": "B038",
+    "biasName": "Illusory Correlation",
+    "statement": "Every time I wear this shirt, meetings go well — so now I call it my lucky shirt.",
+    "options": {
+      "A": "Illusory Correlation",
+      "B": "Clustering Illusion",
+      "C": "Confirmation Bias",
+      "D": "Illusion of Control"
+    },
+    "correctAnswer": "A",
+    "explanation": "Two things were linked in memory without evidence they actually connect.",
+    "reflectionQuestion": "A lucky item or routine you linked to success without checking the misses?",
+    "whyHumansDoThis": "Memorable pairings stick, while the times they did not happen together fade away.",
+    "realWorldContext": "Work",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to check how often the effect happens without the supposed cause."
+  },
+  {
+    "challengeId": "C113",
+    "biasId": "B038",
+    "biasName": "Illusory Correlation",
+    "statement": "I ate sugar and got a headache — so I blamed sugar, ignoring the many sweet days with no headache.",
+    "options": {
+      "A": "Availability Heuristic",
+      "B": "Illusory Correlation",
+      "C": "Confirmation Bias",
+      "D": "Base Rate Neglect"
+    },
+    "correctAnswer": "B",
+    "explanation": "One vivid pairing created a cause link stronger than the data supports.",
+    "reflectionQuestion": "A food or habit you blamed because one memorable day lined up?",
+    "whyHumansDoThis": "When two things happen together once and stand out, our brain files them as partners.",
+    "realWorldContext": "Health",
+    "difficulty": "Application",
+    "learningObjective": "Learn to count the non-events before declaring a personal cause."
+  },
+  {
+    "challengeId": "C114",
+    "biasId": "B038",
+    "biasName": "Illusory Correlation",
+    "statement": "Two rude people had the same accent, so I started expecting rudeness from everyone with it.",
+    "options": {
+      "A": "Out-group Homogeneity Bias",
+      "B": "Illusory Correlation",
+      "C": "Representativeness Heuristic",
+      "D": "In-group Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "A small memorable pair turned into a broader link without enough evidence.",
+    "reflectionQuestion": "A trait you linked to a group after only a couple of examples?",
+    "whyHumansDoThis": "Striking examples are easy to remember and can feel like a rule after very little data.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to question links built from a few vivid cases."
+  },
+  {
+    "challengeId": "C115",
+    "biasId": "B039",
+    "biasName": "Conjunction Fallacy",
+    "statement": "A quiet neighbour who reads poetry feels more likely to be a librarian and a volunteer than just a librarian.",
+    "options": {
+      "A": "Representativeness Heuristic",
+      "B": "Conjunction Fallacy",
+      "C": "Base Rate Neglect",
+      "D": "Availability Heuristic"
+    },
+    "correctAnswer": "B",
+    "explanation": "A richer story felt more likely, even though adding details always lowers the odds.",
+    "reflectionQuestion": "A detailed description that felt more believable because it was more specific?",
+    "whyHumansDoThis": "Specific stories match our imagination better, so they can feel more probable than simpler truths.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn that extra detail can make a story feel more likely while actually making it less likely."
+  },
+  {
+    "challengeId": "C116",
+    "biasId": "B039",
+    "biasName": "Conjunction Fallacy",
+    "statement": "The email scam with a full backstory felt more real than a plain 'your account is locked' message.",
+    "options": {
+      "A": "Illusory Truth Effect",
+      "B": "Conjunction Fallacy",
+      "C": "Authority Bias",
+      "D": "Availability Heuristic"
+    },
+    "correctAnswer": "B",
+    "explanation": "Added detail made the scam feel more plausible than a simpler version would.",
+    "reflectionQuestion": "When has a detailed story felt more credible just because it was detailed?",
+    "whyHumansDoThis": "Detail creates a vivid picture, and vivid pictures feel like truth.",
+    "realWorldContext": "Media",
+    "difficulty": "Application",
+    "learningObjective": "Learn to distrust plausibility that comes from story detail rather than evidence."
+  },
+  {
+    "challengeId": "C117",
+    "biasId": "B039",
+    "biasName": "Conjunction Fallacy",
+    "statement": "I thought 'late because of traffic and a flat tyre' was more likely than simply 'late because of traffic.'",
+    "options": {
+      "A": "Planning Fallacy",
+      "B": "Conjunction Fallacy",
+      "C": "Optimism Bias",
+      "D": "Representativeness Heuristic"
+    },
+    "correctAnswer": "B",
+    "explanation": "The more specific excuse felt more believable, though it is statistically less likely.",
+    "reflectionQuestion": "A detailed explanation that sounded more convincing because it had more parts?",
+    "whyHumansDoThis": "More pieces can make a story hang together in our minds, even when simpler versions are more common.",
+    "realWorldContext": "Work",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn that simpler explanations are often more probable than dramatic detailed ones."
+  },
+  {
+    "challengeId": "C118",
+    "biasId": "B040",
+    "biasName": "Illusory Truth Effect",
+    "statement": "I'd heard the health claim so many times that it started sounding true — even though I never checked it.",
+    "options": {
+      "A": "Confirmation Bias",
+      "B": "Illusory Truth Effect",
+      "C": "Authority Bias",
+      "D": "Availability Heuristic"
+    },
+    "correctAnswer": "B",
+    "explanation": "Repetition created a feeling of truth without verification.",
+    "reflectionQuestion": "A claim that felt true mostly because you had heard it often?",
+    "whyHumansDoThis": "Familiar phrases are easier to process, and easy can be mistaken for correct.",
+    "realWorldContext": "Health",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn that repeated claims need checking, not just familiarity."
+  },
+  {
+    "challengeId": "C119",
+    "biasId": "B040",
+    "biasName": "Illusory Truth Effect",
+    "statement": "The same rumour kept appearing in my feed, so I began to believe it — no source ever checked out.",
+    "options": {
+      "A": "Bandwagon Effect",
+      "B": "Illusory Truth Effect",
+      "C": "Confirmation Bias",
+      "D": "False Consensus Effect"
+    },
+    "correctAnswer": "B",
+    "explanation": "Seeing it again and again made it feel credible.",
+    "reflectionQuestion": "Something online that felt true because you kept seeing it, not because it was verified?",
+    "whyHumansDoThis": "Repetition builds familiarity, and familiarity quietly borrows the feeling of accuracy.",
+    "realWorldContext": "Social Media",
+    "difficulty": "Application",
+    "learningObjective": "Learn to pause when repetition is doing the persuading."
+  },
+  {
+    "challengeId": "C120",
+    "biasId": "B040",
+    "biasName": "Illusory Truth Effect",
+    "statement": "A catchy slogan from the ad campaign stuck in my head — and later felt like a fact.",
+    "options": {
+      "A": "Framing Effect",
+      "B": "Illusory Truth Effect",
+      "C": "Mere Exposure Effect",
+      "D": "Anchoring Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "Hearing the line often made it feel factual, not just memorable.",
+    "reflectionQuestion": "An advertising line or slogan that started to feel like common knowledge?",
+    "whyHumansDoThis": "What we hear repeatedly becomes mentally smooth, and smooth can feel true.",
+    "realWorldContext": "Media",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to separate memorable wording from verified information."
+  },
+  {
+    "challengeId": "C121",
+    "biasId": "B041",
+    "biasName": "Actor-Observer Bias",
+    "statement": "When they're late, I think they're rude. When I'm late, it's because the morning was impossible.",
+    "options": {
+      "A": "Fundamental Attribution Error",
+      "B": "Actor-Observer Bias",
+      "C": "Self-serving Bias",
+      "D": "Hostile Attribution Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "The same lateness gets a character story for them and a situation story for me.",
+    "reflectionQuestion": "A time you blamed someone's character but blamed circumstances for yourself?",
+    "whyHumansDoThis": "We know our own context from the inside, but only see others from the outside.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to apply the same kind of explanation to others that you use for yourself."
+  },
+  {
+    "challengeId": "C122",
+    "biasId": "B041",
+    "biasName": "Actor-Observer Bias",
+    "statement": "My colleague snapped and I called them difficult — but when I snapped, it was stress.",
+    "options": {
+      "A": "Hostile Attribution Bias",
+      "B": "Actor-Observer Bias",
+      "C": "Horn Effect",
+      "D": "Negativity Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "Their behaviour became a trait; mine became a one-off caused by pressure.",
+    "reflectionQuestion": "When have you labelled someone else's mood as 'who they are' but yours as 'what happened'?",
+    "whyHumansDoThis": "Our own reasons feel vivid and situational, while other people's actions look like personality.",
+    "realWorldContext": "Work",
+    "difficulty": "Application",
+    "learningObjective": "Learn to ask what pressure might explain someone else's behaviour before naming their character."
+  },
+  {
+    "challengeId": "C123",
+    "biasId": "B041",
+    "biasName": "Actor-Observer Bias",
+    "statement": "He failed the test because he's lazy, I failed because the questions were unfair.",
+    "options": {
+      "A": "Self-serving Bias",
+      "B": "Actor-Observer Bias",
+      "C": "Fundamental Attribution Error",
+      "D": "Dunning-Kruger Effect"
+    },
+    "correctAnswer": "B",
+    "explanation": "Failure was explained by character for him and by circumstances for me.",
+    "reflectionQuestion": "A failure you explained with context, but judged someone else's with personality?",
+    "whyHumansDoThis": "Protecting our self-image and knowing our own story makes double standards easy to miss.",
+    "realWorldContext": "Learning",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to compare how you explain your outcomes with how you explain others' outcomes."
+  },
+  {
+    "challengeId": "C124",
+    "biasId": "B042",
+    "biasName": "Bias Blind Spot",
+    "statement": "My friends are so confirmation-biased — I, on the other hand, just look at facts.",
+    "options": {
+      "A": "Naive Realism",
+      "B": "Bias Blind Spot",
+      "C": "False Consensus Effect",
+      "D": "Self-serving Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "Bias was easy to see in others and invisible in myself.",
+    "reflectionQuestion": "A bias you notice quickly in others but rarely in yourself?",
+    "whyHumansDoThis": "Biases feel like clear distortions in other people and like common sense in us.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn that spotting bias in others does not mean you are free of it."
+  },
+  {
+    "challengeId": "C125",
+    "biasId": "B042",
+    "biasName": "Bias Blind Spot",
+    "statement": "Everyone at the meeting was being political — except me, I was just being honest.",
+    "options": {
+      "A": "Naive Realism",
+      "B": "In-group Bias",
+      "C": "Bias Blind Spot",
+      "D": "Self-serving Bias"
+    },
+    "correctAnswer": "C",
+    "explanation": "Motives were assigned to others while my own view felt neutral.",
+    "reflectionQuestion": "When have you felt like the one objective person in a heated room?",
+    "whyHumansDoThis": "Our own motives feel clear and justified from the inside, so they do not look like bias.",
+    "realWorldContext": "Work",
+    "difficulty": "Application",
+    "learningObjective": "Learn to ask what your own interests might be colouring, not only other people's."
+  },
+  {
+    "challengeId": "C126",
+    "biasId": "B042",
+    "biasName": "Bias Blind Spot",
+    "statement": "I can list five biases my partner has — but struggle to name one I might share.",
+    "options": {
+      "A": "Bias Blind Spot",
+      "B": "Fundamental Attribution Error",
+      "C": "False Consensus Effect",
+      "D": "Dunning-Kruger Effect"
+    },
+    "correctAnswer": "A",
+    "explanation": "Bias detection worked better outward than inward.",
+    "reflectionQuestion": "Could you name a bias you have shown this month, not just one you've noticed in others?",
+    "whyHumansDoThis": "Bias is easier to spot at a distance, especially when it is not threatening our self-image.",
+    "realWorldContext": "Relationships",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to turn bias-spotting inward with the same energy you use on others."
+  },
+  {
+    "challengeId": "C127",
+    "biasId": "B043",
+    "biasName": "Naive Realism",
+    "statement": "I don't get how anyone could watch that and not see the obvious truth.",
+    "options": {
+      "A": "False Consensus Effect",
+      "B": "Naive Realism",
+      "C": "Confirmation Bias",
+      "D": "In-group Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "My view felt like plain reality, not one perspective among many.",
+    "reflectionQuestion": "A disagreement where you felt the other side must be ignoring obvious facts?",
+    "whyHumansDoThis": "Our own experience feels direct, so different views can seem irrational instead of different.",
+    "realWorldContext": "Politics",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn that your view can feel like reality itself while still being a perspective."
+  },
+  {
+    "challengeId": "C128",
+    "biasId": "B043",
+    "biasName": "Naive Realism",
+    "statement": "If people were thinking clearly, they'd agree with me on this — disagreement means they're biased.",
+    "options": {
+      "A": "Bias Blind Spot",
+      "B": "Naive Realism",
+      "C": "Authority Bias",
+      "D": "Just-World Hypothesis"
+    },
+    "correctAnswer": "B",
+    "explanation": "Agreement was treated as the mark of clear thinking.",
+    "reflectionQuestion": "When have you assumed disagreement meant the other person was not reasoning properly?",
+    "whyHumansDoThis": "We experience our conclusions as clear sight, so conflict can feel like someone else's distortion.",
+    "realWorldContext": "Work",
+    "difficulty": "Application",
+    "learningObjective": "Learn to treat disagreement as a clue about different information or values, not only bad thinking."
+  },
+  {
+    "challengeId": "C129",
+    "biasId": "B043",
+    "biasName": "Naive Realism",
+    "statement": "The facts are right in front of us — I don't see how there are two sides to this.",
+    "options": {
+      "A": "Confirmation Bias",
+      "B": "Naive Realism",
+      "C": "Anchoring Bias",
+      "D": "Framing Effect"
+    },
+    "correctAnswer": "B",
+    "explanation": "One interpretation was mistaken for the only reasonable reading of the facts.",
+    "reflectionQuestion": "An issue where you felt the answer was plain, but others sincerely saw it differently?",
+    "whyHumansDoThis": "When evidence fits our view neatly, it is easy to forget that others may weigh it differently.",
+    "realWorldContext": "Media",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to ask what the other side is seeing, not only why they are 'wrong.'"
+  },
+  {
+    "challengeId": "C130",
+    "biasId": "B044",
+    "biasName": "Just-World Hypothesis",
+    "statement": "After the theft, people asked what he did to make himself a target — instead of blaming the thief.",
+    "options": {
+      "A": "Hostile Attribution Bias",
+      "B": "Just-World Hypothesis",
+      "C": "Fundamental Attribution Error",
+      "D": "Horn Effect"
+    },
+    "correctAnswer": "B",
+    "explanation": "The victim was searched for a reason the bad outcome 'made sense.'",
+    "reflectionQuestion": "A bad event where people looked for what the person 'did wrong' to deserve it?",
+    "whyHumansDoThis": "A fair-world story is comforting, so we sometimes rewrite victims into causes.",
+    "realWorldContext": "Media",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to notice when you are searching for desert instead of looking at harm."
+  },
+  {
+    "challengeId": "C131",
+    "biasId": "B044",
+    "biasName": "Just-World Hypothesis",
+    "statement": "She got laid off, and I caught myself thinking she must not have worked hard enough.",
+    "options": {
+      "A": "Self-serving Bias",
+      "B": "Just-World Hypothesis",
+      "C": "Hindsight Bias",
+      "D": "Survivorship Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "A painful outcome was explained as something earned rather than unlucky.",
+    "reflectionQuestion": "When have you quietly assumed someone's misfortune reflected their effort or character?",
+    "whyHumansDoThis": "Believing the world is fair can push us to blame people for outcomes luck also shapes.",
+    "realWorldContext": "Work",
+    "difficulty": "Application",
+    "learningObjective": "Learn to separate outcomes from moral judgments about who deserved them."
+  },
+  {
+    "challengeId": "C132",
+    "biasId": "B044",
+    "biasName": "Just-World Hypothesis",
+    "statement": "The successful neighbour 'must have earned it' — the struggling one 'must have made bad choices.'",
+    "options": {
+      "A": "Halo Effect",
+      "B": "Just-World Hypothesis",
+      "C": "Survivorship Bias",
+      "D": "In-group Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "Success and struggle were both turned into moral stories.",
+    "reflectionQuestion": "Do you explain other people's luck with effort stories more than your own?",
+    "whyHumansDoThis": "A tidy moral universe feels safer than one where chance plays a big role.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to leave room for luck and context when judging other people's outcomes."
+  },
+  {
+    "challengeId": "C133",
+    "biasId": "B045",
+    "biasName": "Hostile Attribution Bias",
+    "statement": "Their short email felt deliberately cold — though they might just have been busy.",
+    "options": {
+      "A": "Negativity Bias",
+      "B": "Hostile Attribution Bias",
+      "C": "Fundamental Attribution Error",
+      "D": "Horn Effect"
+    },
+    "correctAnswer": "B",
+    "explanation": "Ambiguous tone was read as intentional hostility.",
+    "reflectionQuestion": "A brief message you interpreted as rude before checking what was going on?",
+    "whyHumansDoThis": "When intent is unclear, threat detection can fill the gap with a negative story.",
+    "realWorldContext": "Work",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to ask for neutral explanations before assuming someone meant harm."
+  },
+  {
+    "challengeId": "C134",
+    "biasId": "B045",
+    "biasName": "Hostile Attribution Bias",
+    "statement": "A friend didn't reply for a day, so I decided they were annoyed with me.",
+    "options": {
+      "A": "Spotlight Effect",
+      "B": "Hostile Attribution Bias",
+      "C": "Recency Bias",
+      "D": "Negativity Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "Silence was treated as intentional negative intent.",
+    "reflectionQuestion": "When have you read hurt feelings into a delay that had nothing to do with you?",
+    "whyHumansDoThis": "Social uncertainty is uncomfortable, and a clear negative reason can feel easier than not knowing.",
+    "realWorldContext": "Relationships",
+    "difficulty": "Application",
+    "learningObjective": "Learn to treat silence or ambiguity as unclear, not automatically hostile."
+  },
+  {
+    "challengeId": "C135",
+    "biasId": "B045",
+    "biasName": "Hostile Attribution Bias",
+    "statement": "Someone bumped me in the shop and I assumed they did it on purpose — they were just distracted.",
+    "options": {
+      "A": "Fundamental Attribution Error",
+      "B": "Hostile Attribution Bias",
+      "C": "Actor-Observer Bias",
+      "D": "Negativity Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "A small accident was read as deliberate aggression.",
+    "reflectionQuestion": "A minor bump or glance you took as intentional when it probably was not?",
+    "whyHumansDoThis": "Under uncertainty, our threat radar can upgrade accidents into insults.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to default to accident or distraction before assuming hostile intent."
+  },
+  {
+    "challengeId": "C136",
+    "biasId": "B046",
+    "biasName": "Egocentric Bias",
+    "statement": "Looking back, I remember doing most of the group project — my teammates remember differently.",
+    "options": {
+      "A": "Self-serving Bias",
+      "B": "Egocentric Bias",
+      "C": "False Consensus Effect",
+      "D": "Dunning-Kruger Effect"
+    },
+    "correctAnswer": "B",
+    "explanation": "My own contribution loomed larger in memory than it did for others.",
+    "reflectionQuestion": "A shared task where you remember carrying more than others say you did?",
+    "whyHumansDoThis": "We live through our own effort in detail, so it naturally feels bigger in recall.",
+    "realWorldContext": "Work",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to compare your memory of effort with other people's accounts."
+  },
+  {
+    "challengeId": "C137",
+    "biasId": "B046",
+    "biasName": "Egocentric Bias",
+    "statement": "I tell the story like I saved the day — though three people handled the crisis together.",
+    "options": {
+      "A": "Egocentric Bias",
+      "B": "Self-serving Bias",
+      "C": "Hindsight Bias",
+      "D": "Availability Heuristic"
+    },
+    "correctAnswer": "A",
+    "explanation": "My role grew in the retelling compared with the shared reality.",
+    "reflectionQuestion": "A group win you later described as mostly your doing?",
+    "whyHumansDoThis": "Our own actions are vivid and central to us, so memory can quietly promote us to lead role.",
+    "realWorldContext": "Work",
+    "difficulty": "Application",
+    "learningObjective": "Learn to check whether your story gives others the share they actually had."
+  },
+  {
+    "challengeId": "C138",
+    "biasId": "B046",
+    "biasName": "Egocentric Bias",
+    "statement": "Years later I still remember my line in the school play more than anyone else's.",
+    "options": {
+      "A": "Spotlight Effect",
+      "B": "Egocentric Bias",
+      "C": "Peak-End Rule",
+      "D": "Mere Exposure Effect"
+    },
+    "correctAnswer": "B",
+    "explanation": "Personal involvement made my part the main memory.",
+    "reflectionQuestion": "A shared event you mostly remember through your own part in it?",
+    "whyHumansDoThis": "What we personally did or said is stored more richly than what others did around us.",
+    "realWorldContext": "Learning",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn that shared memories are often self-centred even when they feel objective."
+  },
+  {
+    "challengeId": "C139",
+    "biasId": "B047",
+    "biasName": "Illusion of Transparency",
+    "statement": "I was nervous giving the toast and felt everyone could tell — they said they had no idea.",
+    "options": {
+      "A": "Spotlight Effect",
+      "B": "Illusion of Transparency",
+      "C": "Bias Blind Spot",
+      "D": "Negativity Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "Inner anxiety felt obvious outside, but it was mostly hidden.",
+    "reflectionQuestion": "A feeling you were sure showed on your face, but nobody noticed?",
+    "whyHumansDoThis": "We feel our emotions strongly from the inside, so we overestimate how visible they are outside.",
+    "realWorldContext": "Relationships",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn that inner feelings are usually less readable than they seem."
+  },
+  {
+    "challengeId": "C140",
+    "biasId": "B047",
+    "biasName": "Illusion of Transparency",
+    "statement": "I thought my disappointment was obvious in the meeting, so I didn't say anything — and my manager was surprised when I brought it up later.",
+    "options": {
+      "A": "Illusion of Transparency",
+      "B": "Spotlight Effect",
+      "C": "Reactance",
+      "D": "Hostile Attribution Bias"
+    },
+    "correctAnswer": "A",
+    "explanation": "I assumed my mood was showing clearly when it was not.",
+    "reflectionQuestion": "A time you stayed quiet because you thought people already knew how you felt?",
+    "whyHumansDoThis": "Because we feel our state so clearly, we expect others can read it without words.",
+    "realWorldContext": "Work",
+    "difficulty": "Application",
+    "learningObjective": "Learn to say important feelings out loud instead of assuming they are visible."
+  },
+  {
+    "challengeId": "C141",
+    "biasId": "B047",
+    "biasName": "Illusion of Transparency",
+    "statement": "During the argument I was sure my hurt was written all over me — my partner said I looked calm.",
+    "options": {
+      "A": "Illusion of Transparency",
+      "B": "Spotlight Effect",
+      "C": "Hostile Attribution Bias",
+      "D": "Negativity Bias"
+    },
+    "correctAnswer": "A",
+    "explanation": "Emotional intensity inside did not match how I appeared outside.",
+    "reflectionQuestion": "An emotion that felt unmistakable to you but invisible to someone else?",
+    "whyHumansDoThis": "Inner experience is loud to us and often quiet to observers.",
+    "realWorldContext": "Relationships",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn not to rely on appearance alone as proof others understand your state."
+  },
+  {
+    "challengeId": "C142",
+    "biasId": "B048",
+    "biasName": "Hyperbolic Discounting",
+    "statement": "I'd rather have £40 today than £60 in a month — even though I know waiting is better.",
+    "options": {
+      "A": "Loss Aversion",
+      "B": "Hyperbolic Discounting",
+      "C": "Anchoring Bias",
+      "D": "Endowment Effect"
+    },
+    "correctAnswer": "B",
+    "explanation": "The immediate amount pulled harder than the larger later one.",
+    "reflectionQuestion": "A time you chose the sooner smaller reward over the better later one?",
+    "whyHumansDoThis": "Right now feels real and urgent, while later gains feel abstract and easy to discount.",
+    "realWorldContext": "Finance",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to notice when immediacy is overweighting a better delayed option."
+  },
+  {
+    "challengeId": "C143",
+    "biasId": "B048",
+    "biasName": "Hyperbolic Discounting",
+    "statement": "I planned to save this month's bonus, but once it arrived I spent half on things I didn't need.",
+    "options": {
+      "A": "Hyperbolic Discounting",
+      "B": "Sunk Cost Fallacy",
+      "C": "Loss Aversion",
+      "D": "Optimism Bias"
+    },
+    "correctAnswer": "A",
+    "explanation": "Having money now felt more compelling than the future plan.",
+    "reflectionQuestion": "Money you intended to save but spent once it was actually in your account?",
+    "whyHumansDoThis": "Future goals are easy in theory; present temptation is concrete and immediate.",
+    "realWorldContext": "Finance",
+    "difficulty": "Application",
+    "learningObjective": "Learn to protect future-you with rules made before the money arrives."
+  },
+  {
+    "challengeId": "C144",
+    "biasId": "B048",
+    "biasName": "Hyperbolic Discounting",
+    "statement": "I'll start the diet Monday — but when Monday comes, today's biscuit still wins.",
+    "options": {
+      "A": "Restraint Bias",
+      "B": "Hyperbolic Discounting",
+      "C": "Planning Fallacy",
+      "D": "Cognitive Dissonance"
+    },
+    "correctAnswer": "B",
+    "explanation": "Future discipline felt easy to promise, but present reward won.",
+    "reflectionQuestion": "A plan you made for later that collapsed when later became now?",
+    "whyHumansDoThis": "Tomorrow's willpower feels strong from today, but today has the biscuit in front of us.",
+    "realWorldContext": "Health",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn that intentions about the future often underestimate present temptation."
+  },
+  {
+    "challengeId": "C145",
+    "biasId": "B049",
+    "biasName": "Ambiguity Effect",
+    "statement": "I picked the plan with clear costs, even though the flexible one might have saved money.",
+    "options": {
+      "A": "Status Quo Bias",
+      "B": "Ambiguity Effect",
+      "C": "Loss Aversion",
+      "D": "Anchoring Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "Known terms felt safer than uncertain possible savings.",
+    "reflectionQuestion": "A time you chose the clearer option because the unknown felt too risky?",
+    "whyHumansDoThis": "Not knowing the odds can feel worse than a middling but known outcome.",
+    "realWorldContext": "Finance",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to compare unknown options fairly instead of avoiding them by default."
+  },
+  {
+    "challengeId": "C146",
+    "biasId": "B049",
+    "biasName": "Ambiguity Effect",
+    "statement": "The job with a clear role description appealed more than one with vague 'lots of opportunity.'",
+    "options": {
+      "A": "Ambiguity Effect",
+      "B": "Status Quo Bias",
+      "C": "Optimism Bias",
+      "D": "Framing Effect"
+    },
+    "correctAnswer": "A",
+    "explanation": "Clarity felt safer than an undefined upside.",
+    "reflectionQuestion": "Have you preferred a clear path over a vague one, even when the vague one might be better?",
+    "whyHumansDoThis": "Ambiguity makes outcomes hard to picture, so clear options get an unfair comfort bonus.",
+    "realWorldContext": "Work",
+    "difficulty": "Application",
+    "learningObjective": "Learn to ask what the unclear option might be worth before rejecting it for vagueness alone."
+  },
+  {
+    "challengeId": "C147",
+    "biasId": "B049",
+    "biasName": "Ambiguity Effect",
+    "statement": "I skipped the new treatment because the side effects weren't fully known — and stuck with the older one I understood.",
+    "options": {
+      "A": "Normalcy Bias",
+      "B": "Ambiguity Effect",
+      "C": "Authority Bias",
+      "D": "Status Quo Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "Unknown risks pushed the choice toward the familiar option.",
+    "reflectionQuestion": "A decision where missing information made you stick with the known choice?",
+    "whyHumansDoThis": "What we cannot measure feels like a bigger threat than risks we have learned to live with.",
+    "realWorldContext": "Health",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to weigh unknowns carefully without treating all ambiguity as worse than known harm."
+  },
+  {
+    "challengeId": "C148",
+    "biasId": "B050",
+    "biasName": "Identifiable Victim Effect",
+    "statement": "One child's story on the news moved me to donate — statistics about thousands hadn't.",
+    "options": {
+      "A": "Identifiable Victim Effect",
+      "B": "Availability Heuristic",
+      "C": "Framing Effect",
+      "D": "Negativity Bias"
+    },
+    "correctAnswer": "A",
+    "explanation": "One named story stirred action more than large numbers did.",
+    "reflectionQuestion": "A single story that moved you more than a bigger statistic about the same issue?",
+    "whyHumansDoThis": "A face and a name make suffering feel real; numbers can stay abstract.",
+    "realWorldContext": "Media",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn that one vivid story can outweigh larger but less personal evidence."
+  },
+  {
+    "challengeId": "C149",
+    "biasId": "B050",
+    "biasName": "Identifiable Victim Effect",
+    "statement": "The office raised money fast for a colleague's sick parent — broader charity drives rarely do as well.",
+    "options": {
+      "A": "In-group Bias",
+      "B": "Identifiable Victim Effect",
+      "C": "Mere Exposure Effect",
+      "D": "Bandwagon Effect"
+    },
+    "correctAnswer": "B",
+    "explanation": "A known person in need sparked more giving than distant causes.",
+    "reflectionQuestion": "When has someone you knew personally received more help than a larger anonymous need?",
+    "whyHumansDoThis": "We respond strongly to people we can picture, especially when they feel close to us.",
+    "realWorldContext": "Work",
+    "difficulty": "Application",
+    "learningObjective": "Learn to notice when closeness and identity are driving generosity more than scale of need."
+  },
+  {
+    "challengeId": "C150",
+    "biasId": "B050",
+    "biasName": "Identifiable Victim Effect",
+    "statement": "A campaign with one patient's photo got my attention — the chart with mortality rates did not.",
+    "options": {
+      "A": "Framing Effect",
+      "B": "Identifiable Victim Effect",
+      "C": "Availability Heuristic",
+      "D": "Negativity Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "One visible person carried the message more than the broader data.",
+    "reflectionQuestion": "Health or charity appeals that worked on you because of one person, not the numbers?",
+    "whyHumansDoThis": "Statistics describe many lives; one story feels like a life we can imagine standing in front of us.",
+    "realWorldContext": "Health",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to let statistics matter even when one story feels more urgent."
+  },
+  {
+    "challengeId": "C151",
+    "biasId": "B051",
+    "biasName": "Restraint Bias",
+    "statement": "I bought one biscuit for later and said I'd stop at one — I ate four once I opened the pack.",
+    "options": {
+      "A": "Hyperbolic Discounting",
+      "B": "Restraint Bias",
+      "C": "Planning Fallacy",
+      "D": "Optimism Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "Future self-control was overestimated before temptation arrived.",
+    "reflectionQuestion": "A 'just one' promise that collapsed once the thing was in front of you?",
+    "whyHumansDoThis": "In advance, resisting feels easy because the craving is not here yet.",
+    "realWorldContext": "Health",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to plan for the moment of temptation, not the moment of planning."
+  },
+  {
+    "challengeId": "C152",
+    "biasId": "B051",
+    "biasName": "Restraint Bias",
+    "statement": "I told myself I'd only check my phone once during dinner — and picked it up every few minutes.",
+    "options": {
+      "A": "Restraint Bias",
+      "B": "Hyperbolic Discounting",
+      "C": "Illusion of Control",
+      "D": "Status Quo Bias"
+    },
+    "correctAnswer": "A",
+    "explanation": "I predicted stronger restraint than I actually had in the moment.",
+    "reflectionQuestion": "A limit you set for yourself that you broke almost immediately?",
+    "whyHumansDoThis": "We picture our disciplined self without the pull of the actual trigger in front of us.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Application",
+    "learningObjective": "Learn to make temptation harder to reach instead of trusting willpower alone."
+  },
+  {
+    "challengeId": "C153",
+    "biasId": "B051",
+    "biasName": "Restraint Bias",
+    "statement": "Before the party I said I wouldn't drink much — by midnight I'd lost count.",
+    "options": {
+      "A": "Optimism Bias",
+      "B": "Restraint Bias",
+      "C": "Bandwagon Effect",
+      "D": "Hyperbolic Discounting"
+    },
+    "correctAnswer": "B",
+    "explanation": "Self-control looked stronger on the way in than it was in the room.",
+    "reflectionQuestion": "Social plans where you were more confident beforehand than you turned out to be?",
+    "whyHumansDoThis": "Social mood and cues are hard to simulate in advance, so restraint gets overbooked.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to set guardrails before environments that weaken your restraint."
+  },
+  {
+    "challengeId": "C154",
+    "biasId": "B052",
+    "biasName": "Reactance",
+    "statement": "The moment my parent told me to tidy up, I wanted to do it less — even though I had planned to.",
+    "options": {
+      "A": "Reactance",
+      "B": "Status Quo Bias",
+      "C": "Self-serving Bias",
+      "D": "In-group Bias"
+    },
+    "correctAnswer": "A",
+    "explanation": "Being told what to do sparked resistance instead of cooperation.",
+    "reflectionQuestion": "Something you resisted mainly because someone ordered you to do it?",
+    "whyHumansDoThis": "When freedom feels threatened, pushing back can feel more urgent than the task itself.",
+    "realWorldContext": "Relationships",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to notice when resistance is about autonomy, not the actual request."
+  },
+  {
+    "challengeId": "C155",
+    "biasId": "B052",
+    "biasName": "Reactance",
+    "statement": "A 'limited time only' message made me want the deal more — mostly because I hated being pushed.",
+    "options": {
+      "A": "Loss Aversion",
+      "B": "Reactance",
+      "C": "Bandwagon Effect",
+      "D": "Anchoring Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "Pressure to act quickly triggered pushback disguised as desire.",
+    "reflectionQuestion": "A sales tactic that made you want to say no on principle?",
+    "whyHumansDoThis": "Hard sells can feel like someone is grabbing the steering wheel, and we grab back.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Application",
+    "learningObjective": "Learn to separate whether you want something from whether you resent being nudged."
+  },
+  {
+    "challengeId": "C156",
+    "biasId": "B052",
+    "biasName": "Reactance",
+    "statement": "My manager said I had to use the new form, so I dragged my feet — even though it might help.",
+    "options": {
+      "A": "Status Quo Bias",
+      "B": "Reactance",
+      "C": "Semmelweis Reflex",
+      "D": "Pro-Innovation Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "Mandatory change sparked resistance more than the form itself did.",
+    "reflectionQuestion": "A reasonable change you resisted because it was imposed, not proposed?",
+    "whyHumansDoThis": "Choice matters to us, so commands can make decent ideas feel like battles.",
+    "realWorldContext": "Work",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to judge the change on its merits, not only on how much freedom you felt you lost."
+  },
+  {
+    "challengeId": "C157",
+    "biasId": "B053",
+    "biasName": "Ostrich Effect",
+    "statement": "I haven't opened my credit card app in weeks — the balance makes me tense.",
+    "options": {
+      "A": "Loss Aversion",
+      "B": "Ostrich Effect",
+      "C": "Normalcy Bias",
+      "D": "Sunk Cost Fallacy"
+    },
+    "correctAnswer": "B",
+    "explanation": "Avoiding the information felt easier than facing the problem.",
+    "reflectionQuestion": "A bill, email, or number you have been putting off looking at?",
+    "whyHumansDoThis": "Not looking can briefly protect us from bad feelings, even when it leaves the issue untouched.",
+    "realWorldContext": "Finance",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn that avoiding information rarely makes the underlying problem smaller."
+  },
+  {
+    "challengeId": "C158",
+    "biasId": "B053",
+    "biasName": "Ostrich Effect",
+    "statement": "My knee has been sore for months, but I keep postponing the doctor because I don't want bad news.",
+    "options": {
+      "A": "Optimism Bias",
+      "B": "Ostrich Effect",
+      "C": "Normalcy Bias",
+      "D": "Restraint Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "Fear of confirmation led to delaying the check entirely.",
+    "reflectionQuestion": "A health worry you have avoided investigating because you hoped it would go away?",
+    "whyHumansDoThis": "Possible bad news can feel safer as a vague worry than as a confirmed fact.",
+    "realWorldContext": "Health",
+    "difficulty": "Application",
+    "learningObjective": "Learn to face uncomfortable information early, when you still have more options."
+  },
+  {
+    "challengeId": "C159",
+    "biasId": "B053",
+    "biasName": "Ostrich Effect",
+    "statement": "I saw the project was slipping but avoided the status meeting — hoping it would sort itself out.",
+    "options": {
+      "A": "Optimism Bias",
+      "B": "Ostrich Effect",
+      "C": "Planning Fallacy",
+      "D": "Status Quo Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "I stepped away from information that would force a hard conversation.",
+    "reflectionQuestion": "A problem at work you dodged because looking closely would make it real?",
+    "whyHumansDoThis": "Meetings and updates can turn worry into action, and action can feel heavier than hope.",
+    "realWorldContext": "Work",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to seek the update you are avoiding when you already suspect trouble."
+  },
+  {
+    "challengeId": "C160",
+    "biasId": "B054",
+    "biasName": "Zero-Sum Bias",
+    "statement": "When my friend got promoted, part of me felt like that meant less chance for me.",
+    "options": {
+      "A": "In-group Bias",
+      "B": "Zero-Sum Bias",
+      "C": "Loss Aversion",
+      "D": "Survivorship Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "Their gain was treated as my loss, even though both could succeed.",
+    "reflectionQuestion": "Someone else's win that felt like it shrunk your opportunity?",
+    "whyHumansDoThis": "Success can feel like a fixed pie, especially when we are competing for attention or roles.",
+    "realWorldContext": "Work",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to ask whether another person's gain actually reduces yours."
+  },
+  {
+    "challengeId": "C161",
+    "biasId": "B054",
+    "biasName": "Zero-Sum Bias",
+    "statement": "If the other team gets more budget, I assume ours has to lose out — even in a growing company.",
+    "options": {
+      "A": "Zero-Sum Bias",
+      "B": "Framing Effect",
+      "C": "Loss Aversion",
+      "D": "Status Quo Bias"
+    },
+    "correctAnswer": "A",
+    "explanation": "Resources were treated as strictly either-or.",
+    "reflectionQuestion": "A situation where more for them automatically felt like less for you?",
+    "whyHumansDoThis": "Competition trains us to see wins as taking slices from the same pie.",
+    "realWorldContext": "Work",
+    "difficulty": "Application",
+    "learningObjective": "Learn to look for growing or shared wins before assuming trade-offs."
+  },
+  {
+    "challengeId": "C162",
+    "biasId": "B054",
+    "biasName": "Zero-Sum Bias",
+    "statement": "My sibling's happy relationship somehow felt like a comment on mine — as if happiness were limited.",
+    "options": {
+      "A": "Negativity Bias",
+      "B": "Zero-Sum Bias",
+      "C": "In-group Bias",
+      "D": "Self-serving Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "Their good news was read as reducing what was available to me.",
+    "reflectionQuestion": "Someone else's good news that quietly felt threatening to you?",
+    "whyHumansDoThis": "When we feel scarce in an area, other people's gains can feel like our losses.",
+    "realWorldContext": "Relationships",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn that many good outcomes can coexist without cancelling each other."
+  },
+  {
+    "challengeId": "C163",
+    "biasId": "B055",
+    "biasName": "Moral Luck",
+    "statement": "Two drivers rolled through the same stop sign — one got fined, one didn't. We called one reckless and one fine.",
+    "options": {
+      "A": "Fundamental Attribution Error",
+      "B": "Moral Luck",
+      "C": "Hindsight Bias",
+      "D": "Just-World Hypothesis"
+    },
+    "correctAnswer": "B",
+    "explanation": "The same choice got different moral labels because the outcomes differed.",
+    "reflectionQuestion": "When has luck changed how harshly you judged the same kind of choice?",
+    "whyHumansDoThis": "Outcomes are vivid, so we often grade the decision by how lucky the ending was.",
+    "realWorldContext": "Driving",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to judge the decision separately from how lucky the result was."
+  },
+  {
+    "challengeId": "C164",
+    "biasId": "B055",
+    "biasName": "Moral Luck",
+    "statement": "The risky idea that worked made her a genius; the same idea that failed made him careless.",
+    "options": {
+      "A": "Hindsight Bias",
+      "B": "Moral Luck",
+      "C": "Survivorship Bias",
+      "D": "Self-serving Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "Moral judgment followed the outcome, not just the risk taken.",
+    "reflectionQuestion": "A bold move praised in one person but criticised in another because results differed?",
+    "whyHumansDoThis": "Success and failure are memorable endings, so they can rewrite how brave a choice looked.",
+    "realWorldContext": "Work",
+    "difficulty": "Application",
+    "learningObjective": "Learn to evaluate risk-taking by what was known at the time, not only by what happened."
+  },
+  {
+    "challengeId": "C165",
+    "biasId": "B055",
+    "biasName": "Moral Luck",
+    "statement": "A joke landed well in one room and offended in another — and we judged the teller's character differently each time.",
+    "options": {
+      "A": "Hostile Attribution Bias",
+      "B": "Moral Luck",
+      "C": "Horn Effect",
+      "D": "Fundamental Attribution Error"
+    },
+    "correctAnswer": "B",
+    "explanation": "The same action got different moral weight because outcomes differed.",
+    "reflectionQuestion": "An action you judged more harshly because it happened to go badly?",
+    "whyHumansDoThis": "Harm that actually happened feels more blameworthy than the same gamble that luckily did no harm.",
+    "realWorldContext": "Social situations",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to separate intent and risk from the luck of how it landed."
+  },
+  {
+    "challengeId": "C166",
+    "biasId": "B056",
+    "biasName": "Texas Sharpshooter Fallacy",
+    "statement": "After the fact, we pointed to three wins as proof of our strategy — ignoring all the misses.",
+    "options": {
+      "A": "Confirmation Bias",
+      "B": "Texas Sharpshooter Fallacy",
+      "C": "Survivorship Bias",
+      "D": "Clustering Illusion"
+    },
+    "correctAnswer": "B",
+    "explanation": "The pattern was drawn around the hits after they happened.",
+    "reflectionQuestion": "A success story built by cherry-picking the examples that fit?",
+    "whyHumansDoThis": "Clusters stand out after the fact, and it is easy to pretend we aimed at them from the start.",
+    "realWorldContext": "Work",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to ask what you predicted before the hits, not only what you notice afterward."
+  },
+  {
+    "challengeId": "C167",
+    "biasId": "B056",
+    "biasName": "Texas Sharpshooter Fallacy",
+    "statement": "All the best cafés seem to be on this street — but we only counted the good ones, not the weak ones nearby.",
+    "options": {
+      "A": "Clustering Illusion",
+      "B": "Texas Sharpshooter Fallacy",
+      "C": "Confirmation Bias",
+      "D": "Availability Heuristic"
+    },
+    "correctAnswer": "B",
+    "explanation": "A target was drawn around the positives after looking around.",
+    "reflectionQuestion": "A pattern you noticed only after choosing where to look?",
+    "whyHumansDoThis": "Once we see a clump, it is tempting to treat that clump as the whole map.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Application",
+    "learningObjective": "Learn to count the misses in the same area before declaring a pattern."
+  },
+  {
+    "challengeId": "C168",
+    "biasId": "B056",
+    "biasName": "Texas Sharpshooter Fallacy",
+    "statement": "The wellness trend 'works' because we highlight the people who improved and forget everyone who didn't.",
+    "options": {
+      "A": "Survivorship Bias",
+      "B": "Texas Sharpshooter Fallacy",
+      "C": "Confirmation Bias",
+      "D": "Pro-Innovation Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "Proof was built by circling the winners after the results were known.",
+    "reflectionQuestion": "A trend praised using only the success stories you went looking for?",
+    "whyHumansDoThis": "After results arrive, it is easy to draw a neat circle around the cases that support our belief.",
+    "realWorldContext": "Health",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to test claims on the full group, not only the highlighted hits."
+  },
+  {
+    "challengeId": "C169",
+    "biasId": "B057",
+    "biasName": "Overconfidence Effect",
+    "statement": "I was 90% sure I knew the answer — and I was wrong.",
+    "options": {
+      "A": "Dunning-Kruger Effect",
+      "B": "Overconfidence Effect",
+      "C": "Confirmation Bias",
+      "D": "Illusion of Control"
+    },
+    "correctAnswer": "B",
+    "explanation": "Certainty ran ahead of actual accuracy.",
+    "reflectionQuestion": "A time you felt completely sure and still missed?",
+    "whyHumansDoThis": "Confidence is a feeling, not a scorecard — but it often feels like proof.",
+    "realWorldContext": "Learning",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to treat strong certainty as a signal to double-check, not to stop checking."
+  },
+  {
+    "challengeId": "C170",
+    "biasId": "B057",
+    "biasName": "Overconfidence Effect",
+    "statement": "We estimated the project would definitely finish early — no one built in serious delay.",
+    "options": {
+      "A": "Planning Fallacy",
+      "B": "Overconfidence Effect",
+      "C": "Optimism Bias",
+      "D": "Normalcy Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "The team sounded more certain than past results justified.",
+    "reflectionQuestion": "A plan where confidence was high but evidence for it was thin?",
+    "whyHumansDoThis": "Groups can amplify confidence because shared certainty feels reassuring.",
+    "realWorldContext": "Work",
+    "difficulty": "Application",
+    "learningObjective": "Learn to ask what could make your confident forecast wrong."
+  },
+  {
+    "challengeId": "C171",
+    "biasId": "B057",
+    "biasName": "Overconfidence Effect",
+    "statement": "I only studied the questions I was sure about — and was surprised by the ones I 'knew' I'd get right.",
+    "options": {
+      "A": "Confirmation Bias",
+      "B": "Overconfidence Effect",
+      "C": "Dunning-Kruger Effect",
+      "D": "Choice-Supportive Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "High confidence led to skipping the very areas that needed review.",
+    "reflectionQuestion": "Topics you skipped revising because you already felt certain?",
+    "whyHumansDoThis": "Feeling sure can shut down the extra practice that unsure topics still get.",
+    "realWorldContext": "Learning",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to study the questions you feel safest about, not only the shaky ones."
+  },
+  {
+    "challengeId": "C172",
+    "biasId": "B058",
+    "biasName": "Pro-Innovation Bias",
+    "statement": "We bought the shiny new software before asking whether the old system was actually the problem.",
+    "options": {
+      "A": "Pro-Innovation Bias",
+      "B": "Status Quo Bias",
+      "C": "Anchoring Bias",
+      "D": "Bandwagon Effect"
+    },
+    "correctAnswer": "A",
+    "explanation": "Newness itself was treated as a reason to switch.",
+    "reflectionQuestion": "A new tool adopted because it felt modern, not because it solved the issue?",
+    "whyHumansDoThis": "Novel solutions carry hope, and hope can skip the boring step of diagnosing the real problem.",
+    "realWorldContext": "Work",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to ask what problem a new tool solves before buying the promise of new."
+  },
+  {
+    "challengeId": "C173",
+    "biasId": "B058",
+    "biasName": "Pro-Innovation Bias",
+    "statement": "The hospital rolled out a new app for booking — but the phones worked fine and fewer older patients could use it.",
+    "options": {
+      "A": "Pro-Innovation Bias",
+      "B": "Semmelweis Reflex",
+      "C": "Reactance",
+      "D": "Status Quo Bias"
+    },
+    "correctAnswer": "A",
+    "explanation": "Innovation was assumed helpful before its limits were weighed.",
+    "reflectionQuestion": "A digital change that helped some people but made things harder for others?",
+    "whyHumansDoThis": "New can signal progress so strongly that trade-offs get less attention.",
+    "realWorldContext": "Health",
+    "difficulty": "Application",
+    "learningObjective": "Learn to test who benefits and who loses before calling an innovation an upgrade."
+  },
+  {
+    "challengeId": "C174",
+    "biasId": "B058",
+    "biasName": "Pro-Innovation Bias",
+    "statement": "The school replaced a simple paper form with a complicated portal — because 'it's time to modernise.'",
+    "options": {
+      "A": "Pro-Innovation Bias",
+      "B": "Curse of Knowledge",
+      "C": "Reactance",
+      "D": "Planning Fallacy"
+    },
+    "correctAnswer": "A",
+    "explanation": "Modernising was treated as enough reason, without checking if it helped users.",
+    "reflectionQuestion": "A process made more complex in the name of improvement?",
+    "whyHumansDoThis": "Innovation can feel like leadership, even when the old way was clearer for most people.",
+    "realWorldContext": "Learning",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to judge changes by user outcomes, not by how advanced they look."
+  },
+  {
+    "challengeId": "C175",
+    "biasId": "B059",
+    "biasName": "Semmelweis Reflex",
+    "statement": "The team dismissed the new safety checklist because 'we've never needed it before.'",
+    "options": {
+      "A": "Status Quo Bias",
+      "B": "Semmelweis Reflex",
+      "C": "Normalcy Bias",
+      "D": "Belief Perseverance"
+    },
+    "correctAnswer": "B",
+    "explanation": "New guidance was rejected because it challenged the old way.",
+    "reflectionQuestion": "A new practice brushed off mainly because it was not how things were done?",
+    "whyHumansDoThis": "Established routines feel tested, so unfamiliar fixes can feel wrong before they are tried.",
+    "realWorldContext": "Work",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn to judge new evidence on its merits, not on how long the old way lasted."
+  },
+  {
+    "challengeId": "C176",
+    "biasId": "B059",
+    "biasName": "Semmelweis Reflex",
+    "statement": "Doctors resisted handwashing at first — the idea clashed too hard with what they already believed.",
+    "options": {
+      "A": "Authority Bias",
+      "B": "Semmelweis Reflex",
+      "C": "Confirmation Bias",
+      "D": "Belief Perseverance"
+    },
+    "correctAnswer": "B",
+    "explanation": "Evidence was rejected because it threatened established practice.",
+    "reflectionQuestion": "A good idea you or others resisted because it upset the usual story?",
+    "whyHumansDoThis": "When new evidence attacks a trusted norm, the norm can fight back harder than the data.",
+    "realWorldContext": "Health",
+    "difficulty": "Application",
+    "learningObjective": "Learn to notice when rejection is about identity and tradition, not about the evidence itself."
+  },
+  {
+    "challengeId": "C177",
+    "biasId": "B059",
+    "biasName": "Semmelweis Reflex",
+    "statement": "The office laughed off the intern's suggestion — then adopted the same idea when a senior manager repeated it.",
+    "options": {
+      "A": "Authority Bias",
+      "B": "Semmelweis Reflex",
+      "C": "In-group Bias",
+      "D": "Halo Effect"
+    },
+    "correctAnswer": "B",
+    "explanation": "The idea was rejected at first because it came from outside the established view.",
+    "reflectionQuestion": "A useful suggestion ignored until someone more senior said it?",
+    "whyHumansDoThis": "New ideas can threaten hierarchy and habit, so they get filtered through who is allowed to challenge norms.",
+    "realWorldContext": "Work",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn to evaluate suggestions by content, not only by how familiar or senior the source feels."
+  },
+  {
+    "challengeId": "C178",
+    "biasId": "B060",
+    "biasName": "Risk Compensation",
+    "statement": "After I got better brakes, I found myself driving faster in the rain.",
+    "options": {
+      "A": "Optimism Bias",
+      "B": "Risk Compensation",
+      "C": "Illusion of Control",
+      "D": "Normalcy Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "Feeling safer led to taking more risk, partly offsetting the safety gain.",
+    "reflectionQuestion": "A safety upgrade that made you act a bit bolder afterward?",
+    "whyHumansDoThis": "When danger feels lower, we often give some of that margin back through looser behaviour.",
+    "realWorldContext": "Driving",
+    "difficulty": "Recognition",
+    "learningObjective": "Learn that feeling safer can quietly increase risk-taking."
+  },
+  {
+    "challengeId": "C179",
+    "biasId": "B060",
+    "biasName": "Risk Compensation",
+    "statement": "With the helmet on, I took a trickier line on my bike than I would have without it.",
+    "options": {
+      "A": "Illusion of Control",
+      "B": "Risk Compensation",
+      "C": "Optimism Bias",
+      "D": "Overconfidence Effect"
+    },
+    "correctAnswer": "B",
+    "explanation": "Protection made a riskier choice feel more acceptable.",
+    "reflectionQuestion": "Safety gear that made you push a little harder than before?",
+    "whyHumansDoThis": "Extra protection lowers the perceived cost of risk, so we sometimes spend that savings on more risk.",
+    "realWorldContext": "Health",
+    "difficulty": "Application",
+    "learningObjective": "Learn to keep habits steady when safety equipment improves, instead of spending the buffer."
+  },
+  {
+    "challengeId": "C180",
+    "biasId": "B060",
+    "biasName": "Risk Compensation",
+    "statement": "The new handrails made the stairs feel safer — so I started texting while walking down them.",
+    "options": {
+      "A": "Illusion of Control",
+      "B": "Risk Compensation",
+      "C": "Normalcy Bias",
+      "D": "Optimism Bias"
+    },
+    "correctAnswer": "B",
+    "explanation": "Added safety was partly cancelled by paying less attention.",
+    "reflectionQuestion": "A safety feature that made you less careful in another way?",
+    "whyHumansDoThis": "When the environment feels safer, attention can drift — and attention is its own safety layer.",
+    "realWorldContext": "Everyday life",
+    "difficulty": "Ambiguous",
+    "learningObjective": "Learn that safety improvements work best when behaviour does not loosen to match."
+  }
+]

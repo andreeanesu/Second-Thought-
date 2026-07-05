@@ -1,0 +1,50 @@
+[
+  {
+    "categoryId": "CAT01",
+    "name": "Decision Making"
+  },
+  {
+    "categoryId": "CAT02",
+    "name": "Social Judgement"
+  },
+  {
+    "categoryId": "CAT03",
+    "name": "Politics"
+  },
+  {
+    "categoryId": "CAT04",
+    "name": "Relationships"
+  },
+  {
+    "categoryId": "CAT05",
+    "name": "Work"
+  },
+  {
+    "categoryId": "CAT06",
+    "name": "Finance"
+  },
+  {
+    "categoryId": "CAT07",
+    "name": "Learning"
+  },
+  {
+    "categoryId": "CAT08",
+    "name": "Health"
+  },
+  {
+    "categoryId": "CAT09",
+    "name": "Media"
+  },
+  {
+    "categoryId": "CAT10",
+    "name": "Negotiation"
+  },
+  {
+    "categoryId": "CAT11",
+    "name": "Self-awareness"
+  },
+  {
+    "categoryId": "CAT12",
+    "name": "Emotion"
+  }
+]
