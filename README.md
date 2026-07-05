@@ -50,13 +50,26 @@ Second Thought is a static site (HTML + JSON), which is ideal for [Vercel](https
 2. Push your latest code to GitHub (branch `cursor/second-thought-quiz-cd13`, or merge to `main`).
 3. In Vercel: **Add New → Project → Import** your `Second-Thought-` repository.
 4. **Important:** open **Configure Project** and set:
-   - **Root Directory:** `second-thought`
+   - **Root Directory:** `second-thought` ← most important setting
    - **Framework Preset:** Other
    - **Build Command:** leave empty
    - **Output Directory:** leave as `.`
 5. Click **Deploy**.
 
 Vercel gives you a public URL like `https://second-thought-xyz.vercel.app`.
+
+### If you see a 404 after deploy
+
+This usually means Vercel is serving the repo root instead of the `second-thought` folder.
+
+**Quick test:** try `https://your-project.vercel.app/second-thought/`
+
+**Permanent fix:**
+1. Vercel → your project → **Settings** → **General**
+2. Find **Root Directory** → set to `second-thought` → **Save**
+3. Go to **Deployments** → open the latest deploy menu → **Redeploy**
+
+A root-level `vercel.json` is also included as a fallback if Root Directory is left blank.
 
 ### After you change the app
 
