@@ -16,7 +16,7 @@
 | **GitHub repo** | `andreeanesu/Second-Thought-` |
 | **Production branch** | `main` |
 | **App folder (Vercel Root Directory)** | `second-thought` |
-| **Live URL** | _Update this:_ `https://YOUR-PROJECT.vercel.app` |
+| **Live URL** | _Update this:_ `https://second-thought-steel.vercel.app` |
 | **Vercel** | Framework: **Other**, Build Command: **empty**, auto-deploy on push to `main` |
 
 After code changes: push to `main` → wait ~1–2 min → refresh Vercel URL.
